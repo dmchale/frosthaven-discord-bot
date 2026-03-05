@@ -1,0 +1,9 @@
+# Environment variables — never commit real secrets
+.env
+
+# Dependencies — large and reproducible via npm install
+node_modules/
+
+# Misc
+*.zip
+.claude/
