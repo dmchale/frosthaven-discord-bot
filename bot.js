@@ -23,12 +23,16 @@ const fetch = (...args) =>
 // ─── Config ──────────────────────────────────────────────────────────────────
 
 // Data from any2cards/worldhaven (the renamed/continued frosthaven repo)
-const FH_RAW =
-  "https://raw.githubusercontent.com/any2cards/worldhaven/master";
+// Pin WORLDHAVEN_REF to a specific commit SHA in .env for stability,
+// or leave unset to always use the latest master.
+const WORLDHAVEN_REF = process.env.WORLDHAVEN_REF || "master";
+const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHAVEN_REF}`;
 
 const IMAGE_BASE = `${FH_RAW}/images`;
 
 // ─── Card index (populated on startup) ───────────────────────────────────────
+
+const backImageCache = new Map(); // url → Buffer
 
 let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
@@ -102,9 +106,14 @@ async function buildCardIndex() {
         ? `${IMAGE_BASE}/${item.image}`
         : null;
 
+      // Extract in-game item number from image filename (e.g. "fh-056a-..." → "056")
+      const itemNumMatch = (item.image || "").match(/fh-(\d+)/);
+      const itemNumber = itemNumMatch ? parseInt(itemNumMatch[1], 10) : null;
+
       itemIndex.push({
         name,
         id: item.xws || item.assetno || name,
+        itemNumber,
         imageUrl,
       });
     }
@@ -317,6 +326,8 @@ async function handleCardLookup(interaction, type) {
       { name: "Class", value: String(best.class), inline: true },
       { name: "Level", value: String(best.level), inline: true }
     );
+  } else if (type === "item" && best.itemNumber !== null) {
+    embed.addFields({ name: "Item #", value: String(best.itemNumber), inline: true });
   }
 
   // If there were close alternates, list them
@@ -382,9 +393,13 @@ async function handleEventLookup(interaction, typeOverride = null) {
 
 
   try {
-    const backRes = await fetch(best.backUrl);
-    if (!backRes.ok) throw new Error(`HTTP ${backRes.status}`);
-    const backBuffer = Buffer.from(await backRes.arrayBuffer());
+    let backBuffer = backImageCache.get(best.backUrl);
+    if (!backBuffer) {
+      const backRes = await fetch(best.backUrl);
+      if (!backRes.ok) throw new Error(`HTTP ${backRes.status}`);
+      backBuffer = Buffer.from(await backRes.arrayBuffer());
+      backImageCache.set(best.backUrl, backBuffer);
+    }
     const backAttachment = new AttachmentBuilder(backBuffer, { name: "SPOILER_back.png" });
     await interaction.editReply({ embeds: [frontEmbed], files: [backAttachment] });
   } catch (err) {

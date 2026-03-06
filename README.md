@@ -50,6 +50,8 @@ If you set `GUILD_ID`, commands appear instantly in those servers. You can speci
 
 Optionally set `ALLOWED_CHANNEL_IDS` to a comma-separated list of channel IDs to restrict commands to specific channels. Leave blank to allow commands everywhere.
 
+Optionally set `WORLDHAVEN_REF` to a specific commit SHA from the [any2cards/worldhaven](https://github.com/any2cards/worldhaven) repository to pin card data to a known-good version. Leave blank to always use the latest `master`.
+
 ### 5. Run the Bot
 ```bash
 npm start
