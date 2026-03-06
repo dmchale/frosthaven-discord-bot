@@ -141,11 +141,14 @@ async function buildCardIndex() {
   abilityFuse = new Fuse(abilityIndex, fuseOpts);
   itemFuse    = new Fuse(itemIndex, fuseOpts);
 
-  // Events search across all front-of-card text fields
+  // Events search across all front-of-card text fields.
+  // ignoreLocation is critical — without it Fuse.js only matches near the
+  // start of a string and misses phrases buried in longer text fields.
   eventFuse = new Fuse(eventIndex, {
     keys: ["title", "text", "optionA", "optionB"],
     threshold: 0.35,
     includeScore: true,
+    ignoreLocation: true,
   });
 
   console.log(
