@@ -3,7 +3,7 @@
  * Usage: node deploy-commands.js
  *
  * Required env vars: DISCORD_TOKEN, CLIENT_ID
- * Optional: GUILD_ID  (deploy to a single guild for instant testing;
+ * Optional: GUILD_ID  (comma-separated list of guild IDs for instant registration;
  *                      omit to deploy globally — takes up to 1 hour to propagate)
  */
 
@@ -131,7 +131,9 @@ const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
 
 (async () => {
   const clientId = process.env.CLIENT_ID;
-  const guildId = process.env.GUILD_ID; // optional
+  const guildIds = process.env.GUILD_ID
+    ? process.env.GUILD_ID.split(",").map(id => id.trim()).filter(Boolean)
+    : [];
 
   if (!clientId) {
     console.error("ERROR: CLIENT_ID environment variable is not set.");
@@ -141,11 +143,13 @@ const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
   try {
     console.log("Registering slash commands...");
 
-    if (guildId) {
-      await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
-        body: commands,
-      });
-      console.log(`Commands registered to guild ${guildId} (instant).`);
+    if (guildIds.length > 0) {
+      for (const guildId of guildIds) {
+        await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
+          body: commands,
+        });
+        console.log(`Commands registered to guild ${guildId} (instant).`);
+      }
     } else {
       await rest.put(Routes.applicationCommands(clientId), {
         body: commands,

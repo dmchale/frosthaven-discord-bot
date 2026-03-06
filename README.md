@@ -45,7 +45,7 @@ cp .env.example .env
 npm run deploy
 ```
 
-If you set `GUILD_ID`, commands appear instantly in that server. Without it, global registration can take up to 1 hour.
+If you set `GUILD_ID`, commands appear instantly in those servers. You can specify multiple servers as a comma-separated list (e.g. `GUILD_ID=111,222,333`). Without it, global registration can take up to 1 hour.
 
 ### 5. Run the Bot
 ```bash
