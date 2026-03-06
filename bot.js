@@ -146,7 +146,13 @@ async function buildCardIndex() {
   // ignoreLocation is critical — without it Fuse.js only matches near the
   // start of a string and misses phrases buried in longer text fields.
   eventFuse = new Fuse(eventIndex, {
-    keys: ["title", "text", "optionA", "optionB", "optionC"],
+    keys: [
+      { name: "title",   weight: 3 },
+      { name: "text",    weight: 2 },
+      { name: "optionA", weight: 1 },
+      { name: "optionB", weight: 1 },
+      { name: "optionC", weight: 1 },
+    ],
     threshold: 0.35,
     includeScore: true,
     ignoreLocation: true,
