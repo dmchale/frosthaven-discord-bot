@@ -2,8 +2,13 @@
  * Frosthaven Card Lookup Discord Bot
  *
  * Commands:
- *   /card <name>   - Look up a Frosthaven ability card by name (fuzzy match)
- *   /item <name>   - Look up a Frosthaven item card by name (fuzzy match)
+ *   /card <name>      - Look up a Frosthaven ability card by name (fuzzy match)
+ *   /item <name>      - Look up a Frosthaven item card by name (fuzzy match)
+ *   /event <query>    - Look up any event card by text (type/season filters optional)
+ *   /boat <query>     - Look up a boat event card by text
+ *   /road <query>     - Look up a road event card by text (season filter optional)
+ *   /outpost <query>  - Look up an outpost event card by text (season filter optional)
+ *   /class <query>    - Browse ability cards by class and level
  *
  * Setup:
  *   npm install discord.js @discordjs/rest discord-api-types fuse.js node-fetch
@@ -30,9 +35,20 @@ const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHA
 
 const IMAGE_BASE = `${FH_RAW}/images`;
 
+// Back-card image cache TTL in hours.
+//   Unset or empty: default to 168 (7 days)
+//   0:  cache never expires
+//  -1:  never cache
+//   N:  cache for N hours
+const _cacheTtlEnv = process.env.CACHE_TTL_HOURS;
+const CACHE_TTL_HOURS =
+  _cacheTtlEnv !== undefined && _cacheTtlEnv !== ""
+    ? parseInt(_cacheTtlEnv, 10)
+    : 168;
+
 // ─── Card index (populated on startup) ───────────────────────────────────────
 
-const backImageCache = new Map(); // url → Buffer
+const backImageCache = new Map(); // url → { buffer: Buffer, cachedAt: number }
 
 let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
@@ -205,7 +221,7 @@ async function buildCardIndex() {
   );
 }
 
-// ─── Config ───────────────────────────────────────────────────────────────────
+// ─── Channel restriction ──────────────────────────────────────────────────────
 
 const allowedChannelIds = process.env.ALLOWED_CHANNEL_IDS
   ? process.env.ALLOWED_CHANNEL_IDS.split(",").map(id => id.trim()).filter(Boolean)
@@ -393,13 +409,29 @@ async function handleEventLookup(interaction, typeOverride = null) {
 
 
   try {
-    let backBuffer = backImageCache.get(best.backUrl);
+    let backBuffer = null;
+
+    if (CACHE_TTL_HOURS !== -1) {
+      const entry = backImageCache.get(best.backUrl);
+      if (entry) {
+        const ageHours = (Date.now() - entry.cachedAt) / 3_600_000;
+        if (CACHE_TTL_HOURS === 0 || ageHours < CACHE_TTL_HOURS) {
+          backBuffer = entry.buffer;
+        } else {
+          backImageCache.delete(best.backUrl);
+        }
+      }
+    }
+
     if (!backBuffer) {
       const backRes = await fetch(best.backUrl);
       if (!backRes.ok) throw new Error(`HTTP ${backRes.status}`);
       backBuffer = Buffer.from(await backRes.arrayBuffer());
-      backImageCache.set(best.backUrl, backBuffer);
+      if (CACHE_TTL_HOURS !== -1) {
+        backImageCache.set(best.backUrl, { buffer: backBuffer, cachedAt: Date.now() });
+      }
     }
+
     const backAttachment = new AttachmentBuilder(backBuffer, { name: "SPOILER_back.png" });
     await interaction.editReply({ embeds: [frontEmbed], files: [backAttachment] });
   } catch (err) {
