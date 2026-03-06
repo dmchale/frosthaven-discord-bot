@@ -13,6 +13,8 @@
  */
 
 require("dotenv").config();
+const fs = require("fs");
+const path = require("path");
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 const Fuse = require("fuse.js");
 const fetch = (...args) =>
@@ -30,8 +32,10 @@ const IMAGE_BASE = `${FH_RAW}/images`;
 
 let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
+let eventIndex = [];   // { id, type, season, number, title, text, optionA, optionB, frontUrl, backUrl }
 let abilityFuse = null;
 let itemFuse = null;
+let eventFuse = null;
 
 async function fetchJson(url) {
   const res = await fetch(url);
@@ -104,6 +108,30 @@ async function buildCardIndex() {
     console.warn("Could not load items:", err.message);
   }
 
+  // ── Event cards (local data/events.json) ───────────────────────────────────
+  try {
+    const raw = fs.readFileSync(path.join(__dirname, "data", "events.json"), "utf8");
+    const events = JSON.parse(raw);
+
+    for (const ev of events) {
+      eventIndex.push({
+        id:       ev.id,
+        type:     ev.type,
+        season:   ev.season,
+        number:   ev.number,
+        title:    ev.front.title,
+        text:     ev.front.text,
+        optionA:  ev.front.optionA,
+        optionB:  ev.front.optionB,
+        frontUrl: `${IMAGE_BASE}/${ev.front.image}`,
+        backUrl:  `${IMAGE_BASE}/${ev.back.image}`,
+      });
+    }
+    console.log(`  Loaded ${eventIndex.length} events.`);
+  } catch (err) {
+    console.warn("Could not load events:", err.message);
+  }
+
   // ── Fuse.js fuzzy search setup ─────────────────────────────────────────────
   const fuseOpts = {
     keys: ["name"],
@@ -113,8 +141,15 @@ async function buildCardIndex() {
   abilityFuse = new Fuse(abilityIndex, fuseOpts);
   itemFuse    = new Fuse(itemIndex, fuseOpts);
 
+  // Events search across all front-of-card text fields
+  eventFuse = new Fuse(eventIndex, {
+    keys: ["title", "text", "optionA", "optionB"],
+    threshold: 0.35,
+    includeScore: true,
+  });
+
   console.log(
-    `Index ready: ${abilityIndex.length} ability cards, ${itemIndex.length} items.`
+    `Index ready: ${abilityIndex.length} ability cards, ${itemIndex.length} items, ${eventIndex.length} events.`
   );
 }
 
@@ -136,6 +171,8 @@ client.on("interactionCreate", async (interaction) => {
     await handleCardLookup(interaction, "ability");
   } else if (commandName === "item") {
     await handleCardLookup(interaction, "item");
+  } else if (commandName === "event") {
+    await handleEventLookup(interaction);
   }
 });
 
@@ -187,6 +224,72 @@ async function handleCardLookup(interaction, type) {
   }
 
   await interaction.editReply({ embeds: [embed] });
+}
+
+// ─── Event lookup handler ─────────────────────────────────────────────────────
+
+async function handleEventLookup(interaction) {
+  const query  = interaction.options.getString("query");
+  const type   = interaction.options.getString("type");   // boat | road | outpost | null
+  const season = interaction.options.getString("season"); // summer | winter | null
+
+  await interaction.deferReply();
+
+  if (!eventFuse) {
+    return interaction.editReply("Event index is still loading, please try again in a moment.");
+  }
+
+  // Warn if the entire index has no text yet (all stubs)
+  const hasText = eventIndex.some(e => e.title || e.text || e.optionA || e.optionB);
+  if (!hasText) {
+    return interaction.editReply("Event text hasn't been filled in yet — the data file is still all stubs.");
+  }
+
+  // Run fuzzy search then apply optional filters
+  let results = eventFuse.search(query, { limit: 20 });
+
+  if (type)   results = results.filter(r => r.item.type === type);
+  if (season) results = results.filter(r => r.item.season === season);
+
+  results = results.slice(0, 5);
+
+  if (!results.length) {
+    const filters = [type, season].filter(Boolean).join(", ");
+    const filterNote = filters ? ` (filtered to: ${filters})` : "";
+    return interaction.editReply(`No event found matching **${query}**${filterNote}.`);
+  }
+
+  const best = results[0].item;
+
+  // Build a label like "Road Event 12 (Summer)" or "Boat Event 3"
+  const typeLabel   = best.type.charAt(0).toUpperCase() + best.type.slice(1);
+  const seasonLabel = best.season ? ` (${best.season.charAt(0).toUpperCase() + best.season.slice(1)})` : "";
+  const cardLabel   = `${typeLabel} Event ${best.number}${seasonLabel}`;
+
+  const embed = new EmbedBuilder()
+    .setColor(best.type === "boat" ? 0x1e6fa8 : best.type === "road" ? 0x5a8a3c : 0xa85c1e)
+    .setTitle(best.title ? `${cardLabel} — ${best.title}` : cardLabel)
+    .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+
+  // Discord embeds only support one image; send front in the embed and back as a follow-up image
+  embed.setImage(best.frontUrl);
+
+  if (results.length > 1) {
+    const alts = results
+      .slice(1)
+      .map(r => {
+        const t = r.item.type.charAt(0).toUpperCase() + r.item.type.slice(1);
+        const s = r.item.season ? ` (${r.item.season})` : "";
+        const title = r.item.title ? ` — ${r.item.title}` : "";
+        return `• ${t} Event ${r.item.number}${s}${title}`;
+      })
+      .join("\n");
+    embed.addFields({ name: "Did you mean…?", value: alts });
+  }
+
+  // Send front embed first, then back image as a second message
+  await interaction.editReply({ embeds: [embed] });
+  await interaction.followUp({ content: `**${cardLabel} — Back**`, files: [best.backUrl] });
 }
 
 // ─── Login ────────────────────────────────────────────────────────────────────

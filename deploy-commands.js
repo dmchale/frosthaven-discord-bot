@@ -36,6 +36,39 @@ const commands = [
       },
     ],
   },
+  {
+    name: "event",
+    description: "Look up a Frosthaven event card by text (returns front + back)",
+    options: [
+      {
+        name: "query",
+        description: "Text to search for (title, flavor text, or option text)",
+        type: ApplicationCommandOptionType.String,
+        required: true,
+      },
+      {
+        name: "type",
+        description: "Filter by event type",
+        type: ApplicationCommandOptionType.String,
+        required: false,
+        choices: [
+          { name: "Boat", value: "boat" },
+          { name: "Road", value: "road" },
+          { name: "Outpost", value: "outpost" },
+        ],
+      },
+      {
+        name: "season",
+        description: "Filter by season (road and outpost only)",
+        type: ApplicationCommandOptionType.String,
+        required: false,
+        choices: [
+          { name: "Summer", value: "summer" },
+          { name: "Winter", value: "winter" },
+        ],
+      },
+    ],
+  },
 ];
 
 const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
