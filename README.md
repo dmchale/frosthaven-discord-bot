@@ -6,9 +6,9 @@ A Discord bot for looking up Frosthaven ability cards, items, and event cards by
 
 | Command | Description |
 |---|---|
-| `/card <name>` | Look up an ability card (fuzzy name match) |
-| `/class <class> [level]` | Browse ability cards by class; omit level for a link to all cards, specify level to see card images |
-| `/item <name>` | Look up an item card (fuzzy name match) |
+| `/card <name>` | Look up an ability card (fuzzy name match, autocomplete supported) |
+| `/class <query>` | Browse ability cards by class — autocomplete shows each class with "All Cards" or a specific level; levels 2–9 and X return card images, others link to the full card browser |
+| `/item <name>` | Look up an item card (fuzzy name match, autocomplete supported) |
 | `/event <query> [type] [season]` | Search all event cards by text |
 | `/boat <query>` | Search boat event cards by text |
 | `/road <query> [season]` | Search road event cards by text |

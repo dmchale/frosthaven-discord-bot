@@ -386,14 +386,13 @@ async function handleClassLookup(interaction) {
 
   const color = 0x6b4f9e;
 
-  if (level === "all") {
+  if (level === "all" || level === "1") {
     // No level specified — link to full card browser with class back card as preview
     const code = classEntry.code.toLowerCase();
     const classImageUrl = `${IMAGE_BASE}/character-ability-cards/frosthaven/${code}/fh-${code}-back.png`;
     const embed = new EmbedBuilder()
       .setColor(color)
-      .setTitle(`${classEntry.name} — All Cards`)
-      .setDescription(`View all ${classEntry.name} ability cards on Gloomhaven Cards:`)
+      .setTitle(`${classEntry.name}${level === "1" ? " — Level 1" : ""} — Click to view all cards 🔗`)
       .setURL(`${CARDS_BASE_URL}/${classEntry.code}`)
       .setImage(classImageUrl)
       .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
@@ -402,7 +401,7 @@ async function handleClassLookup(interaction) {
 
   // Level specified — return card images
   const cards = abilityIndex.filter(
-    c => c.class === xws && String(c.level) === level
+    c => c.class === xws && String(c.level).toLowerCase() === level.toLowerCase()
   );
 
   if (!cards.length) {
