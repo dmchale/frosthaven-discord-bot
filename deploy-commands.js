@@ -37,6 +37,62 @@ const commands = [
     ],
   },
   {
+    name: "boat",
+    description: "Look up a Frosthaven boat event card by text (returns front + back)",
+    options: [
+      {
+        name: "query",
+        description: "Text to search for (title, flavor text, or option text)",
+        type: ApplicationCommandOptionType.String,
+        required: true,
+      },
+    ],
+  },
+  {
+    name: "road",
+    description: "Look up a Frosthaven road event card by text (returns front + back)",
+    options: [
+      {
+        name: "query",
+        description: "Text to search for (title, flavor text, or option text)",
+        type: ApplicationCommandOptionType.String,
+        required: true,
+      },
+      {
+        name: "season",
+        description: "Filter by season",
+        type: ApplicationCommandOptionType.String,
+        required: false,
+        choices: [
+          { name: "Summer", value: "summer" },
+          { name: "Winter", value: "winter" },
+        ],
+      },
+    ],
+  },
+  {
+    name: "outpost",
+    description: "Look up a Frosthaven outpost event card by text (returns front + back)",
+    options: [
+      {
+        name: "query",
+        description: "Text to search for (title, flavor text, or option text)",
+        type: ApplicationCommandOptionType.String,
+        required: true,
+      },
+      {
+        name: "season",
+        description: "Filter by season",
+        type: ApplicationCommandOptionType.String,
+        required: false,
+        choices: [
+          { name: "Summer", value: "summer" },
+          { name: "Winter", value: "winter" },
+        ],
+      },
+    ],
+  },
+  {
     name: "event",
     description: "Look up a Frosthaven event card by text (returns front + back)",
     options: [

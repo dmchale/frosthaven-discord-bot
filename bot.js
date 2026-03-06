@@ -173,6 +173,12 @@ client.on("interactionCreate", async (interaction) => {
     await handleCardLookup(interaction, "item");
   } else if (commandName === "event") {
     await handleEventLookup(interaction);
+  } else if (commandName === "boat") {
+    await handleEventLookup(interaction, "boat");
+  } else if (commandName === "road") {
+    await handleEventLookup(interaction, "road");
+  } else if (commandName === "outpost") {
+    await handleEventLookup(interaction, "outpost");
   }
 });
 
@@ -228,9 +234,9 @@ async function handleCardLookup(interaction, type) {
 
 // ─── Event lookup handler ─────────────────────────────────────────────────────
 
-async function handleEventLookup(interaction) {
+async function handleEventLookup(interaction, typeOverride = null) {
   const query  = interaction.options.getString("query");
-  const type   = interaction.options.getString("type");   // boat | road | outpost | null
+  const type   = typeOverride ?? interaction.options.getString("type"); // boat | road | outpost | null
   const season = interaction.options.getString("season"); // summer | winter | null
 
   await interaction.deferReply();
@@ -249,7 +255,8 @@ async function handleEventLookup(interaction) {
   let results = eventFuse.search(query, { limit: 20 });
 
   if (type)   results = results.filter(r => r.item.type === type);
-  if (season) results = results.filter(r => r.item.season === season);
+  // Boat events have no season — ignore season filter if type is boat
+  if (season && type !== "boat") results = results.filter(r => r.item.season === season);
 
   results = results.slice(0, 5);
 
