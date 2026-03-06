@@ -157,6 +157,10 @@ async function buildCardIndex() {
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
+client.on("error", (err) => {
+  console.error("Discord client error:", err.message);
+});
+
 client.once("ready", async () => {
   await buildCardIndex();
   console.log(`Logged in as ${client.user.tag}`);
@@ -167,18 +171,22 @@ client.on("interactionCreate", async (interaction) => {
 
   const { commandName } = interaction;
 
-  if (commandName === "card") {
-    await handleCardLookup(interaction, "ability");
-  } else if (commandName === "item") {
-    await handleCardLookup(interaction, "item");
-  } else if (commandName === "event") {
-    await handleEventLookup(interaction);
-  } else if (commandName === "boat") {
-    await handleEventLookup(interaction, "boat");
-  } else if (commandName === "road") {
-    await handleEventLookup(interaction, "road");
-  } else if (commandName === "outpost") {
-    await handleEventLookup(interaction, "outpost");
+  try {
+    if (commandName === "card") {
+      await handleCardLookup(interaction, "ability");
+    } else if (commandName === "item") {
+      await handleCardLookup(interaction, "item");
+    } else if (commandName === "event") {
+      await handleEventLookup(interaction);
+    } else if (commandName === "boat") {
+      await handleEventLookup(interaction, "boat");
+    } else if (commandName === "road") {
+      await handleEventLookup(interaction, "road");
+    } else if (commandName === "outpost") {
+      await handleEventLookup(interaction, "outpost");
+    }
+  } catch (err) {
+    console.error(`Error handling /${commandName}:`, err.message);
   }
 });
 
@@ -273,13 +281,13 @@ async function handleEventLookup(interaction, typeOverride = null) {
   const seasonLabel = best.season ? ` (${best.season.charAt(0).toUpperCase() + best.season.slice(1)})` : "";
   const cardLabel   = `${typeLabel} Event ${best.number}${seasonLabel}`;
 
-  const embed = new EmbedBuilder()
-    .setColor(best.type === "boat" ? 0x1e6fa8 : best.type === "road" ? 0x5a8a3c : 0xa85c1e)
-    .setTitle(best.title ? `${cardLabel} — ${best.title}` : cardLabel)
-    .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+  const color = best.type === "boat" ? 0x1e6fa8 : best.type === "road" ? 0x5a8a3c : 0xa85c1e;
 
-  // Discord embeds only support one image; send front in the embed and back as a follow-up image
-  embed.setImage(best.frontUrl);
+  const frontEmbed = new EmbedBuilder()
+    .setColor(color)
+    .setTitle(best.title ? `${cardLabel} — ${best.title}` : cardLabel)
+    .setImage(best.frontUrl)
+    .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
 
   if (results.length > 1) {
     const alts = results
@@ -291,12 +299,14 @@ async function handleEventLookup(interaction, typeOverride = null) {
         return `• ${t} Event ${r.item.number}${s}${title}`;
       })
       .join("\n");
-    embed.addFields({ name: "Did you mean…?", value: alts });
+    frontEmbed.addFields({ name: "Did you mean…?", value: alts });
   }
 
-  // Send front embed first, then back image as a second message
-  await interaction.editReply({ embeds: [embed] });
-  await interaction.followUp({ content: `**${cardLabel} — Back**`, files: [best.backUrl] });
+  const backEmbed = new EmbedBuilder()
+    .setColor(color)
+    .setImage(best.backUrl);
+
+  await interaction.editReply({ embeds: [frontEmbed, backEmbed] });
 }
 
 // ─── Login ────────────────────────────────────────────────────────────────────
