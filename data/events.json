@@ -9,7 +9,8 @@
       "title": "",
       "text": "\"It'll be at least an hour to repair the beautiful , maybe more.\" The captain looks at the crew bailing water out of the ship and patching the holes where she's run aground against an iceberg",
       "optionA": "Climb to the topmost peak and get a look around.",
-      "optionB": "Explore the coastline."
+      "optionB": "Explore the coastline.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-01-b.png"
@@ -25,7 +26,8 @@
       "title": "",
       "text": "\"Cap'n? We've spotted her, upwind.\" A deckhand delivers the report to Captain Doghogger.",
       "optionA": "There's nothing to shoot at unless you catch it: grab an oar.",
-      "optionB": "Combat is your specialty: ready the cannons."
+      "optionB": "Combat is your specialty: ready the cannons.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-02-b.png"
@@ -41,7 +43,8 @@
       "title": "",
       "text": "It's a cold but gorgeous day for sailing. You're making excellent time, the wind is at your back, and with any luck, you'll arrive to your destination before sunset.",
       "optionA": "Accept the challenge to race.",
-      "optionB": "This is undoubtedly a trap. Attack before it ambushes you."
+      "optionB": "This is undoubtedly a trap. Attack before it ambushes you.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-03-b.png"
@@ -57,7 +60,8 @@
       "title": "",
       "text": "An enormous sea turtle easily twice the size of your ship pulls up alongside, making steady strokes to keep pace. The crew mans the harpoons, staring down their sights. But then, against all odds, the sea turtle looks up and poses a question in a slow drawl:\n\n\"Why, hello, Boat. Don't suppose you could point me to the nearest land. I'm quite tired and my eyesight isn't what it used to be.\"\n\nThe crew stammer incredulously, and finally the captain hollers back the question on everyon's mind: \"Are you a talking sea turtle?\"\n\nThe sea turtle looks stunned. \"Oh my, are you a talking boat?\"",
       "optionA": "Direct the sea turtle to Frosthaven.",
-      "optionB": "The meat from this turtle could feed Frosthaven for months, and the shell undoubtedly has defensive applications... fire the harpoons."
+      "optionB": "The meat from this turtle could feed Frosthaven for months, and the shell undoubtedly has defensive applications... fire the harpoons.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-04-b.png"
@@ -73,7 +77,8 @@
       "title": "",
       "text": "A glacier has broken apart ahead of you and treacherous chunks of ice dominate the path forward, dotting the water like little mines.",
       "optionA": "It's not worth turning back; the weather should support the transit.",
-      "optionB": "The time of year won't support a journey through ice floes. You're better off taking the long way around."
+      "optionB": "The time of year won't support a journey through ice floes. You're better off taking the long way around.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-05-b.png"
@@ -89,7 +94,8 @@
       "title": "",
       "text": "A combination of a late start and uncooperative winds has you sailing past nightfall",
       "optionA": "Dream of a vibrant, prosperous town.",
-      "optionB": "Dream of a happy, bountiful town."
+      "optionB": "Dream of a happy, bountiful town.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-06-b.png"
@@ -105,7 +111,8 @@
       "title": "",
       "text": "The spotter in the crow's nest rings the bell and points off the starboard side.",
       "optionA": "Board the burning ship and try to put out the fire.",
-      "optionB": "The ship is going under. Gather the cargo crates."
+      "optionB": "The ship is going under. Gather the cargo crates.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-07-b.png"
@@ -121,7 +128,8 @@
       "title": "",
       "text": "A beam of gold-tinted light pierces down from between the clouds, striking a spot ahead of your ship's path",
       "optionA": "Ask her where she came from.",
-      "optionB": "Offer to help direct her."
+      "optionB": "Offer to help direct her.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-08-b.png"
@@ -137,7 +145,8 @@
       "title": "",
       "text": "Across the waves, you hear the repeating brass ring of a bell",
       "optionA": "Offer to five down and untangle the anchor from the aeronautical.",
-      "optionB": "Offer her a lift back to dry land."
+      "optionB": "Offer her a lift back to dry land.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-09-b.png"
@@ -153,7 +162,8 @@
       "title": "",
       "text": "By the time you've dragged him on board, the Vermling has a mottled sheen to his fur from his time in the briny sea",
       "optionA": "Ask him to explain how he wound up in the ocean without a boat.",
-      "optionB": "Ask him what a Ghost Lurker is."
+      "optionB": "Ask him what a Ghost Lurker is.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-10-b.png"
@@ -169,7 +179,8 @@
       "title": "",
       "text": "POP. POP! BOOOOOOOOM! An explosion rocks the ship from the port side, swinging the mast and throwing the crew into a frenzy of action",
       "optionA": "Send out a rowboat to retrieve one of the devices.",
-      "optionB": "An ocean full of explosives in your path? Sounds like target practice."
+      "optionB": "An ocean full of explosives in your path? Sounds like target practice.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-11-b.png"
@@ -185,7 +196,8 @@
       "title": "",
       "text": "Violet, the Valrath researcher investigating Lurker behavior, stands at the edge of the ship, scanning the horizon with a spyglass. When she heard you were venturing into the open water she begged to join you, and you don't mind the company.",
       "optionA": "Attempt to surf.",
-      "optionB": "Order her back into the ship."
+      "optionB": "Order her back into the ship.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-12-b.png"
@@ -201,7 +213,8 @@
       "title": "",
       "text": "The wind has been at a total standstill since shortly after you departed, and the water is a mirror of calm.",
       "optionA": "Write a note back.",
-      "optionB": "Write a note back, but include a few gold coins in the bottle to really brighten the day of whoever finds it."
+      "optionB": "Write a note back, but include a few gold coins in the bottle to really brighten the day of whoever finds it.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-13-b.png"
@@ -217,7 +230,8 @@
       "title": "",
       "text": "The wind has been at a total standstill since shortly after you departed, and the water is a mirror of calm. The whole thing reminds you a bit of your own journey, albeit more fantastical than you can find really believable. The author clearly took some liberties with the truth.\n\nBut there's an additional boon: you find a few gold coins at the bottom of the bottle!",
       "optionA": "Keep the coins and document your own journey.",
-      "optionB": "Leave the coins in the bottle and write your own note back."
+      "optionB": "Leave the coins in the bottle and write your own note back.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-14-b.png"
@@ -233,7 +247,8 @@
       "title": "",
       "text": "\"Blasted fishmen!\" Captain Doghogger laments as a group of Abaeli riding Piranha Pigs crest up out of the ocean, shooting straight at you in a \"V\" formation. There are quite a few of them.",
       "optionA": "Flee the scene.",
-      "optionB": "Tell Doghogger to turn the ship around. There are too many Abaeli for the Crashing Tide to handle, and you need to help."
+      "optionB": "Tell Doghogger to turn the ship around. There are too many Abaeli for the Crashing Tide to handle, and you need to help.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-15-b.png"
@@ -249,7 +264,8 @@
       "title": "",
       "text": "Reports have been mounting about Abael pirates attacking fishing vessels leaving Frosthaven harbor.",
       "optionA": "Select any five cards from the town guard deck to bring as crew on board, then resolve the back side of this event.",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-16-b.png"
@@ -265,7 +281,8 @@
       "title": "",
       "text": "The storm swirls around your ship, threatening to drag the crew to a watery grave. A flash of lightning punctuates the driving rain as the boat lists dangerously into wave after wave.",
       "optionA": "Man the cannons and help your Lurker friends.",
-      "optionB": "This is the Lurkers' domain. Get the crew below decks to shelter from the storm."
+      "optionB": "This is the Lurkers' domain. Get the crew below decks to shelter from the storm.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-17-b.png"
@@ -281,7 +298,8 @@
       "title": "",
       "text": "You've sat in complete silence, motionless, for what feels like an hour. You pan your head slowly around the ship: everyone is frozen in place, not daring to move a muscle for fear of announcing your presence with a creaking deck. You work up the nerve to glance over the side and down into the water: sure enough, it's still there, circling.",
       "optionA": "Quietly lower the sails and push forward to your destination.",
-      "optionB": "Drop something heavy into the water to give it a new target while you make your escape."
+      "optionB": "Drop something heavy into the water to give it a new target while you make your escape.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-18-b.png"
@@ -297,7 +315,8 @@
       "title": "",
       "text": "It is a calm, relatively pleasant day out at sea when Captain Doghogger starts muttering doomed prognostications. You ask about bad weather, but he shakes his head.",
       "optionA": "Take the opportunity to attack while they are distracted.",
-      "optionB": "Wait to see what they decide."
+      "optionB": "Wait to see what they decide.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-19-b.png"
@@ -313,7 +332,8 @@
       "title": "",
       "text": "You're hiking along the banks of a small creek when a spray of color draws your eye. Blood in the snow.",
       "optionA": "Follow the bloody trail to the left.",
-      "optionB": "Follow the trail of broken twigs to the right."
+      "optionB": "Follow the trail of broken twigs to the right.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-01-b.png"
@@ -329,7 +349,8 @@
       "title": "",
       "text": "\"Ho there! A moment of your time?\" from just off the path, a weathered Valrath calls for your attention",
       "optionA": "Share notes of your travels.",
-      "optionB": "Ask him about his more notable travels."
+      "optionB": "Ask him about his more notable travels.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-02-b.png"
@@ -345,7 +366,8 @@
       "title": "",
       "text": "Camouflaged into an outcropping of a stone cliff face sits a Savvas. You're trying to determine whether it's still alive when it proudly reveals itself with a long, gravely clearing of its throat",
       "optionA": "Solve the riddle and say your answer aloud now.",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-03-b.png"
@@ -361,7 +383,8 @@
       "title": "",
       "text": "Just outside Frosthaven, right where the road begins to become less traveled, you find a man in dusty white vestments",
       "optionA": "Make an offering at the improvised shrine.",
-      "optionB": "It's clear this is an easy mark. Steal from the offering plate."
+      "optionB": "It's clear this is an easy mark. Steal from the offering plate.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-04-b.png"
@@ -377,7 +400,8 @@
       "title": "",
       "text": "Suddenly, the ground gives way underneath you, and you plunge into a dark pit. You'll need to find a way out.",
       "optionA": "Set the card on the table. Players may no longer communicate in any way. Once you have selected a route raise your hand. When all players' hands are raised, each player simultaneously says their chosen route's letter aloud. Then, flip this card.",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-05-b.png"
@@ -393,7 +417,8 @@
       "title": "",
       "text": "You duck into a familiar cave and find row after row of corpsecap growing in the damp ground",
       "optionA": "Harvest the corpsecap",
-      "optionB": "Take a few cuttings, but allow it to grow longer"
+      "optionB": "Take a few cuttings, but allow it to grow longer",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-06-b.png"
@@ -409,7 +434,8 @@
       "title": "",
       "text": "\"Heeey. Heeeeey.\" You stop under a moss-covered tree, unsure if you heard what you think you heard: a tiny-sounding voice calling out -",
       "optionA": "There's a mass of fire ants marching over to get a look. Put the two together to see if it can commune with them.",
-      "optionB": "A talking bug? Might as well take it with you and keep it safe."
+      "optionB": "A talking bug? Might as well take it with you and keep it safe.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-07-b.png"
@@ -425,7 +451,8 @@
       "title": "",
       "text": "Out of the corner of your eye you catch a glimpse of a floating tuft of fur by the side of the road",
       "optionA": "Agree to cover for the Vermling.",
-      "optionB": "Ask for payment for services. You are a mercenary, after all."
+      "optionB": "Ask for payment for services. You are a mercenary, after all.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-08-b.png"
@@ -441,7 +468,8 @@
       "title": "",
       "text": "The giant boughs of the willowburn tree hang low, heavy with the tart fruits of the season",
       "optionA": "Make camp in the protected cave behind the waterfall.",
-      "optionB": "Enjoy a dip in the lagoon and make camp at the water's edge."
+      "optionB": "Enjoy a dip in the lagoon and make camp at the water's edge.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-09-b.png"
@@ -457,7 +485,8 @@
       "title": "",
       "text": "You round a rocky outcropping and find a lavishly-dressed Savvas staring you down, anger in its eyes",
       "optionA": "You heard the Savvas. Let's make some coin.",
-      "optionB": "Oh sure, you'll serve them - but these haughty Savvas need to be taught a lesson. Rations from your packs it is."
+      "optionB": "Oh sure, you'll serve them - but these haughty Savvas need to be taught a lesson. Rations from your packs it is.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-10-b.png"
@@ -473,7 +502,8 @@
       "title": "",
       "text": "It's early morning, and the sun is just cresting over the mountaintop as you head out the main gate",
       "optionA": "Try to convince her to stop the ritual and leave.",
-      "optionB": "Get aggressive and do whatever you can to confuse the ritual and force her away."
+      "optionB": "Get aggressive and do whatever you can to confuse the ritual and force her away.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-11-b.png"
@@ -489,7 +519,8 @@
       "title": "",
       "text": "People in Frosthaven tend to be the solitary type, struggling to get by in a world of ice",
       "optionA": "Donate some food to the donkey-food side to partake in the two drink-sides.",
-      "optionB": "Lead these drunks back to the safety of Frosthaven."
+      "optionB": "Lead these drunks back to the safety of Frosthaven.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-12-b.png"
@@ -505,7 +536,8 @@
       "title": "",
       "text": "As you pause for a rest along your journey, you spot a handful of bright organge produce sticking out from the meltwater mud",
       "optionA": "Try the firepepper.",
-      "optionB": "Ask her to demonstrate just how easily she could eat it."
+      "optionB": "Ask her to demonstrate just how easily she could eat it.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-13-b.png"
@@ -521,7 +553,8 @@
       "title": "",
       "text": "You are feeling a tad hungry as you walk down the road",
       "optionA": "Apply the berry juice to your weapons.",
-      "optionB": "Pluck a berry and add it to one of your existing potions."
+      "optionB": "Pluck a berry and add it to one of your existing potions.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-14-b.png"
@@ -537,7 +570,8 @@
       "title": "",
       "text": "You encounter a young Algox away from his tribe, looking hungry and weary",
       "optionA": "Leave Malrog with a or item (select the item now).",
-      "optionB": "Refuse to interfere int he ritual and provide him nothing."
+      "optionB": "Refuse to interfere int he ritual and provide him nothing.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-15-b.png"
@@ -553,7 +587,8 @@
       "title": "",
       "text": "The treacherous road ahead of you is blocked by a tattered blue blanket stretched across the path",
       "optionA": "Offer him herbs for wood-cutting skills.",
-      "optionB": "Offer him hides for wood-cutting skills."
+      "optionB": "Offer him hides for wood-cutting skills.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-16-b.png"
@@ -569,7 +604,8 @@
       "title": "",
       "text": "Pushing through a set of spindly trees, you find a beautiful cloak swarmed over with scarabs and insects",
       "optionA": "Attempt to communicate with the Harrower.",
-      "optionB": "Make a more aggressive attempt at grabbing the cloak."
+      "optionB": "Make a more aggressive attempt at grabbing the cloak.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-17-b.png"
@@ -585,7 +621,8 @@
       "title": "",
       "text": "If there was a landscape that told a story, it's this one: heaps of rusted metal dotted with punctures from crude longspears and skeletons of fallen Algox intertwine in a tapestry of carnage",
       "optionA": "If it was made for these automatons, it has harmful power. Destroy it.",
-      "optionB": "Keep the core. It may come in handy someday."
+      "optionB": "Keep the core. It may come in handy someday.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-18-b.png"
@@ -601,7 +638,8 @@
       "title": "",
       "text": "By the side of the road, you find a carriage parked, its owner wiping sweat from his brow",
       "optionA": "Browse the low prices of the shop. You could pick something up on the cheap.",
-      "optionB": "Ask if he has anything... not on display."
+      "optionB": "Ask if he has anything... not on display.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-19-b.png"
@@ -617,7 +655,8 @@
       "title": "",
       "text": "Just outside the range where Frosthaven could reasonably extend its influence, you find a clearing with a single inhabitant and an imposing machine",
       "optionA": "Play the slot machine legitimately.",
-      "optionB": "Insist the Inox operator let you peek inside the machine."
+      "optionB": "Insist the Inox operator let you peek inside the machine.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-20-b.png"
@@ -633,7 +672,8 @@
       "title": "",
       "text": "A worn-in path leads to some ominous signs: the heads of polar bears, Lurkers, and even some unfortunate humanoids sit frozen on spikes lining the path",
       "optionA": "Approach peacefully and join the meal.",
-      "optionB": "Attack while their guard is down."
+      "optionB": "Attack while their guard is down.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-21-b.png"
@@ -649,7 +689,8 @@
       "title": "",
       "text": "An unnatural chill passes across the road in front of you, causing you to pull up your coat",
       "optionA": "Take out the leader first.",
-      "optionB": "Focus on the minions first."
+      "optionB": "Focus on the minions first.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-22-b.png"
@@ -665,7 +706,8 @@
       "title": "",
       "text": "It is much too early to have started drinking for the day, and much too late to still be tipsy from the night before, which makes it all the more surprising when you come upon two disheveled men fist-fighting on the path before you",
       "optionA": "Bask in this newfound adoration.",
-      "optionB": "Deny there were ever any monsters."
+      "optionB": "Deny there were ever any monsters.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-23-b.png"
@@ -681,7 +723,8 @@
       "title": "",
       "text": "The aurora shimmers in the night sky as you set up camp in a copse of trees after a lon day's hike toward your destination",
       "optionA": "You can't let her report on Frosthaven's defenses. Kill her.",
-      "optionB": "Invite her to share your campfire and rations."
+      "optionB": "Invite her to share your campfire and rations.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-24-b.png"
@@ -697,7 +740,8 @@
       "title": "",
       "text": "Suspended under the snowy canopy of an elkwood tree is an engorged sack big enough to fit your entire party in - some parasitic organism has made its home here",
       "optionA": "Try drinking the sap from the copper cups.",
-      "optionB": "If the Algox want it here, that's enough reason to cut it down."
+      "optionB": "If the Algox want it here, that's enough reason to cut it down.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-25-b.png"
@@ -713,7 +757,8 @@
       "title": "",
       "text": "You catch sight of a glowing Snow Imp blocking your path, flittering from tree to tree",
       "optionA": "Approach the imp as a friend and try to trade.",
-      "optionB": "Likely just fairy tales... but if it does have something of value, force is the quickest way to get it."
+      "optionB": "Likely just fairy tales... but if it does have something of value, force is the quickest way to get it.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-26-b.png"
@@ -729,7 +774,8 @@
       "title": "",
       "text": "Walking through a narrow valley between two rides, you catch sight of a cluster of Lurkers burrowing into the rock",
       "optionA": "All characters may select a card from their pool to play for its movement to outrun the stampede. The card selected will be excluded from your pool for the upcoming scenario.",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-27-b.png"
@@ -745,7 +791,8 @@
       "title": "",
       "text": "Before you stands a rock wall covered in a thick layer of arrowvine",
       "optionA": "Harvest the vine.",
-      "optionB": "Enjoy the vine wall for its beauty, but leave it be."
+      "optionB": "Enjoy the vine wall for its beauty, but leave it be.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-28-b.png"
@@ -761,7 +808,8 @@
       "title": "",
       "text": "You're walking down the trail a few hours from Frosthaven when you can't help but notice the insects nearby following you",
       "optionA": "Point it in the direction of Frosthaven.",
-      "optionB": "Point it away from Frosthaven."
+      "optionB": "Point it away from Frosthaven.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-29-b.png"
@@ -777,7 +825,8 @@
       "title": "",
       "text": "The feeling of being watched becomes overwhelming the farther through the forest you go",
       "optionA": "Trade with the tree",
-      "optionB": "Reclaim the wood and metal from this monstrosity... through force."
+      "optionB": "Reclaim the wood and metal from this monstrosity... through force.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-30-b.png"
@@ -793,7 +842,8 @@
       "title": "",
       "text": "You're just a few minutes outside the town gate when you spot four guards with a curious catch: an Abael warrior clasped in chains",
       "optionA": "Get the guards to release the captured Abael immediately.",
-      "optionB": "Escore the captive back to the town walls."
+      "optionB": "Escore the captive back to the town walls.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-31-b.png"
@@ -809,7 +859,8 @@
       "title": "",
       "text": "A streak of blazing light hums close along the horizon, putting even the noonday sun to shame",
       "optionA": "Drag it back in one piece to Frosthaven for study.",
-      "optionB": "Chop it into more manageable pieces for collection and go on your way."
+      "optionB": "Chop it into more manageable pieces for collection and go on your way.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-32-b.png"
@@ -825,7 +876,8 @@
       "title": "",
       "text": "Sitting on a pillar beside a stone cliff face is a Savvas you recognize, its face carved into the visage of a lion",
       "optionA": "Solve the riddle and say your answer aloud now.",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-33-b.png"
@@ -841,7 +893,8 @@
       "title": "",
       "text": "The smell of smoke wafts through the air, and while you can't see flames, you know they're not far ahead of you",
       "optionA": "Supplement the Harrower with bugs of your own.",
-      "optionB": "This Harrower will not survive. Put it out of its misery."
+      "optionB": "This Harrower will not survive. Put it out of its misery.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-34-b.png"
@@ -857,7 +910,8 @@
       "title": "",
       "text": "You return to the spot where you discovered a buried blade this past winter",
       "optionA": "Pull hard from the hilt.",
-      "optionB": "It's sharp, but you'd have a better grip if you grab the blade."
+      "optionB": "It's sharp, but you'd have a better grip if you grab the blade.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-35-b.png"
@@ -873,7 +927,8 @@
       "title": "",
       "text": "A cool breeze wafts naturally across the trail, and a few steps later you can't help but notice the change to warm air",
       "optionA": "Let Malak down down Dramm.",
-      "optionB": "Help Dramm take down Malak."
+      "optionB": "Help Dramm take down Malak.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-36-b.png"
@@ -889,7 +944,8 @@
       "title": "",
       "text": "\"Help! Help! Hurdle needs help from strong, greedy mercanaries!\" The Vermling named Hurdle is bent over double with age, but the glint in his eye as he approaches you on the path hints at a manic energy within.",
       "optionA": "You can't believe you're doing this. Put on a show for the toad.",
-      "optionB": "Fried toad legs are an uncommon delicacy this far north... time for some regicide."
+      "optionB": "Fried toad legs are an uncommon delicacy this far north... time for some regicide.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-37-b.png"
@@ -905,7 +961,8 @@
       "title": "",
       "text": "\"Just down that crevasse. Screaming like crazy,\" the mining camp foreman says",
       "optionA": "This angry machine is worth more as scrap than as a pet project. Deactivate and salvage it.",
-      "optionB": "Try to salvage the machine without deactivating it."
+      "optionB": "Try to salvage the machine without deactivating it.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-38-b.png"
@@ -921,7 +978,8 @@
       "title": "",
       "text": "You've been waiting for today for a long time. She must have assumed you'd forgotten, but someone in your line of work needs to have a long memory",
       "optionA": "Bring Satha back to Frosthaven and throw a big party.",
-      "optionB": "Take her on an adventure through the wilderness."
+      "optionB": "Take her on an adventure through the wilderness.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-39-b.png"
@@ -937,7 +995,8 @@
       "title": "",
       "text": "As your group is gathering around a warm campfire, a lone Orchid emerges from the woods",
       "optionA": "The strong should contribute enough to provide for the weak.",
-      "optionB": "Everyone offering a small amount will lead to a strong community."
+      "optionB": "Everyone offering a small amount will lead to a strong community.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-40-b.png"
@@ -953,7 +1012,8 @@
       "title": "",
       "text": "You're wandering along the coast when you see a young Lurker gazing at the ocean, swaying left and right with raised claws",
       "optionA": "Attempt to communicate with the Lurker.",
-      "optionB": "Knock the little Lurker out to stop the pain."
+      "optionB": "Knock the little Lurker out to stop the pain.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-41-b.png"
@@ -969,7 +1029,8 @@
       "title": "",
       "text": "The roads outside Frosthaven are no place for a child, which is why you do a double-take when you see a teenage girl walking toward you",
       "optionA": "Sure, why not. Trade one of your pets for a different pet.",
-      "optionB": "You don't have any pets you want to trade, but maybe she'd be willing to trade for something else?"
+      "optionB": "You don't have any pets you want to trade, but maybe she'd be willing to trade for something else?",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-42-b.png"
@@ -985,7 +1046,8 @@
       "title": "",
       "text": "The Keepers from Frosthaven's Temple of the Great Oak are belssed and wise",
       "optionA": "Donate resources to the Keepers to protect the sapling.",
-      "optionB": "These resources would be better utilized protecting the Oak from getting destroyed in the first place."
+      "optionB": "These resources would be better utilized protecting the Oak from getting destroyed in the first place.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-43-b.png"
@@ -1001,7 +1063,8 @@
       "title": "",
       "text": "The smell of hot ash drifts over the landscape. You follow it to the source and see a blackened clearing formed around a still-smoking metal pillar",
       "optionA": "Attempt to activate the device.",
-      "optionB": "Break down the machine before it does more harm."
+      "optionB": "Break down the machine before it does more harm.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-44-b.png"
@@ -1017,7 +1080,8 @@
       "title": "",
       "text": "\"Come out and fight, fleshy cowards!\" The echoing call to battle reverberates around the ravine",
       "optionA": "Teach it manners through force.",
-      "optionB": "Encourage it to join without combat."
+      "optionB": "Encourage it to join without combat.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-45-b.png"
@@ -1033,7 +1097,8 @@
       "title": "",
       "text": "Heading toward your desgination you see an old woman with a cord of dried vegetables hanging around her neck",
       "optionA": "Offer to work for a sampling of the beautiful fruits.",
-      "optionB": "Offer to work for her secret to growing such a bountiful harvest."
+      "optionB": "Offer to work for her secret to growing such a bountiful harvest.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-46-b.png"
@@ -1049,7 +1114,8 @@
       "title": "",
       "text": "Venturing into the mouth of a suspicious-looking cave has brough you to a hidden tomb featuring a sarcophagus carved directly into the cave itself",
       "optionA": "Attempt to use the book on him as a test subject.",
-      "optionB": "Seal the sarcophagus back up and let him rest."
+      "optionB": "Seal the sarcophagus back up and let him rest.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-47-b.png"
@@ -1065,7 +1131,8 @@
       "title": "",
       "text": "The spot Eddica the Librarian marked out for you was certainly easy to find: you just had to make your way toward the ominous column of smoke and ash billowing out of the top of the hillside",
       "optionA": "Open the tome to learn its secrets.",
-      "optionB": "Bring the book back to Eddica for her informed review."
+      "optionB": "Bring the book back to Eddica for her informed review.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-48-b.png"
@@ -1081,7 +1148,8 @@
       "title": "",
       "text": "You're in the region Eddica the Librarian suggested would contain the Tome of Time, but a search has turned up nothing",
       "optionA": "Attempt to cast a spell from the book.",
-      "optionB": "Bring the book back to Eddica for her informed review."
+      "optionB": "Bring the book back to Eddica for her informed review.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-49-b.png"
@@ -1097,7 +1165,8 @@
       "title": "",
       "text": "Here, a few hundred paces off the side of the main trail, is a communal oasis used by travelers and animals alike",
       "optionA": "Toss in a few coins of your own for good luck.",
-      "optionB": "Gather the coins from the basin. You'll put them to better use."
+      "optionB": "Gather the coins from the basin. You'll put them to better use.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-50-b.png"
@@ -1113,7 +1182,8 @@
       "title": "",
       "text": "\"Hello, my subjects: you have discovered me!\" An Aesther in ornate flowing garb blocks your path, his cloak pulsating and rippling to an unheard beat, arms outstretched in greeting",
       "optionA": "Admidt you're in the midst of your Hall of Revelry trials and request assistance.",
-      "optionB": "Press him to explain his supposed divinity."
+      "optionB": "Press him to explain his supposed divinity.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-51-b.png"
@@ -1129,7 +1199,8 @@
       "title": "",
       "text": "You are walking through a grove of trees when an oddly familiar figure beckons you over",
       "optionA": "Sell the amulet back at Frosthaven. Only a fool messes with time.",
-      "optionB": "Follow the pull of the amulet to a distant location."
+      "optionB": "Follow the pull of the amulet to a distant location.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-52-b.png"
@@ -1145,7 +1216,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-01-b.png"
@@ -1161,7 +1233,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-02-b.png"
@@ -1177,7 +1250,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-03-b.png"
@@ -1193,7 +1267,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-04-b.png"
@@ -1209,7 +1284,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-05-b.png"
@@ -1225,7 +1301,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-06-b.png"
@@ -1241,7 +1318,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-07-b.png"
@@ -1257,7 +1335,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-08-b.png"
@@ -1273,7 +1352,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-09-b.png"
@@ -1289,7 +1369,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-10-b.png"
@@ -1305,7 +1386,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-11-b.png"
@@ -1321,7 +1403,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-12-b.png"
@@ -1337,7 +1420,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-13-b.png"
@@ -1353,7 +1437,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-14-b.png"
@@ -1369,7 +1454,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-15-b.png"
@@ -1385,7 +1471,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-16-b.png"
@@ -1401,7 +1488,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-17-b.png"
@@ -1417,7 +1505,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-18-b.png"
@@ -1433,7 +1522,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-19-b.png"
@@ -1449,7 +1539,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-20-b.png"
@@ -1465,7 +1556,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-21-b.png"
@@ -1481,7 +1573,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-22-b.png"
@@ -1497,7 +1590,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-23-b.png"
@@ -1513,7 +1607,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-24-b.png"
@@ -1529,7 +1624,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-25-b.png"
@@ -1545,7 +1641,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-26-b.png"
@@ -1561,7 +1658,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-27-b.png"
@@ -1577,7 +1675,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-28-b.png"
@@ -1593,7 +1692,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-29-b.png"
@@ -1609,7 +1709,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-30-b.png"
@@ -1625,7 +1726,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-31-b.png"
@@ -1641,7 +1743,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-32-b.png"
@@ -1657,7 +1760,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-33-b.png"
@@ -1673,7 +1777,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-34-b.png"
@@ -1689,7 +1794,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-35-b.png"
@@ -1705,7 +1811,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-36-b.png"
@@ -1721,7 +1828,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-37-b.png"
@@ -1737,7 +1845,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-38-b.png"
@@ -1753,7 +1862,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-39-b.png"
@@ -1769,7 +1879,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-40-b.png"
@@ -1785,7 +1896,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-41-b.png"
@@ -1801,7 +1913,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-42-b.png"
@@ -1817,7 +1930,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-43-b.png"
@@ -1833,7 +1947,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-44-b.png"
@@ -1849,7 +1964,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-45-b.png"
@@ -1865,7 +1981,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-46-b.png"
@@ -1881,7 +1998,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-47-b.png"
@@ -1897,7 +2015,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-48-b.png"
@@ -1913,7 +2032,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/road/fh-wre-49-b.png"
@@ -1927,9 +2047,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-01-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Knock knock knock! \"Mail call, open up.\"",
+      "optionA": "Open the package.",
+      "optionB": "Respect their request.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-01-b.png"
@@ -1943,9 +2064,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-02-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A young man who runs a fruit stand and a fetching girl in the town guard have chosen each other for eternal bliss. Today is their wedding day",
+      "optionA": "Paint the \"snowbirds\"",
+      "optionB": "Try to catch enough real snowbirds in time.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-02-b.png"
@@ -1959,9 +2081,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-03-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Hear ye, hear ye! I am the crier of the Great Dallum, the most powerful seer the world has ever known!\" An ostentatiously dressed man is shouting in the middle of town, drawing a crowd.",
+      "optionA": "Help clean the streets to make a good impression.",
+      "optionB": "Assist in the preparation of a feast.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-03-b.png"
@@ -1975,9 +2098,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-04-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A gentleman you haven't seen before wearing a dapper vest has set up a small table for cards on the street corner.",
+      "optionA": "Pick the card on the left.",
+      "optionB": "Pick the card on the right.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-04-b.png"
@@ -1991,9 +2115,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-05-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A man walks through the open gates of Frosthaven, carrying a sturdy suitcase. He walks up to you with a broad smile.",
+      "optionA": "Purchase a ticket for the future rail line.",
+      "optionB": "Quatryls or not, there's no way this guy will get a railway to Frosthaven.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-05-b.png"
@@ -2007,9 +2132,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-06-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A pretentious-looking visitor scolds Captain Olmstead, shouting for all to hear in the barracks yard.",
+      "optionA": "Excuse me? We're not guards, we're mercenaries.",
+      "optionB": "Fall in line and pretend to be guards.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-06-b.png"
@@ -2023,9 +2149,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-07-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Your latest victory is the talk of The Crater. You celebrate your heroics with one toast too many before stumbling back to your bed and falling asleep in a giddy haze.",
+      "optionA": "Hide with the residents and keep them calm.",
+      "optionB": "Make a stand at the doorway.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-07-b.png"
@@ -2039,9 +2166,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-08-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Regardless of season, Frosthaven and the surrounding environment is covered in a blanked of snow year-round.",
+      "optionA": "Encourage Captain Olmstead to relax and let the guards enjoy a day off.",
+      "optionB": "Safety first. It's good someone is watching out for the relaxing populace.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-08-b.png"
@@ -2055,9 +2183,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-09-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"I'm trying to explain, that's the very root cause of all of this! They're not aggressive by nature!\" Violet, the local Lurker researcher, is pleading on the street with Mayor Satha.",
+      "optionA": "Come to Violet's aid - there's more to the Lurkers.",
+      "optionB": "Back up Satha's assessment - Lurker research is a waste of resources.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-09-b.png"
@@ -2071,9 +2200,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-10-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Care to make a trade?\" A man with skin rough as leather beckons you over to the stoool he's set on the main street through town.",
+      "optionA": "Order 5 {WOOD} and 2 {METAL} (required 15 gold)",
+      "optionB": "Order 5 {METAL} and 2 {WOOD} (required 15 gold)",
+      "optionC": "Take him up on the offer some other time."
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-10-b.png"
@@ -2087,9 +2217,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-11-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Pinter Droman, Frosthaven's resident Quatryl tinkerer, is unwrapping a package wrapped in brocade in his workshop.",
+      "optionA": "Use it as a mutable material for crafting.",
+      "optionB": "Weave it into an art piece.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-11-b.png"
@@ -2103,9 +2234,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-12-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "An incoming merchant ship tipped the town fisherman off to a dense school of large fish, about an hour's row up the bay.",
+      "optionA": "You have plenty of enemies already, and it's not worth making more. Besides, you have no idea how many abaeli are in the water below you.",
+      "optionB": "There's no treaty. This Abael is full of chum and just wants a free lunch. Keep the fish and row back to Frosthaven.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-12-b.png"
@@ -2119,9 +2251,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-13-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A Valrath man comes up to you in the street. \"Say... you spend some time outside the walls, right? Happened to come across any snowthistle?\"",
+      "optionA": "Sell the Valrath some snowthistle (requires {SNOWTHISTLE}).",
+      "optionB": "Admonish the Valrath for his pursuits.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-13-b.png"
@@ -2135,9 +2268,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-14-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A group of mercenaries are strapping supplies onto a donkey-drawn wagon.",
+      "optionA": "Mercenaries should be supported. Help them purchase supplies in return for a cut of what they find.",
+      "optionB": "The old man's right. They're walking to their doom. Try to stop them.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-14-b.png"
@@ -2151,9 +2285,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-15-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Damn White Oak! They give us half a budget and still expect us to stay alive!\"",
+      "optionA": "Offer to cover the cost of upgrading the barracks yourself.",
+      "optionB": "Leave and come back later.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-15-b.png"
@@ -2167,9 +2302,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-16-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're settling in for the night when a stern knock raps against the front door to your longhouse.",
+      "optionA": "Keep the contents for yourself.",
+      "optionB": "Pass it along to some of the prevous resident's friends.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-16-b.png"
@@ -2183,9 +2319,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-17-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Frosthaven has been built up and burned down repeatedly, so just about anywhere you can plant a shovel has the potential for the remains of a buried treasure - or just remains.",
+      "optionA": "Make a deck of eight loot cards, comprised of any material resource or gold cards of your choice that you'd like to keep an eye out for.",
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-17-b.png"
@@ -2199,9 +2336,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-18-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It's almost time to head out on your next mission, but you have a few minutes to kill. You decide to stop by The Crater, the burned-out drinking spot where a tavern used to be, hoping to find a drink.",
+      "optionA": "Bet some gold on your success.",
+      "optionB": "Bet some resources on your success.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-18-b.png"
@@ -2215,9 +2353,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-19-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The sun is shimmering, the sea birds are honking, and this day seems uncharacteristically lively for the town of Frosthaven.",
+      "optionA": "Encourage her to declare a summertime holiday to celebrate the success of the season.",
+      "optionB": "Encourage her to store the resources for a winter holiday, when the town may need to lift its spirits.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-19-b.png"
@@ -2231,9 +2370,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-20-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A group of soliders bearing White Oak's insignia ride into Frosthaven on horseback.",
+      "optionA": "Allow the soldier to execute the prisoners.",
+      "optionB": "Encourage Satha to let them work for their keep and go free.",
+      "optionC": "Go a step further and offer to house them in your longhouse."
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-20-b.png"
@@ -2247,9 +2387,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-21-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Yeah, I bet you'd like that! Make me drag this up the Frozen Pass and then stiff me for the payment!\" A man pulling a sled piled high with goods shouts back over his shoulder at a group of rough-looking outposters.",
+      "optionA": "Nobody gives Frosthaven a bad name. Go encourage the outposters to pay up.",
+      "optionB": "No sense in dragging all those resources back down the mountain. Offer to buy them yourself, at a discount.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-21-b.png"
@@ -2263,9 +2404,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-22-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A young boy sits by himself on the edge of the pier, the overhead sun casting a short shadow as his legs dangle over the water.",
+      "optionA": "Surreptitiously pay someone a few coins to give the kid some fishing lessons.",
+      "optionB": "Spend some time with the boy and teach him yourself.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-22-b.png"
@@ -2279,9 +2421,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-23-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Some workers have dragged a chunk of strange machinery from a site outside Frosthaven back to the workshop.",
+      "optionA": "Try to shut the machine down to preserve the research opportunity.",
+      "optionB": "Destroy the machine to prevent it from detonating.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-23-b.png"
@@ -2295,9 +2438,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-24-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "An old man rushed up to you, desperation in his eyes.\n\n\"Please, I'm looking for my son. He was sent here for... well, it doesn't matter, but I've worked it all out with the authorities and he can come home. No one will tell me where he is. Please, you must have seen him?\"\n\nHe describes the young man and you recognize him as one of the poor souls lost in a recent raid. It was a particularly gruesome death.",
+      "optionA": "Tell the man the fate of his son.",
+      "optionB": "Spin a lie to give the old man some peace.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-24-b.png"
@@ -2311,9 +2455,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-25-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "When the sun sets for the evening, an ominous blood-red moon rises in its place. It washes rough, crimson light over the landscape, painting the ocean in a flat maroon that gives the illusion of stillness.",
+      "optionA": "Tell the guards to light up the town and drown out the red moonlight.",
+      "optionB": "Drive the Lurker marauders back with torches.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-25-b.png"
@@ -2327,9 +2472,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-26-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're walking through town when you lose your balance for a moment. Perhaps you haven't eaten enough - no, there it is again. Ahead on the street, an older gentleman stumbles to the ground. Before you can rush over to assist, the shockwave hits: an earthquake is rocking Frosthaven!",
+      "optionA": "Assist the down guard in bracing the buildings.",
+      "optionB": "Assist the town guard in digging out the injured.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-26-b.png"
@@ -2343,9 +2489,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-27-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"This is not going well. This is not going well at all.\" A particularly short Quatryl paces back and forth behind the sales cart he's set up in the center of town.",
+      "optionA": "Take pity on the poor Quatryl and buy a rockroot smoothie.",
+      "optionB": "Try to drum up business for the Quatryl.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-27-b.png"
@@ -2359,9 +2506,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-28-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're gathered in Mayor Satha's cabin to discuss a snow patch on the mountains near Frosthaven that has weakened in the summer sun.",
+      "optionA": "Commit some resources to reinforcing the snowpack.",
+      "optionB": "Winter isn't far off, it'll freeze back over.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-28-b.png"
@@ -2375,9 +2523,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-29-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The smell of smoke washes over the town, disturbing an otherwise pleasant afternoon.",
+      "optionA": "Rush to help stop the blaze.",
+      "optionB": "Preemptively protect the important buildings.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-29-b.png"
@@ -2391,9 +2540,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-30-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A commotion draws you to the gates. People are laughing, cheering, and hugging a group of travelers as they load supplies onto wagons.",
+      "optionA": "Write a letter to a famous mercenary. They'd enjoy a few stories of your exploits up here.",
+      "optionB": "Write a letter to a well respected equipment designer you've heard of. They'd get a kick out of hearing about the crude tools you're working with up here.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-30-b.png"
@@ -2407,9 +2557,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-31-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It's a peaceful summer day in Frosthaven. The sun is shining, it's warm enough to leave the fur coats inside, and the scouts report no enemy activity anywhere in the region.",
+      "optionA": "Attack the machines as they climb out of the tunnel.",
+      "optionB": "Leap into the tunnel and fight them underground.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-31-b.png"
@@ -2423,9 +2574,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-32-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Balancing on a single wheel, a small metal box with a wobbly head rolls up to the main gate.",
+      "optionA": "Toss some metal down to the small robotic box (requires 3 {METAL}).",
+      "optionB": "We're not taking orders from a wheeled box.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-32-b.png"
@@ -2439,9 +2591,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-33-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Don't you have work to be doing?\" A guard patrolling the harbor gate howls.",
+      "optionA": "Load up your fastest rowing vessel with supplies and run the blockade.",
+      "optionB": "Mount an all-out attack to dislodge the Lurker brigands once and for all.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-33-b.png"
@@ -2455,9 +2608,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-34-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It's one of those rare warm summer days where the citizens of Frosthaven cast off their piled furs and dress almost like members of a real, respectable town.",
+      "optionA": "row across the bay to Frosthaven.",
+      "optionB": "Turn and row for the nearest shore.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-34-b.png"
@@ -2471,9 +2625,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-35-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "As you enter the barracks, you find Captain Olmstead staring down Eros, the local Savvas playwright.",
+      "optionA": "Offer to pay to upgrade the barracks; it's worth it for town defense.",
+      "optionB": "This seems like the perfect time to be somewhere else.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-35-b.png"
@@ -2487,9 +2642,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-36-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It is a warm summer's day, and the town is alive with energy. People shuttle decorations, sweet treats, and fireworks toward the gathering.",
+      "optionA": "Partake in the dancing, the singing, and the general merriment.",
+      "optionB": "Take the time to sample the food, drink and company.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-36-b.png"
@@ -2503,9 +2659,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-37-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Malnourished and near shock, a young Orchid stumbles through the town gates. A bow with a frayed string is slung across his back, and he recoils from the sound of the people who rush up to tend to him.",
+      "optionA": "Vow to avenge his fallen party.",
+      "optionB": "Try to recover whatever you can from the pack he dropped. Seems like he won't be needing it for some time, if ever again.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-37-b.png"
@@ -2519,9 +2676,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-38-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The sound of a joyous lute resonates off the mounrain walls for several minutes before they make their appearance.",
+      "optionA": "Encourage them to go out again.",
+      "optionB": "Ask them if they have any good leads on other treasure-filled opportunities.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-38-b.png"
@@ -2535,9 +2693,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-39-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You come across Violet, a Valrath researcher who specializes in studying Lurkers, sitting on the docks, dangling her bare feet in the water.",
+      "optionA": "Ask her to show you their music.",
+      "optionB": "Explain the harm they've caused.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-39-b.png"
@@ -2551,9 +2710,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-40-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A pair of familiar Aesthers in drab yellow clothes approach you in the street.\n\n\"Hello mercenaries. We need your services -\"\n\"- to receive a package. We will pay 10 gold.\"\n\nThese guys again?",
+      "optionA": "Accept the job.",
+      "optionB": "Demand double the payment.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-40-b.png"
@@ -2567,9 +2727,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-41-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're heading home for the evening when a voice calls out, reverberating with an unsettling echo.",
+      "optionA": "Ask what you're unloading that caused so much trouble.",
+      "optionB": "Keep your mouth shut.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-41-b.png"
@@ -2583,9 +2744,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-42-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A stern knock at the door reveals the Quatryl mail carrier.\n\n\"Got this 'ere for you lot. From the capital. Fancy mail.\"",
+      "optionA": "Donate the map to Frosthaven to assist in planning the defemse of the town.",
+      "optionB": "Keep the map for yourselves to assist in planning your excursions.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-42-b.png"
@@ -2599,9 +2761,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-43-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're called to the docks to find a departing ship and a familiar-looking Harrower about to embar as a passenger.",
+      "optionA": "Accept a crate full of resources.",
+      "optionB": "Accept a crate with an exotic item.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-43-b.png"
@@ -2615,9 +2778,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-44-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You've just finished some business in Frosthaven when you see it: the massive swarm of bugs you directed to Frosthaven is looming like a terrifying cyclone over the mayor, Satha.",
+      "optionA": "Intercede and offer to pay for the axenuts.",
+      "optionB": "Help get to the bottom of the missing shipment.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-44-b.png"
@@ -2631,9 +2795,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-45-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You've just returned to town when you're approached by an elegant-looking Savvas. ",
+      "optionA": "Graciously accept the reward, and assure it of your discretion.",
+      "optionB": "It's all in a day's work for heroes like you. The real reward is the ballads people sing, and letting the story of heroism be heard.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-45-b.png"
@@ -2647,9 +2812,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-46-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You answer a knock at your door to find the Quatryl mail carrier far more dour than usual.",
+      "optionA": "Use the materials to build a library.",
+      "optionB": "A library? Frosthaven could use these resources on something far more important than a house for books.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-46-b.png"
@@ -2663,9 +2829,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-47-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're walking through town when the accumulated snow on every rooftop in Frosthaven drops in a single, collective thump.",
+      "optionA": "There is no time to make decisions in the chaos. You'll need to rely on your natural traits. Read the back of this card.",
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-47-b.png"
@@ -2679,9 +2846,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-48-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Ever since the crown was restored the populace has been working towards integration with the Lurkers - it was one thing to have a Lurker handing around with your party, but it's quite another when there are dozens roaming the streets.",
+      "optionA": "Rat out the Lurkers - that's theft!",
+      "optionB": "Admonish the Lurkers, but don't turn them in.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-48-b.png"
@@ -2695,9 +2863,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-49-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"We are pleased to announce our partnership with Loggo, who has offered to help harvest the bountiful forests around Frosthaven.\" The crowd erupts into cheers, although several of the workers at the logging camp look at each other with concern.",
+      "optionA": "Hire Loggo for a private harvest.",
+      "optionB": "Convince the loggers to band together against automation taking their jobs.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-49-b.png"
@@ -2711,9 +2880,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-50-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Satha's cabin is cramped under good conditions, but today, the entire logging camp is packed inside. Loggo, an automated logging robot, peers in from the window.",
+      "optionA": "Satotage the robot.",
+      "optionB": "Cheer for your kind.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-50-b.png"
@@ -2727,9 +2897,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-51-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "An Inox lumberjack crashed to the floor, her Algox attacker bearing down behind. At the last second the lumberjack rolls away and thrusts her arm around the falling Algox's neck,squeezing hard.",
+      "optionA": "Bet on the fight.",
+      "optionB": "These mock fights are boring. Start an actual brawl.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-51-b.png"
@@ -2743,9 +2914,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-52-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You rush to the docks in response to the alarm bells and find a massive shell washed up on the icy shore.",
+      "optionA": "Rally the guard and give a push.",
+      "optionB": "This creature is on its last legs. It could be put to better use supplying the town with meat and armor.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-52-b.png"
@@ -2759,9 +2931,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-53-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Mayor Satha offered a few coins for clearing the burned-out husk of a cabin behind the Hunting Lodge.",
+      "optionA": "Flip over this card.",
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-53-b.png"
@@ -2775,9 +2948,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-54-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Pinter Droman, Quatryl inventor, patiently oils the neckline of the repaired Unfettered robot you salvaged from a rockslide.",
+      "optionA": "Ask the Unfettered robot to join the town guard.",
+      "optionB": "It's unject to keep it here against its will. Release it unconditionally.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-54-b.png"
@@ -2791,9 +2965,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-55-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Roll it over there. No, not that way! Over there, towards the inn!\" A stuffy-looking man directs some porters to bring his luggage through town.",
+      "optionA": "Offer to retrieve an Algox tooth on your next scenario.",
+      "optionB": "Inform the man Algox shouldn't be killed for parts.",
+      "optionC": "Offer the man one of your own teeth (requires {TRAIT} ALGOX)."
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-55-b.png"
@@ -2807,9 +2982,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-56-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"The rumor has it there's a rare kind of Algox... the Firegox.\" The tanner casts a wild eye across your party to confirm you're listening.",
+      "optionA": "Tell her you've seen them to lift her spirits.",
+      "optionB": "With a bit of flamefruit, you could make any of your existing hides the perfect gift...",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-56-b.png"
@@ -2823,9 +2999,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-57-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The gates to Frosthaven open to reveal a lone Vermling traveler. He looks in good spirits as he shuffles through the gate and sets down his pack.",
+      "optionA": "Trade the Vermling some herbs from your personal collection.",
+      "optionB": "Show the Vermling to the town garden.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-57-b.png"
@@ -2839,9 +3016,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-58-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The library is quiet. You're finishing up a conversation with Eddica, the Valrath librarian, when the door opens and in walks Violet, the Valrath Lurker researcher.",
+      "optionA": "Recognize there isn't a good option here and agree with Eddica that books are great.",
+      "optionB": "Recognize there isn't a good option here and agree with Violet that Lurkers are great.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-58-b.png"
@@ -2855,9 +3033,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-59-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Democracy: the lifeblood of a fledgling society. Now that the Town Hall is operational, you'll have the chance to weigh in on some of the important facets of life in Frosthaven - you'll finally have a say in the way this place is run!",
+      "optionA": "Vote to paint the town's well red.",
+      "optionB": "Vote to paint the town's well blue.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-59-b.png"
@@ -2871,9 +3050,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-60-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Ever since the carpenter set up shop, everyone's been happy to finally have someone who knows their way around a hammer to build up the town.",
+      "optionA": "Keep looking. The carpenter needs this material, and the town needs the carpenter.",
+      "optionB": "Go back to Frosthaven and ask around. Maybe someone has some in their personal stash.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-60-b.png"
@@ -2887,9 +3067,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-61-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"No, no, no!\" Pinter Droman, Frosthaven's tinkerer, shouts from the back room of his workshjop. \"The impurity of these metals is simply catastrophic. This is like baking a cake using flour that's forty percent dirt!\"",
+      "optionA": "Give Pinter metal for his experiments.",
+      "optionB": "Tell Pinter you'll return when he's made more progress on the research.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-61-b.png"
@@ -2903,9 +3084,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-62-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Mayor Satha has approved the budget for training the \"Frostguard,\" an elite team of soldiers to supplement the town guard. You've been part of the committee testing and training the chosen candidates.",
+      "optionA": "Encourage the committee to keep the Frostguard as a single elite team.",
+      "optionB": "Encourage the committee to integrate the Frostguard within the existing town guard forces to cover more ground.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-62-b.png"
@@ -2919,9 +3101,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-63-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're rummaging through the mixture of artifacts and worthless trinkets that make up the Enhancer's storefront. Even with careful scrutiny it can be difficult to tell which items have real, magical value and which are just odd-shaped detritus.",
+      "optionA": "All characters draw and read an additional personal quest now, to see what could have happened somewhere else in the multiverse. Once all characters have drawn and read their quest, flip over this card.",
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-63-b.png"
@@ -2935,9 +3118,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-64-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You are walking through the slushy streets of Frosthaven when you hear a muffled screm from a dark alley to your left.",
+      "optionA": "Mayor Satha frowns on murder within the outpost. Advise the Blinkblade to do it outside the walls.",
+      "optionB": "You should interrogate him to make sure there aren't others.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-64-b.png"
@@ -2951,9 +3135,10 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-65-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You are out for an early morning stroll, taking in the fresh sea air, when you notice a small gathering at the docks.",
+      "optionA": "It's gift from our Lurker friends. Let's enjoy the free food.",
+      "optionB": "Approach with skepticism. Let's put the fish on ice and stackout the docks to see if the culprit returns.",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-soe-65-b.png"
@@ -2969,7 +3154,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-01-b.png"
@@ -2985,7 +3171,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-02-b.png"
@@ -3001,7 +3188,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-03-b.png"
@@ -3017,7 +3205,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-04-b.png"
@@ -3033,7 +3222,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-05-b.png"
@@ -3049,7 +3239,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-06-b.png"
@@ -3065,7 +3256,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-07-b.png"
@@ -3081,7 +3273,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-08-b.png"
@@ -3097,7 +3290,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-09-b.png"
@@ -3113,7 +3307,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-10-b.png"
@@ -3129,7 +3324,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-11-b.png"
@@ -3145,7 +3341,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-12-b.png"
@@ -3161,7 +3358,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-13-b.png"
@@ -3177,7 +3375,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-14-b.png"
@@ -3193,7 +3392,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-15-b.png"
@@ -3209,7 +3409,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-16-b.png"
@@ -3225,7 +3426,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-17-b.png"
@@ -3241,7 +3443,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-18-b.png"
@@ -3257,7 +3460,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-19-b.png"
@@ -3273,7 +3477,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-20-b.png"
@@ -3289,7 +3494,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-21-b.png"
@@ -3305,7 +3511,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-22-b.png"
@@ -3321,7 +3528,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-23-b.png"
@@ -3337,7 +3545,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-24-b.png"
@@ -3353,7 +3562,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-25-b.png"
@@ -3369,7 +3579,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-26-b.png"
@@ -3385,7 +3596,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-27-b.png"
@@ -3401,7 +3613,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-28-b.png"
@@ -3417,7 +3630,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-29-b.png"
@@ -3433,7 +3647,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-30-b.png"
@@ -3449,7 +3664,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-31-b.png"
@@ -3465,7 +3681,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-32-b.png"
@@ -3481,7 +3698,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-33-b.png"
@@ -3497,7 +3715,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-34-b.png"
@@ -3513,7 +3732,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-35-b.png"
@@ -3529,7 +3749,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-36-b.png"
@@ -3545,7 +3766,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-37-b.png"
@@ -3561,7 +3783,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-38-b.png"
@@ -3577,7 +3800,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-39-b.png"
@@ -3593,7 +3817,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-40-b.png"
@@ -3609,7 +3834,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-41-b.png"
@@ -3625,7 +3851,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-42-b.png"
@@ -3641,7 +3868,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-43-b.png"
@@ -3657,7 +3885,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-44-b.png"
@@ -3673,7 +3902,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-45-b.png"
@@ -3689,7 +3919,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-46-b.png"
@@ -3705,7 +3936,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-47-b.png"
@@ -3721,7 +3953,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-48-b.png"
@@ -3737,7 +3970,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-49-b.png"
@@ -3753,7 +3987,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-50-b.png"
@@ -3769,7 +4004,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-51-b.png"
@@ -3785,7 +4021,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-52-b.png"
@@ -3801,7 +4038,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-53-b.png"
@@ -3817,7 +4055,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-54-b.png"
@@ -3833,7 +4072,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-55-b.png"
@@ -3849,7 +4089,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-56-b.png"
@@ -3865,7 +4106,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-57-b.png"
@@ -3881,7 +4123,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-58-b.png"
@@ -3897,7 +4140,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-59-b.png"
@@ -3913,7 +4157,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-60-b.png"
@@ -3929,7 +4174,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-61-b.png"
@@ -3945,7 +4191,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-62-b.png"
@@ -3961,7 +4208,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-63-b.png"
@@ -3977,7 +4225,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-64-b.png"
@@ -3993,7 +4242,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-65-b.png"
@@ -4009,7 +4259,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-66-b.png"
@@ -4025,7 +4276,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-67-b.png"
@@ -4041,7 +4293,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-68-b.png"
@@ -4057,7 +4310,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-69-b.png"
@@ -4073,7 +4327,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-70-b.png"
@@ -4089,7 +4344,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-71-b.png"
@@ -4105,7 +4361,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-72-b.png"
@@ -4121,7 +4378,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-73-b.png"
@@ -4137,7 +4395,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-74-b.png"
@@ -4153,7 +4412,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-75-b.png"
@@ -4169,7 +4429,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-76-b.png"
@@ -4185,7 +4446,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-77-b.png"
@@ -4201,7 +4463,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-78-b.png"
@@ -4217,7 +4480,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-79-b.png"
@@ -4233,7 +4497,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-80-b.png"
@@ -4249,7 +4514,8 @@
       "title": "",
       "text": "",
       "optionA": "",
-      "optionB": ""
+      "optionB": "",
+      "optionC": ""
     },
     "back": {
       "image": "events/frosthaven/outpost/fh-woe-81-b.png"

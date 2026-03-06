@@ -15,7 +15,7 @@ A Discord bot for looking up Frosthaven ability cards, items, and event cards by
 
 Fuzzy matching means typos and partial names work — `/card burning` will find "Burning Rain" even if you don't type the full name.
 
-Event commands search the full text of the front of the card (title, flavor text, and both options). Results return the front card image plus a spoiler-tagged back card image in a single message.
+Event commands search the full text of the front of the card (title, flavor text, and all options). Results return the front card image plus a spoiler-tagged back card image in a single message.
 
 ## Setup
 
@@ -51,6 +51,37 @@ If you set `GUILD_ID`, commands appear instantly in those servers. You can speci
 ```bash
 npm start
 ```
+
+## Event Card Text Conventions
+
+When entering event card text in `data/events.json`, use the following conventions:
+
+### Resource Icons
+
+Resource names are written in ALL CAPS within curly braces to represent in-game icons:
+
+**Materials:**
+| Token | Resource |
+|-------|----------|
+| `{WOOD}` | Wood |
+| `{METAL}` | Metal |
+| `{HIDE}` | Hide |
+
+**Herbs:**
+| Token | Resource |
+|-------|----------|
+| `{ARROWVINE}` | Arrowvine |
+| `{AXENUT}` | Axenut |
+| `{CORPSECAP}` | Corpsecap |
+| `{FLAMEFRUIT}` | Flamefruit |
+| `{ROCKROOT}` | Rockroot |
+| `{SNOWTHISTLE}` | Snowthistle |
+
+Example: `"Gain 3 {WOOD} and 1 {SNOWTHISTLE}."`
+
+### Other Formatting
+- Use `\n` for a single line break, `\n\n` for a paragraph break
+- Escape double quotes within text as `\"`
 
 ## Event Card Data
 
