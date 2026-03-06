@@ -95,6 +95,37 @@ const commands = [
     ],
   },
   {
+    name: "class",
+    description: "Look up Frosthaven ability cards by class",
+    options: [
+      {
+        name: "class",
+        description: "Character class",
+        type: ApplicationCommandOptionType.String,
+        required: true,
+        autocomplete: true,
+      },
+      {
+        name: "level",
+        description: "Filter by level (omit to get a link to all cards)",
+        type: ApplicationCommandOptionType.String,
+        required: false,
+        choices: [
+          { name: "Level 1", value: "1" },
+          { name: "Level X", value: "X" },
+          { name: "Level 2", value: "2" },
+          { name: "Level 3", value: "3" },
+          { name: "Level 4", value: "4" },
+          { name: "Level 5", value: "5" },
+          { name: "Level 6", value: "6" },
+          { name: "Level 7", value: "7" },
+          { name: "Level 8", value: "8" },
+          { name: "Level 9", value: "9" },
+        ],
+      },
+    ],
+  },
+  {
     name: "event",
     description: "Look up a Frosthaven event card by text (returns front + back)",
     options: [

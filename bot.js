@@ -33,9 +33,11 @@ const IMAGE_BASE = `${FH_RAW}/images`;
 let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
 let eventIndex = [];   // { id, type, season, number, title, text, optionA, optionB, frontUrl, backUrl }
+let classList = [];    // { name, xws, code }
 let abilityFuse = null;
 let itemFuse = null;
 let eventFuse = null;
+let classFuse = null;
 
 async function fetchJson(url) {
   const res = await fetch(url);
@@ -136,6 +138,15 @@ async function buildCardIndex() {
     console.warn("Could not load events:", err.message);
   }
 
+  // ── Class list (local data/classes.json) ───────────────────────────────────
+  try {
+    const raw = fs.readFileSync(path.join(__dirname, "data", "classes.json"), "utf8");
+    classList = JSON.parse(raw);
+    console.log(`  Loaded ${classList.length} classes.`);
+  } catch (err) {
+    console.warn("Could not load classes:", err.message);
+  }
+
   // ── Fuse.js fuzzy search setup ─────────────────────────────────────────────
   const fuseOpts = {
     keys: ["name"],
@@ -144,6 +155,7 @@ async function buildCardIndex() {
   };
   abilityFuse = new Fuse(abilityIndex, fuseOpts);
   itemFuse    = new Fuse(itemIndex, fuseOpts);
+  classFuse   = new Fuse(classList, { keys: ["name"], threshold: 0.35, includeScore: true });
 
   // Events search across all front-of-card text fields.
   // ignoreLocation is critical — without it Fuse.js only matches near the
@@ -184,6 +196,15 @@ client.on("interactionCreate", async (interaction) => {
   if (interaction.isAutocomplete()) {
     const { commandName } = interaction;
     const query = interaction.options.getFocused();
+    if (commandName === "class") {
+      const results = query
+        ? classFuse.search(query, { limit: 25 })
+        : classList.map(c => ({ item: c }));
+      return interaction.respond(
+        results.map(r => ({ name: r.item.name, value: r.item.xws }))
+      );
+    }
+
     const fuse = commandName === "card" ? abilityFuse : commandName === "item" ? itemFuse : null;
 
     if (!fuse || !query) {
@@ -213,6 +234,8 @@ client.on("interactionCreate", async (interaction) => {
       await handleEventLookup(interaction, "road");
     } else if (commandName === "outpost") {
       await handleEventLookup(interaction, "outpost");
+    } else if (commandName === "class") {
+      await handleClassLookup(interaction);
     }
   } catch (err) {
     console.error(`Error handling /${commandName}:`, err.message);
@@ -337,6 +360,57 @@ async function handleEventLookup(interaction, typeOverride = null) {
     console.warn("Could not fetch back card image:", err.message);
     await interaction.editReply({ embeds: [frontEmbed] });
   }
+}
+
+// ─── Class lookup handler ─────────────────────────────────────────────────────
+
+const CARDS_BASE_URL = "https://gloomhavencards.com/fh/characters";
+
+async function handleClassLookup(interaction) {
+  const xws   = interaction.options.getString("class");
+  const level = interaction.options.getString("level"); // "1","X","2"... or null
+
+  await interaction.deferReply();
+
+  const classEntry = classList.find(c => c.xws === xws);
+  if (!classEntry) {
+    return interaction.editReply(`Unknown class. Please select a class from the autocomplete list.`);
+  }
+
+  const color = 0x6b4f9e;
+
+  if (!level) {
+    // No level specified — link to full card browser
+    const embed = new EmbedBuilder()
+      .setColor(color)
+      .setTitle(`${classEntry.name} — All Cards`)
+      .setDescription(`View all ${classEntry.name} ability cards on Gloomhaven Cards:`)
+      .setURL(`${CARDS_BASE_URL}/${classEntry.code}`)
+      .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+    return interaction.editReply({ embeds: [embed] });
+  }
+
+  // Level specified — return card images
+  const cards = abilityIndex.filter(
+    c => c.class === xws && String(c.level) === level
+  );
+
+  if (!cards.length) {
+    return interaction.editReply(
+      `No Level ${level} cards found for **${classEntry.name}**.`
+    );
+  }
+
+  const levelLabel = `Level ${level}`;
+  const embeds = cards.map((card, i) =>
+    new EmbedBuilder()
+      .setColor(color)
+      .setTitle(i === 0 ? `${classEntry.name} — ${levelLabel}` : card.name)
+      .setImage(card.imageUrl)
+      .setFooter({ text: "Frosthaven • Worldhaven Card Database" })
+  );
+
+  await interaction.editReply({ embeds });
 }
 
 // ─── Login ────────────────────────────────────────────────────────────────────

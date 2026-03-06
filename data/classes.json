@@ -1,0 +1,19 @@
+[
+  { "name": "Banner Spear",  "xws": "banner spear",  "code": "BN" },
+  { "name": "Blinkblade",    "xws": "blinkblade",    "code": "BB" },
+  { "name": "Boneshaper",    "xws": "boneshaper",    "code": "BO" },
+  { "name": "Crashing Tide", "xws": "crashing tide", "code": "CR" },
+  { "name": "Deathwalker",   "xws": "deathwalker",   "code": "DW" },
+  { "name": "Deepwraith",    "xws": "deepwraith",    "code": "DT" },
+  { "name": "Drifter",       "xws": "drifter",       "code": "DF" },
+  { "name": "Frozen Fist",   "xws": "frozen fist",   "code": "FF" },
+  { "name": "Geminate",      "xws": "geminate",      "code": "GE" },
+  { "name": "Hive",          "xws": "hive",          "code": "HV" },
+  { "name": "Infuser",       "xws": "infuser",       "code": "IF" },
+  { "name": "Metal Mosaic",  "xws": "metal mosaic",  "code": "ME" },
+  { "name": "Pain Conduit",  "xws": "pain conduit",  "code": "PC" },
+  { "name": "Pyroclast",     "xws": "pyroclast",     "code": "PY" },
+  { "name": "Shattersong",   "xws": "shattersong",   "code": "SH" },
+  { "name": "Snowdancer",    "xws": "snowdancer",    "code": "SD" },
+  { "name": "Trapper",       "xws": "trapper",       "code": "TA" }
+]
