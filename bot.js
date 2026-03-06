@@ -292,18 +292,6 @@ async function handleEventLookup(interaction, typeOverride = null) {
     .setImage(best.frontUrl)
     .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
 
-  if (results.length > 1) {
-    const alts = results
-      .slice(1)
-      .map(r => {
-        const t = r.item.type.charAt(0).toUpperCase() + r.item.type.slice(1);
-        const s = r.item.season ? ` (${r.item.season})` : "";
-        const title = r.item.title ? ` — ${r.item.title}` : "";
-        return `• ${t} Event ${r.item.number}${s}${title}`;
-      })
-      .join("\n");
-    frontEmbed.addFields({ name: "Did you mean…?", value: alts });
-  }
 
   const backRes = await fetch(best.backUrl);
   const backBuffer = Buffer.from(await backRes.arrayBuffer());

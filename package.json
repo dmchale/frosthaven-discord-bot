@@ -1,6 +1,6 @@
 {
   "name": "frosthaven-bot",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Discord bot for looking up Frosthaven cards",
   "main": "bot.js",
   "scripts": {
