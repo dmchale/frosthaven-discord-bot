@@ -5,7 +5,7 @@
   { "name": "Crashing Tide", "xws": "crashing tide", "code": "CR" },
   { "name": "Deathwalker",   "xws": "deathwalker",   "code": "DW" },
   { "name": "Deepwraith",    "xws": "deepwraith",    "code": "DT" },
-  { "name": "Drifter",       "xws": "drifter",       "code": "DF" },
+  { "name": "Drifter",       "xws": "drifter",       "code": "DF", "aliases": ["fishstick"] },
   { "name": "Frozen Fist",   "xws": "frozen fist",   "code": "FF" },
   { "name": "Geminate",      "xws": "geminate",      "code": "GE" },
   { "name": "Hive",          "xws": "hive",          "code": "HV" },

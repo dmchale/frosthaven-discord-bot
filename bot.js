@@ -33,7 +33,7 @@ const IMAGE_BASE = `${FH_RAW}/images`;
 let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
 let eventIndex = [];   // { id, type, season, number, title, text, optionA, optionB, frontUrl, backUrl }
-let classList = [];        // { name, xws, code }
+let classList = [];        // { name, xws, code, aliases? }
 let classAutocomplete = []; // { name, value } flat list for autocomplete
 let abilityFuse = null;
 let itemFuse = null;
@@ -150,6 +150,16 @@ async function buildCardIndex() {
       for (const lvl of levels) {
         classAutocomplete.push({ name: `${c.name} — Level ${lvl}`, value: `${c.xws}|${lvl}` });
       }
+      // Add alias entries — display alias name, same values as real class
+      if (c.aliases) {
+        for (const alias of c.aliases) {
+          const aliasLabel = alias.charAt(0).toUpperCase() + alias.slice(1);
+          classAutocomplete.push({ name: `${aliasLabel} — All Cards`, value: `${c.xws}|all` });
+          for (const lvl of levels) {
+            classAutocomplete.push({ name: `${aliasLabel} — Level ${lvl}`, value: `${c.xws}|${lvl}` });
+          }
+        }
+      }
     }
     console.log(`  Loaded ${classList.length} classes.`);
   } catch (err) {
@@ -185,6 +195,12 @@ async function buildCardIndex() {
     `Index ready: ${abilityIndex.length} ability cards, ${itemIndex.length} items, ${eventIndex.length} events.`
   );
 }
+
+// ─── Config ───────────────────────────────────────────────────────────────────
+
+const allowedChannelIds = process.env.ALLOWED_CHANNEL_IDS
+  ? process.env.ALLOWED_CHANNEL_IDS.split(",").map(id => id.trim()).filter(Boolean)
+  : [];
 
 // ─── Discord client ───────────────────────────────────────────────────────────
 
@@ -227,6 +243,14 @@ client.on("interactionCreate", async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
   const { commandName } = interaction;
+
+  // Channel restriction check
+  if (allowedChannelIds.length && !allowedChannelIds.includes(interaction.channelId)) {
+    return interaction.reply({
+      content: "This command is not available in this channel.",
+      ephemeral: true,
+    });
+  }
 
   try {
     if (commandName === "card") {

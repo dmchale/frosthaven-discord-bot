@@ -48,6 +48,8 @@ npm run deploy
 
 If you set `GUILD_ID`, commands appear instantly in those servers. You can specify multiple servers as a comma-separated list (e.g. `GUILD_ID=111,222,333`). Without it, global registration can take up to 1 hour.
 
+Optionally set `ALLOWED_CHANNEL_IDS` to a comma-separated list of channel IDs to restrict commands to specific channels. Leave blank to allow commands everywhere.
+
 ### 5. Run the Bot
 ```bash
 npm start
