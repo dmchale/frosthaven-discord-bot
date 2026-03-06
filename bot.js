@@ -15,7 +15,7 @@
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
-const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
+const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const Fuse = require("fuse.js");
 const fetch = (...args) =>
   import("node-fetch").then(({ default: f }) => f(...args));
@@ -302,11 +302,11 @@ async function handleEventLookup(interaction, typeOverride = null) {
     frontEmbed.addFields({ name: "Did you mean…?", value: alts });
   }
 
-  const backEmbed = new EmbedBuilder()
-    .setColor(color)
-    .setImage(best.backUrl);
+  const backRes = await fetch(best.backUrl);
+  const backBuffer = Buffer.from(await backRes.arrayBuffer());
+  const backAttachment = new AttachmentBuilder(backBuffer, { name: "SPOILER_back.png" });
 
-  await interaction.editReply({ embeds: [frontEmbed, backEmbed] });
+  await interaction.editReply({ embeds: [frontEmbed], files: [backAttachment] });
 }
 
 // ─── Login ────────────────────────────────────────────────────────────────────
