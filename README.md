@@ -91,7 +91,7 @@ Event card text (`data/events.json`) is manually transcribed from the physical c
 - Boat events: 19/19
 - Road events (Summer): 52/52
 - Road events (Winter): 0/49
-- Outpost events (Summer): 0/65
+- Outpost events (Summer): 65/65
 - Outpost events (Winter): 0/81
 
 ## Card Data Source
