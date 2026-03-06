@@ -33,11 +33,11 @@ const IMAGE_BASE = `${FH_RAW}/images`;
 let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
 let eventIndex = [];   // { id, type, season, number, title, text, optionA, optionB, frontUrl, backUrl }
-let classList = [];    // { name, xws, code }
+let classList = [];        // { name, xws, code }
+let classAutocomplete = []; // { name, value } flat list for autocomplete
 let abilityFuse = null;
 let itemFuse = null;
 let eventFuse = null;
-let classFuse = null;
 
 async function fetchJson(url) {
   const res = await fetch(url);
@@ -142,6 +142,15 @@ async function buildCardIndex() {
   try {
     const raw = fs.readFileSync(path.join(__dirname, "data", "classes.json"), "utf8");
     classList = JSON.parse(raw);
+
+    // Build flat autocomplete list: "All Cards" + each level per class
+    const levels = ["1", "X", "2", "3", "4", "5", "6", "7", "8", "9"];
+    for (const c of classList) {
+      classAutocomplete.push({ name: `${c.name} — All Cards`, value: `${c.xws}|all` });
+      for (const lvl of levels) {
+        classAutocomplete.push({ name: `${c.name} — Level ${lvl}`, value: `${c.xws}|${lvl}` });
+      }
+    }
     console.log(`  Loaded ${classList.length} classes.`);
   } catch (err) {
     console.warn("Could not load classes:", err.message);
@@ -155,7 +164,6 @@ async function buildCardIndex() {
   };
   abilityFuse = new Fuse(abilityIndex, fuseOpts);
   itemFuse    = new Fuse(itemIndex, fuseOpts);
-  classFuse   = new Fuse(classList, { keys: ["name"], threshold: 0.35, includeScore: true });
 
   // Events search across all front-of-card text fields.
   // ignoreLocation is critical — without it Fuse.js only matches near the
@@ -197,12 +205,11 @@ client.on("interactionCreate", async (interaction) => {
     const { commandName } = interaction;
     const query = interaction.options.getFocused();
     if (commandName === "class") {
-      const results = query
-        ? classFuse.search(query, { limit: 25 })
-        : classList.map(c => ({ item: c }));
-      return interaction.respond(
-        results.map(r => ({ name: r.item.name, value: r.item.xws }))
-      );
+      const q = query.toLowerCase();
+      const matches = q
+        ? classAutocomplete.filter(o => o.name.toLowerCase().includes(q)).slice(0, 25)
+        : classList.map(c => ({ name: `${c.name} — All Cards`, value: `${c.xws}|all` }));
+      return interaction.respond(matches);
     }
 
     const fuse = commandName === "card" ? abilityFuse : commandName === "item" ? itemFuse : null;
@@ -367,8 +374,8 @@ async function handleEventLookup(interaction, typeOverride = null) {
 const CARDS_BASE_URL = "https://gloomhavencards.com/fh/characters";
 
 async function handleClassLookup(interaction) {
-  const xws   = interaction.options.getString("class");
-  const level = interaction.options.getString("level"); // "1","X","2"... or null
+  const raw = interaction.options.getString("query");
+  const [xws, level] = raw.includes("|") ? raw.split("|") : [raw, "all"];
 
   await interaction.deferReply();
 
@@ -379,13 +386,16 @@ async function handleClassLookup(interaction) {
 
   const color = 0x6b4f9e;
 
-  if (!level) {
-    // No level specified — link to full card browser
+  if (level === "all") {
+    // No level specified — link to full card browser with class back card as preview
+    const code = classEntry.code.toLowerCase();
+    const classImageUrl = `${IMAGE_BASE}/character-ability-cards/frosthaven/${code}/fh-${code}-back.png`;
     const embed = new EmbedBuilder()
       .setColor(color)
       .setTitle(`${classEntry.name} — All Cards`)
       .setDescription(`View all ${classEntry.name} ability cards on Gloomhaven Cards:`)
       .setURL(`${CARDS_BASE_URL}/${classEntry.code}`)
+      .setImage(classImageUrl)
       .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
     return interaction.editReply({ embeds: [embed] });
   }
