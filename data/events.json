@@ -7,9 +7,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-01-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"It'll be at least an hour to repair the beautiful , maybe more.\" The captain looks at the crew bailing water out of the ship and patching the holes where she's run aground against an iceberg",
+      "optionA": "Climb to the topmost peak and get a look around.",
+      "optionB": "Explore the coastline."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-01-b.png"
@@ -23,9 +23,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-02-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Cap'n? We've spotted her, upwind.\" A deckhand delivers the report to Captain Doghogger.",
+      "optionA": "There's nothing to shoot at unless you catch it: grab an oar.",
+      "optionB": "Combat is your specialty: ready the cannons."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-02-b.png"
@@ -39,9 +39,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-03-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It's a cold but gorgeous day for sailing. You're making excellent time, the wind is at your back, and with any luck, you'll arrive to your destination before sunset.",
+      "optionA": "Accept the challenge to race.",
+      "optionB": "This is undoubtedly a trap. Attack before it ambushes you."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-03-b.png"
@@ -55,9 +55,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-04-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "An enormous sea turtle easily twice the size of your ship pulls up alongside, making steady strokes to keep pace. The crew mans the harpoons, staring down their sights. But then, against all odds, the sea turtle looks up and poses a question in a slow drawl:\n\n\"Why, hello, Boat. Don't suppose you could point me to the nearest land. I'm quite tired and my eyesight isn't what it used to be.\"\n\nThe crew stammer incredulously, and finally the captain hollers back the question on everyon's mind: \"Are you a talking sea turtle?\"\n\nThe sea turtle looks stunned. \"Oh my, are you a talking boat?\"",
+      "optionA": "Direct the sea turtle to Frosthaven.",
+      "optionB": "The meat from this turtle could feed Frosthaven for months, and the shell undoubtedly has defensive applications... fire the harpoons."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-04-b.png"
@@ -71,9 +71,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-05-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A glacier has broken apart ahead of you and treacherous chunks of ice dominate the path forward, dotting the water like little mines.",
+      "optionA": "It's not worth turning back; the weather should support the transit.",
+      "optionB": "The time of year won't support a journey through ice floes. You're better off taking the long way around."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-05-b.png"
@@ -87,9 +87,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-06-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A combination of a late start and uncooperative winds has you sailing past nightfall",
+      "optionA": "Dream of a vibrant, prosperous town.",
+      "optionB": "Dream of a happy, bountiful town."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-06-b.png"
@@ -103,9 +103,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-07-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The spotter in the crow's nest rings the bell and points off the starboard side.",
+      "optionA": "Board the burning ship and try to put out the fire.",
+      "optionB": "The ship is going under. Gather the cargo crates."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-07-b.png"
@@ -119,9 +119,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-08-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A beam of gold-tinted light pierces down from between the clouds, striking a spot ahead of your ship's path",
+      "optionA": "Ask her where she came from.",
+      "optionB": "Offer to help direct her."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-08-b.png"
@@ -135,9 +135,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-09-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Across the waves, you hear the repeating brass ring of a bell",
+      "optionA": "Offer to five down and untangle the anchor from the aeronautical.",
+      "optionB": "Offer her a lift back to dry land."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-09-b.png"
@@ -151,9 +151,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-10-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "By the time you've dragged him on board, the Vermling has a mottled sheen to his fur from his time in the briny sea",
+      "optionA": "Ask him to explain how he wound up in the ocean without a boat.",
+      "optionB": "Ask him what a Ghost Lurker is."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-10-b.png"
@@ -167,9 +167,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-11-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "POP. POP! BOOOOOOOOM! An explosion rocks the ship from the port side, swinging the mast and throwing the crew into a frenzy of action",
+      "optionA": "Send out a rowboat to retrieve one of the devices.",
+      "optionB": "An ocean full of explosives in your path? Sounds like target practice."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-11-b.png"
@@ -183,9 +183,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-12-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Violet, the Valrath researcher investigating Lurker behavior, stands at the edge of the ship, scanning the horizon with a spyglass. When she heard you were venturing into the open water she begged to join you, and you don't mind the company.",
+      "optionA": "Attempt to surf.",
+      "optionB": "Order her back into the ship."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-12-b.png"
@@ -199,9 +199,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-13-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The wind has been at a total standstill since shortly after you departed, and the water is a mirror of calm.",
+      "optionA": "Write a note back.",
+      "optionB": "Write a note back, but include a few gold coins in the bottle to really brighten the day of whoever finds it."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-13-b.png"
@@ -215,9 +215,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-14-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The wind has been at a total standstill since shortly after you departed, and the water is a mirror of calm. The whole thing reminds you a bit of your own journey, albeit more fantastical than you can find really believable. The author clearly took some liberties with the truth.\n\nBut there's an additional boon: you find a few gold coins at the bottom of the bottle!",
+      "optionA": "Keep the coins and document your own journey.",
+      "optionB": "Leave the coins in the bottle and write your own note back."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-14-b.png"
@@ -231,9 +231,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-15-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Blasted fishmen!\" Captain Doghogger laments as a group of Abaeli riding Piranha Pigs crest up out of the ocean, shooting straight at you in a \"V\" formation. There are quite a few of them.",
+      "optionA": "Flee the scene.",
+      "optionB": "Tell Doghogger to turn the ship around. There are too many Abaeli for the Crashing Tide to handle, and you need to help."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-15-b.png"
@@ -247,8 +247,8 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-16-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
+      "text": "Reports have been mounting about Abael pirates attacking fishing vessels leaving Frosthaven harbor.",
+      "optionA": "Select any five cards from the town guard deck to bring as crew on board, then resolve the back side of this event.",
       "optionB": ""
     },
     "back": {
@@ -263,9 +263,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-17-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The storm swirls around your ship, threatening to drag the crew to a watery grave. A flash of lightning punctuates the driving rain as the boat lists dangerously into wave after wave.",
+      "optionA": "Man the cannons and help your Lurker friends.",
+      "optionB": "This is the Lurkers' domain. Get the crew below decks to shelter from the storm."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-17-b.png"
@@ -279,9 +279,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-18-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You've sat in complete silence, motionless, for what feels like an hour. You pan your head slowly around the ship: everyone is frozen in place, not daring to move a muscle for fear of announcing your presence with a creaking deck. You work up the nerve to glance over the side and down into the water: sure enough, it's still there, circling.",
+      "optionA": "Quietly lower the sails and push forward to your destination.",
+      "optionB": "Drop something heavy into the water to give it a new target while you make your escape."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-18-b.png"
@@ -295,9 +295,9 @@
     "front": {
       "image": "events/frosthaven/boat/fh-be-19-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It is a calm, relatively pleasant day out at sea when Captain Doghogger starts muttering doomed prognostications. You ask about bad weather, but he shakes his head.",
+      "optionA": "Take the opportunity to attack while they are distracted.",
+      "optionB": "Wait to see what they decide."
     },
     "back": {
       "image": "events/frosthaven/boat/fh-be-19-b.png"
@@ -311,9 +311,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-01-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're hiking along the banks of a small creek when a spray of color draws your eye. Blood in the snow.",
+      "optionA": "Follow the bloody trail to the left.",
+      "optionB": "Follow the trail of broken twigs to the right."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-01-b.png"
@@ -327,9 +327,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-02-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Ho there! A moment of your time?\" from just off the path, a weathered Valrath calls for your attention",
+      "optionA": "Share notes of your travels.",
+      "optionB": "Ask him about his more notable travels."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-02-b.png"
@@ -343,8 +343,8 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-03-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
+      "text": "Camouflaged into an outcropping of a stone cliff face sits a Savvas. You're trying to determine whether it's still alive when it proudly reveals itself with a long, gravely clearing of its throat",
+      "optionA": "Solve the riddle and say your answer aloud now.",
       "optionB": ""
     },
     "back": {
@@ -359,9 +359,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-04-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Just outside Frosthaven, right where the road begins to become less traveled, you find a man in dusty white vestments",
+      "optionA": "Make an offering at the improvised shrine.",
+      "optionB": "It's clear this is an easy mark. Steal from the offering plate."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-04-b.png"
@@ -375,8 +375,8 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-05-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
+      "text": "Suddenly, the ground gives way underneath you, and you plunge into a dark pit. You'll need to find a way out.",
+      "optionA": "Set the card on the table. Players may no longer communicate in any way. Once you have selected a route raise your hand. When all players' hands are raised, each player simultaneously says their chosen route's letter aloud. Then, flip this card.",
       "optionB": ""
     },
     "back": {
@@ -391,9 +391,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-06-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You duck into a familiar cave and find row after row of corpsecap growing in the damp ground",
+      "optionA": "Harvest the corpsecap",
+      "optionB": "Take a few cuttings, but allow it to grow longer"
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-06-b.png"
@@ -407,9 +407,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-07-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Heeey. Heeeeey.\" You stop under a moss-covered tree, unsure if you heard what you think you heard: a tiny-sounding voice calling out -",
+      "optionA": "There's a mass of fire ants marching over to get a look. Put the two together to see if it can commune with them.",
+      "optionB": "A talking bug? Might as well take it with you and keep it safe."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-07-b.png"
@@ -423,9 +423,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-08-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Out of the corner of your eye you catch a glimpse of a floating tuft of fur by the side of the road",
+      "optionA": "Agree to cover for the Vermling.",
+      "optionB": "Ask for payment for services. You are a mercenary, after all."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-08-b.png"
@@ -439,9 +439,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-09-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The giant boughs of the willowburn tree hang low, heavy with the tart fruits of the season",
+      "optionA": "Make camp in the protected cave behind the waterfall.",
+      "optionB": "Enjoy a dip in the lagoon and make camp at the water's edge."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-09-b.png"
@@ -455,9 +455,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-10-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You round a rocky outcropping and find a lavishly-dressed Savvas staring you down, anger in its eyes",
+      "optionA": "You heard the Savvas. Let's make some coin.",
+      "optionB": "Oh sure, you'll serve them - but these haughty Savvas need to be taught a lesson. Rations from your packs it is."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-10-b.png"
@@ -471,9 +471,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-11-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It's early morning, and the sun is just cresting over the mountaintop as you head out the main gate",
+      "optionA": "Try to convince her to stop the ritual and leave.",
+      "optionB": "Get aggressive and do whatever you can to confuse the ritual and force her away."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-11-b.png"
@@ -487,9 +487,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-12-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "People in Frosthaven tend to be the solitary type, struggling to get by in a world of ice",
+      "optionA": "Donate some food to the donkey-food side to partake in the two drink-sides.",
+      "optionB": "Lead these drunks back to the safety of Frosthaven."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-12-b.png"
@@ -503,9 +503,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-13-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "As you pause for a rest along your journey, you spot a handful of bright organge produce sticking out from the meltwater mud",
+      "optionA": "Try the firepepper.",
+      "optionB": "Ask her to demonstrate just how easily she could eat it."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-13-b.png"
@@ -519,9 +519,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-14-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You are feeling a tad hungry as you walk down the road",
+      "optionA": "Apply the berry juice to your weapons.",
+      "optionB": "Pluck a berry and add it to one of your existing potions."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-14-b.png"
@@ -535,9 +535,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-15-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You encounter a young Algox away from his tribe, looking hungry and weary",
+      "optionA": "Leave Malrog with a or item (select the item now).",
+      "optionB": "Refuse to interfere int he ritual and provide him nothing."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-15-b.png"
@@ -551,9 +551,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-16-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The treacherous road ahead of you is blocked by a tattered blue blanket stretched across the path",
+      "optionA": "Offer him herbs for wood-cutting skills.",
+      "optionB": "Offer him hides for wood-cutting skills."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-16-b.png"
@@ -567,9 +567,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-17-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Pushing through a set of spindly trees, you find a beautiful cloak swarmed over with scarabs and insects",
+      "optionA": "Attempt to communicate with the Harrower.",
+      "optionB": "Make a more aggressive attempt at grabbing the cloak."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-17-b.png"
@@ -583,9 +583,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-18-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "If there was a landscape that told a story, it's this one: heaps of rusted metal dotted with punctures from crude longspears and skeletons of fallen Algox intertwine in a tapestry of carnage",
+      "optionA": "If it was made for these automatons, it has harmful power. Destroy it.",
+      "optionB": "Keep the core. It may come in handy someday."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-18-b.png"
@@ -599,9 +599,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-19-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "By the side of the road, you find a carriage parked, its owner wiping sweat from his brow",
+      "optionA": "Browse the low prices of the shop. You could pick something up on the cheap.",
+      "optionB": "Ask if he has anything... not on display."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-19-b.png"
@@ -615,9 +615,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-20-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Just outside the range where Frosthaven could reasonably extend its influence, you find a clearing with a single inhabitant and an imposing machine",
+      "optionA": "Play the slot machine legitimately.",
+      "optionB": "Insist the Inox operator let you peek inside the machine."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-20-b.png"
@@ -631,9 +631,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-21-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A worn-in path leads to some ominous signs: the heads of polar bears, Lurkers, and even some unfortunate humanoids sit frozen on spikes lining the path",
+      "optionA": "Approach peacefully and join the meal.",
+      "optionB": "Attack while their guard is down."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-21-b.png"
@@ -647,9 +647,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-22-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "An unnatural chill passes across the road in front of you, causing you to pull up your coat",
+      "optionA": "Take out the leader first.",
+      "optionB": "Focus on the minions first."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-22-b.png"
@@ -663,9 +663,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-23-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "It is much too early to have started drinking for the day, and much too late to still be tipsy from the night before, which makes it all the more surprising when you come upon two disheveled men fist-fighting on the path before you",
+      "optionA": "Bask in this newfound adoration.",
+      "optionB": "Deny there were ever any monsters."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-23-b.png"
@@ -679,9 +679,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-24-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The aurora shimmers in the night sky as you set up camp in a copse of trees after a lon day's hike toward your destination",
+      "optionA": "You can't let her report on Frosthaven's defenses. Kill her.",
+      "optionB": "Invite her to share your campfire and rations."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-24-b.png"
@@ -695,9 +695,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-25-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Suspended under the snowy canopy of an elkwood tree is an engorged sack big enough to fit your entire party in - some parasitic organism has made its home here",
+      "optionA": "Try drinking the sap from the copper cups.",
+      "optionB": "If the Algox want it here, that's enough reason to cut it down."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-25-b.png"
@@ -711,9 +711,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-26-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You catch sight of a glowing Snow Imp blocking your path, flittering from tree to tree",
+      "optionA": "Approach the imp as a friend and try to trade.",
+      "optionB": "Likely just fairy tales... but if it does have something of value, force is the quickest way to get it."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-26-b.png"
@@ -727,8 +727,8 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-27-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
+      "text": "Walking through a narrow valley between two rides, you catch sight of a cluster of Lurkers burrowing into the rock",
+      "optionA": "All characters may select a card from their pool to play for its movement to outrun the stampede. The card selected will be excluded from your pool for the upcoming scenario.",
       "optionB": ""
     },
     "back": {
@@ -743,9 +743,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-28-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Before you stands a rock wall covered in a thick layer of arrowvine",
+      "optionA": "Harvest the vine.",
+      "optionB": "Enjoy the vine wall for its beauty, but leave it be."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-28-b.png"
@@ -759,9 +759,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-29-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're walking down the trail a few hours from Frosthaven when you can't help but notice the insects nearby following you",
+      "optionA": "Point it in the direction of Frosthaven.",
+      "optionB": "Point it away from Frosthaven."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-29-b.png"
@@ -775,9 +775,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-30-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The feeling of being watched becomes overwhelming the farther through the forest you go",
+      "optionA": "Trade with the tree",
+      "optionB": "Reclaim the wood and metal from this monstrosity... through force."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-30-b.png"
@@ -791,9 +791,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-31-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're just a few minutes outside the town gate when you spot four guards with a curious catch: an Abael warrior clasped in chains",
+      "optionA": "Get the guards to release the captured Abael immediately.",
+      "optionB": "Escore the captive back to the town walls."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-31-b.png"
@@ -807,9 +807,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-32-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A streak of blazing light hums close along the horizon, putting even the noonday sun to shame",
+      "optionA": "Drag it back in one piece to Frosthaven for study.",
+      "optionB": "Chop it into more manageable pieces for collection and go on your way."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-32-b.png"
@@ -823,8 +823,8 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-33-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
+      "text": "Sitting on a pillar beside a stone cliff face is a Savvas you recognize, its face carved into the visage of a lion",
+      "optionA": "Solve the riddle and say your answer aloud now.",
       "optionB": ""
     },
     "back": {
@@ -839,9 +839,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-34-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The smell of smoke wafts through the air, and while you can't see flames, you know they're not far ahead of you",
+      "optionA": "Supplement the Harrower with bugs of your own.",
+      "optionB": "This Harrower will not survive. Put it out of its misery."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-34-b.png"
@@ -855,9 +855,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-35-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You return to the spot where you discovered a buried blade this past winter",
+      "optionA": "Pull hard from the hilt.",
+      "optionB": "It's sharp, but you'd have a better grip if you grab the blade."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-35-b.png"
@@ -871,9 +871,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-36-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "A cool breeze wafts naturally across the trail, and a few steps later you can't help but notice the change to warm air",
+      "optionA": "Let Malak down down Dramm.",
+      "optionB": "Help Dramm take down Malak."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-36-b.png"
@@ -887,9 +887,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-37-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Help! Help! Hurdle needs help from strong, greedy mercanaries!\" The Vermling named Hurdle is bent over double with age, but the glint in his eye as he approaches you on the path hints at a manic energy within.",
+      "optionA": "You can't believe you're doing this. Put on a show for the toad.",
+      "optionB": "Fried toad legs are an uncommon delicacy this far north... time for some regicide."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-37-b.png"
@@ -903,9 +903,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-38-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Just down that crevasse. Screaming like crazy,\" the mining camp foreman says",
+      "optionA": "This angry machine is worth more as scrap than as a pet project. Deactivate and salvage it.",
+      "optionB": "Try to salvage the machine without deactivating it."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-38-b.png"
@@ -919,9 +919,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-39-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You've been waiting for today for a long time. She must have assumed you'd forgotten, but someone in your line of work needs to have a long memory",
+      "optionA": "Bring Satha back to Frosthaven and throw a big party.",
+      "optionB": "Take her on an adventure through the wilderness."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-39-b.png"
@@ -935,9 +935,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-40-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "As your group is gathering around a warm campfire, a lone Orchid emerges from the woods",
+      "optionA": "The strong should contribute enough to provide for the weak.",
+      "optionB": "Everyone offering a small amount will lead to a strong community."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-40-b.png"
@@ -951,9 +951,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-41-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're wandering along the coast when you see a young Lurker gazing at the ocean, swaying left and right with raised claws",
+      "optionA": "Attempt to communicate with the Lurker.",
+      "optionB": "Knock the little Lurker out to stop the pain."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-41-b.png"
@@ -967,9 +967,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-42-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The roads outside Frosthaven are no place for a child, which is why you do a double-take when you see a teenage girl walking toward you",
+      "optionA": "Sure, why not. Trade one of your pets for a different pet.",
+      "optionB": "You don't have any pets you want to trade, but maybe she'd be willing to trade for something else?"
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-42-b.png"
@@ -983,9 +983,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-43-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The Keepers from Frosthaven's Temple of the Great Oak are belssed and wise",
+      "optionA": "Donate resources to the Keepers to protect the sapling.",
+      "optionB": "These resources would be better utilized protecting the Oak from getting destroyed in the first place."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-43-b.png"
@@ -999,9 +999,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-44-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The smell of hot ash drifts over the landscape. You follow it to the source and see a blackened clearing formed around a still-smoking metal pillar",
+      "optionA": "Attempt to activate the device.",
+      "optionB": "Break down the machine before it does more harm."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-44-b.png"
@@ -1015,9 +1015,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-45-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Come out and fight, fleshy cowards!\" The echoing call to battle reverberates around the ravine",
+      "optionA": "Teach it manners through force.",
+      "optionB": "Encourage it to join without combat."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-45-b.png"
@@ -1031,9 +1031,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-46-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Heading toward your desgination you see an old woman with a cord of dried vegetables hanging around her neck",
+      "optionA": "Offer to work for a sampling of the beautiful fruits.",
+      "optionB": "Offer to work for her secret to growing such a bountiful harvest."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-46-b.png"
@@ -1047,9 +1047,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-47-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Venturing into the mouth of a suspicious-looking cave has brough you to a hidden tomb featuring a sarcophagus carved directly into the cave itself",
+      "optionA": "Attempt to use the book on him as a test subject.",
+      "optionB": "Seal the sarcophagus back up and let him rest."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-47-b.png"
@@ -1063,9 +1063,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-48-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "The spot Eddica the Librarian marked out for you was certainly easy to find: you just had to make your way toward the ominous column of smoke and ash billowing out of the top of the hillside",
+      "optionA": "Open the tome to learn its secrets.",
+      "optionB": "Bring the book back to Eddica for her informed review."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-48-b.png"
@@ -1079,9 +1079,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-49-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You're in the region Eddica the Librarian suggested would contain the Tome of Time, but a search has turned up nothing",
+      "optionA": "Attempt to cast a spell from the book.",
+      "optionB": "Bring the book back to Eddica for her informed review."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-49-b.png"
@@ -1095,9 +1095,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-50-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "Here, a few hundred paces off the side of the main trail, is a communal oasis used by travelers and animals alike",
+      "optionA": "Toss in a few coins of your own for good luck.",
+      "optionB": "Gather the coins from the basin. You'll put them to better use."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-50-b.png"
@@ -1111,9 +1111,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-51-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "\"Hello, my subjects: you have discovered me!\" An Aesther in ornate flowing garb blocks your path, his cloak pulsating and rippling to an unheard beat, arms outstretched in greeting",
+      "optionA": "Admidt you're in the midst of your Hall of Revelry trials and request assistance.",
+      "optionB": "Press him to explain his supposed divinity."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-51-b.png"
@@ -1127,9 +1127,9 @@
     "front": {
       "image": "events/frosthaven/road/fh-sre-52-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": ""
+      "text": "You are walking through a grove of trees when an oddly familiar figure beckons you over",
+      "optionA": "Sell the amulet back at Frosthaven. Only a fool messes with time.",
+      "optionB": "Follow the pull of the amulet to a distant location."
     },
     "back": {
       "image": "events/frosthaven/road/fh-sre-52-b.png"
