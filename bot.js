@@ -82,9 +82,10 @@ async function buildCardIndex() {
   // ── Item cards ─────────────────────────────────────────────────────────────
   try {
     const items = await fetchJson(`${FH_RAW}/data/items.js`);
+    const seenItemNames = new Set();
 
     // Items have many alias entries ("item 1", "item 01", asset numbers, back images).
-    // Keep only entries with real names for Frosthaven.
+    // Some items have a/b variants with the same name — keep only the first occurrence.
     for (const item of items) {
       if (item.expansion !== "frosthaven") continue;
       const name = item.name || "";
@@ -92,6 +93,8 @@ async function buildCardIndex() {
       if (/^\d+$/.test(name)) continue;                     // skip asset number aliases
       if (item.assetno === "####") continue;                 // skip back images
       if (!name) continue;
+      if (seenItemNames.has(name)) continue;                 // skip a/b variant duplicates
+      seenItemNames.add(name);
 
       const imageUrl = item.image
         ? `${IMAGE_BASE}/${item.image}`
