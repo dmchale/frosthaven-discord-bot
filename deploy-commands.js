@@ -21,6 +21,7 @@ const commands = [
         description: "Card name (fuzzy matched)",
         type: ApplicationCommandOptionType.String,
         required: true,
+        autocomplete: true,
       },
     ],
   },
@@ -33,6 +34,7 @@ const commands = [
         description: "Item name (fuzzy matched)",
         type: ApplicationCommandOptionType.String,
         required: true,
+        autocomplete: true,
       },
     ],
   },
@@ -140,23 +142,27 @@ const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
     process.exit(1);
   }
 
-  try {
-    console.log("Registering slash commands...");
+  console.log("Registering slash commands...");
 
-    if (guildIds.length > 0) {
-      for (const guildId of guildIds) {
+  if (guildIds.length > 0) {
+    for (const guildId of guildIds) {
+      try {
         await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
           body: commands,
         });
         console.log(`Commands registered to guild ${guildId} (instant).`);
+      } catch (err) {
+        console.error(`Failed to register commands to guild ${guildId}:`, err.message);
       }
-    } else {
+    }
+  } else {
+    try {
       await rest.put(Routes.applicationCommands(clientId), {
         body: commands,
       });
       console.log("Commands registered globally (may take up to 1 hour).");
+    } catch (err) {
+      console.error("Failed to register global commands:", err.message);
     }
-  } catch (err) {
-    console.error(err);
   }
 })();

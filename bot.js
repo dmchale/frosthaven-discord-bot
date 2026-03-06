@@ -180,6 +180,22 @@ client.once("ready", async () => {
 });
 
 client.on("interactionCreate", async (interaction) => {
+  // ── Autocomplete ────────────────────────────────────────────────────────────
+  if (interaction.isAutocomplete()) {
+    const { commandName } = interaction;
+    const query = interaction.options.getFocused();
+    const fuse = commandName === "card" ? abilityFuse : commandName === "item" ? itemFuse : null;
+
+    if (!fuse || !query) {
+      return interaction.respond([]);
+    }
+
+    const results = fuse.search(query, { limit: 25 });
+    return interaction.respond(
+      results.map(r => ({ name: r.item.name, value: r.item.name }))
+    );
+  }
+
   if (!interaction.isChatInputCommand()) return;
 
   const { commandName } = interaction;
@@ -200,6 +216,14 @@ client.on("interactionCreate", async (interaction) => {
     }
   } catch (err) {
     console.error(`Error handling /${commandName}:`, err.message);
+    try {
+      const msg = "Something went wrong. Please try again.";
+      if (interaction.deferred || interaction.replied) {
+        await interaction.editReply(msg);
+      } else {
+        await interaction.reply({ content: msg, ephemeral: true });
+      }
+    } catch (_) {}
   }
 });
 
@@ -303,11 +327,16 @@ async function handleEventLookup(interaction, typeOverride = null) {
     .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
 
 
-  const backRes = await fetch(best.backUrl);
-  const backBuffer = Buffer.from(await backRes.arrayBuffer());
-  const backAttachment = new AttachmentBuilder(backBuffer, { name: "SPOILER_back.png" });
-
-  await interaction.editReply({ embeds: [frontEmbed], files: [backAttachment] });
+  try {
+    const backRes = await fetch(best.backUrl);
+    if (!backRes.ok) throw new Error(`HTTP ${backRes.status}`);
+    const backBuffer = Buffer.from(await backRes.arrayBuffer());
+    const backAttachment = new AttachmentBuilder(backBuffer, { name: "SPOILER_back.png" });
+    await interaction.editReply({ embeds: [frontEmbed], files: [backAttachment] });
+  } catch (err) {
+    console.warn("Could not fetch back card image:", err.message);
+    await interaction.editReply({ embeds: [frontEmbed] });
+  }
 }
 
 // ─── Login ────────────────────────────────────────────────────────────────────
