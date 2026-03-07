@@ -381,8 +381,9 @@ async function handleEventLookup(interaction, typeOverride = null) {
   let results = eventFuse.search(query, { limit: 20 });
 
   if (type)   results = results.filter(r => r.item.type === type);
-  // Boat events have no season — ignore season filter if type is boat
-  if (season && type !== "boat") results = results.filter(r => r.item.season === season);
+  // Boat events have no season — ignore season filter if type is boat, and warn the user
+  const seasonIgnored = season && type === "boat";
+  if (season && !seasonIgnored) results = results.filter(r => r.item.season === season);
 
   results = results.slice(0, 5);
 
@@ -437,6 +438,13 @@ async function handleEventLookup(interaction, typeOverride = null) {
   } catch (err) {
     console.warn("Could not fetch back card image:", err.message);
     await interaction.editReply({ embeds: [frontEmbed] });
+  }
+
+  if (seasonIgnored) {
+    await interaction.followUp({
+      content: "Note: boat events don't have seasons, so the season filter was ignored.",
+      ephemeral: true,
+    });
   }
 }
 

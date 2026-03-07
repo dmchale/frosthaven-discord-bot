@@ -4,17 +4,31 @@ A Discord bot for looking up Frosthaven ability cards, items, and event cards by
 
 ## Commands
 
+There are three types of cards you can look up:
+
+### Ability Cards
+
 | Command | Description |
 |---|---|
-| `/card <name>` | Look up an ability card (fuzzy name match, autocomplete supported) |
-| `/class <query>` | Browse ability cards by class — autocomplete shows each class with "All Cards" or a specific level; levels 2–9 and X return card images, others link to the full card browser |
-| `/item <name>` | Look up an item card (fuzzy name match, autocomplete supported) |
-| `/event <query> [type] [season]` | Search all event cards by text |
-| `/boat <query>` | Search boat event cards by text |
-| `/road <query> [season]` | Search road event cards by text |
-| `/outpost <query> [season]` | Search outpost event cards by text |
+| `/card <name>` | Fuzzy name search — finds a card by name (autocomplete supported) |
+| `/class <query>` | Browse by class and level — autocomplete lets you pick a class with "All Cards" or a specific level; levels 2–9 and X return card images, others link to the full card browser |
 
 Fuzzy matching means typos and partial names work — `/card burning` will find "Burning Rain" even if you don't type the full name.
+
+### Item Cards
+
+| Command | Description |
+|---|---|
+| `/item <name>` | Fuzzy name search — finds an item by name (autocomplete supported) |
+
+### Event Cards
+
+| Command | Description |
+|---|---|
+| `/event <query> [type] [season]` | Search all event cards by text, with optional filters for type and season |
+| `/boat <query>` | Search boat events only |
+| `/road <query> [season]` | Search road events only, with optional season filter |
+| `/outpost <query> [season]` | Search outpost events only, with optional season filter |
 
 Event commands search the full text of the front of the card (title, flavor text, and all options). Results return the front card image plus a spoiler-tagged back card image in a single message.
 
@@ -61,9 +75,9 @@ npm start
 
 When entering event card text in `data/events.json`, use the following conventions:
 
-### Resource Icons
+### Tokens
 
-Resource names are written in ALL CAPS within curly braces to represent in-game icons:
+In-game icons and special text are represented as ALL CAPS tokens in curly braces:
 
 **Materials:**
 | Token | Resource |
@@ -82,6 +96,11 @@ Resource names are written in ALL CAPS within curly braces to represent in-game 
 | `{ROCKROOT}` | Rockroot |
 | `{SNOWTHISTLE}` | Snowthistle |
 
+**Other:**
+| Token | Meaning |
+|-------|---------|
+| `{TRAIT}` | A character trait icon (e.g. on cards that reference a specific trait) |
+
 Example: `"Gain 3 {WOOD} and 1 {SNOWTHISTLE}."`
 
 ### Other Formatting
@@ -90,14 +109,30 @@ Example: `"Gain 3 {WOOD} and 1 {SNOWTHISTLE}."`
 
 ## Event Card Data
 
-Event card text (`data/events.json`) is manually transcribed from the physical cards and is a work in progress. Cards without text entered yet will not appear in search results.
+Event card text (`data/events.json`) is manually transcribed from the physical cards and is a work in progress in two phases:
 
-**Coverage:**
-- Boat events: 19/19
-- Road events (Summer): 52/52
-- Road events (Winter): 0/49
-- Outpost events (Summer): 65/65
-- Outpost events (Winter): 0/81
+1. **Rough in** — Enter enough text on each card to make it searchable (title, flavor text, options)
+2. **Finish** — Review and complete all text for accuracy and completeness
+
+Cards without any text entered will not appear in search results.
+
+**Phase 1 — Rough In:**
+| Category | Progress |
+|---|---|
+| Boat events | 19/19 ✓ |
+| Road events (Summer) | 52/52 ✓ |
+| Road events (Winter) | 49/49 ✓ |
+| Outpost events (Summer) | 65/65 ✓ |
+| Outpost events (Winter) | 0/81 |
+
+**Phase 2 — Finish:**
+| Category | Progress |
+|---|---|
+| Boat events | 19/19 ✓ |
+| Road events (Summer) | 0/52 |
+| Road events (Winter) | 0/49 |
+| Outpost events (Summer) | 0/65 |
+| Outpost events (Winter) | 0/81 |
 
 ## Card Data Source
 
