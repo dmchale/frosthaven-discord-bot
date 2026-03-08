@@ -2044,6 +2044,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 1,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-01-f.png",
       "title": "",
@@ -2061,6 +2062,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 2,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-02-f.png",
       "title": "",
@@ -2078,6 +2080,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 3,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-03-f.png",
       "title": "",
@@ -2095,6 +2098,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 4,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-04-f.png",
       "title": "",
@@ -2112,6 +2116,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 5,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-05-f.png",
       "title": "",
@@ -2129,6 +2134,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 6,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-06-f.png",
       "title": "",
@@ -2146,6 +2152,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 7,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-07-f.png",
       "title": "",
@@ -2163,6 +2170,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 8,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-08-f.png",
       "title": "",
@@ -2180,6 +2188,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 9,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-09-f.png",
       "title": "",
@@ -2197,6 +2206,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 10,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-10-f.png",
       "title": "",
@@ -2214,6 +2224,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 11,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-11-f.png",
       "title": "",
@@ -2231,6 +2242,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 12,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-12-f.png",
       "title": "",
@@ -2248,6 +2260,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 13,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-13-f.png",
       "title": "",
@@ -2265,6 +2278,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 14,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-14-f.png",
       "title": "",
@@ -2282,6 +2296,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 15,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-15-f.png",
       "title": "",
@@ -2299,6 +2314,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 16,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-16-f.png",
       "title": "",
@@ -2316,6 +2332,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 17,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-17-f.png",
       "title": "",
@@ -2333,6 +2350,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 18,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-18-f.png",
       "title": "",
@@ -2350,6 +2368,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 19,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-19-f.png",
       "title": "",
@@ -2367,6 +2386,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 20,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-20-f.png",
       "title": "",
@@ -2384,6 +2404,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 21,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-21-f.png",
       "title": "",
@@ -2401,6 +2422,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 22,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-22-f.png",
       "title": "",
@@ -2418,6 +2440,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 23,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-23-f.png",
       "title": "",
@@ -2435,6 +2458,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 24,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-24-f.png",
       "title": "",
@@ -2452,6 +2476,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 25,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-25-f.png",
       "title": "",
@@ -2469,6 +2494,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 26,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-26-f.png",
       "title": "",
@@ -2486,6 +2512,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 27,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-27-f.png",
       "title": "",
@@ -2503,6 +2530,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 28,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-28-f.png",
       "title": "",
@@ -2520,6 +2548,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 29,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-29-f.png",
       "title": "",
@@ -2537,6 +2566,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 30,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-30-f.png",
       "title": "",
@@ -2554,6 +2584,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 31,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-31-f.png",
       "title": "",
@@ -2571,6 +2602,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 32,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-32-f.png",
       "title": "",
@@ -2588,6 +2620,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 33,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-33-f.png",
       "title": "",
@@ -2605,6 +2638,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 34,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-34-f.png",
       "title": "",
@@ -2622,6 +2656,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 35,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-35-f.png",
       "title": "",
@@ -2639,6 +2674,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 36,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-36-f.png",
       "title": "",
@@ -2656,6 +2692,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 37,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-37-f.png",
       "title": "",
@@ -2673,6 +2710,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 38,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-38-f.png",
       "title": "",
@@ -2690,6 +2728,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 39,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-39-f.png",
       "title": "",
@@ -2707,6 +2746,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 40,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-40-f.png",
       "title": "",
@@ -2724,6 +2764,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 41,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-41-f.png",
       "title": "",
@@ -2741,6 +2782,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 42,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-42-f.png",
       "title": "",
@@ -2758,6 +2800,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 43,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-43-f.png",
       "title": "",
@@ -2775,6 +2818,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 44,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-44-f.png",
       "title": "",
@@ -2792,6 +2836,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 45,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-45-f.png",
       "title": "",
@@ -2809,6 +2854,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 46,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-46-f.png",
       "title": "",
@@ -2826,6 +2872,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 47,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-47-f.png",
       "title": "",
@@ -2843,6 +2890,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 48,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-48-f.png",
       "title": "",
@@ -2860,6 +2908,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 49,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-49-f.png",
       "title": "",
@@ -2877,6 +2926,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 50,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-50-f.png",
       "title": "",
@@ -2894,6 +2944,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 51,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-51-f.png",
       "title": "",
@@ -2911,6 +2962,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 52,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-52-f.png",
       "title": "",
@@ -2928,6 +2980,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 53,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-53-f.png",
       "title": "",
@@ -2945,6 +2998,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 54,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-54-f.png",
       "title": "",
@@ -2962,6 +3016,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 55,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-55-f.png",
       "title": "",
@@ -2979,6 +3034,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 56,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-56-f.png",
       "title": "",
@@ -2996,6 +3052,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 57,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-57-f.png",
       "title": "",
@@ -3013,6 +3070,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 58,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-58-f.png",
       "title": "",
@@ -3030,6 +3088,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 59,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-59-f.png",
       "title": "",
@@ -3047,6 +3106,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 60,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-60-f.png",
       "title": "",
@@ -3064,6 +3124,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 61,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-61-f.png",
       "title": "",
@@ -3081,6 +3142,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 62,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-62-f.png",
       "title": "",
@@ -3098,6 +3160,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 63,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-63-f.png",
       "title": "",
@@ -3115,6 +3178,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 64,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-64-f.png",
       "title": "",
@@ -3132,6 +3196,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 65,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-65-f.png",
       "title": "",
@@ -3149,12 +3214,13 @@
     "type": "outpost",
     "season": "winter",
     "number": 1,
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-01-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "It's a rare sunny afternoon in Frosthaven, and you find yourself spending it down at the docks. Supposedly you're replenishing food supplies, through organized ice-fishing, for the good of the town, but most of those present are here for the company and laughter as you swap stories. It's been more than an hour since anyone pulled something from the water, but no one seems to mind.",
+      "optionA": "Cut the line.",
+      "optionB": "Help pull!",
       "optionC": ""
     },
     "back": {
@@ -3166,12 +3232,13 @@
     "type": "outpost",
     "season": "winter",
     "number": 2,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-02-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "Frosthaven at night in the winter verges on peaceful - the blanket of snow provides a quiet reminder to bundle up indoors, and sound barely carries from house to house. Tonight is an exception, though: dull thuds, coming from somewhere far off, rock the walls.",
+      "optionA": "Start your own chant on the battlements.",
+      "optionB": "Raise the alarm and secure the wall.",
       "optionC": ""
     },
     "back": {
@@ -3183,6 +3250,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 3,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-03-f.png",
       "title": "",
@@ -3200,6 +3268,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 4,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-04-f.png",
       "title": "",
@@ -3217,6 +3286,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 5,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-05-f.png",
       "title": "",
@@ -3234,6 +3304,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 6,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-06-f.png",
       "title": "",
@@ -3251,6 +3322,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 7,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-07-f.png",
       "title": "",
@@ -3268,6 +3340,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 8,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-08-f.png",
       "title": "",
@@ -3285,6 +3358,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 9,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-09-f.png",
       "title": "",
@@ -3302,6 +3376,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 10,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-10-f.png",
       "title": "",
@@ -3319,6 +3394,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 11,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-11-f.png",
       "title": "",
@@ -3336,6 +3412,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 12,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-12-f.png",
       "title": "",
@@ -3353,6 +3430,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 13,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-13-f.png",
       "title": "",
@@ -3370,6 +3448,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 14,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-14-f.png",
       "title": "",
@@ -3387,6 +3466,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 15,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-15-f.png",
       "title": "",
@@ -3404,6 +3484,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 16,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-16-f.png",
       "title": "",
@@ -3421,6 +3502,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 17,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-17-f.png",
       "title": "",
@@ -3438,6 +3520,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 18,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-18-f.png",
       "title": "",
@@ -3455,6 +3538,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 19,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-19-f.png",
       "title": "",
@@ -3472,6 +3556,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 20,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-20-f.png",
       "title": "",
@@ -3489,6 +3574,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 21,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-21-f.png",
       "title": "",
@@ -3506,6 +3592,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 22,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-22-f.png",
       "title": "",
@@ -3523,6 +3610,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 23,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-23-f.png",
       "title": "",
@@ -3540,6 +3628,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 24,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-24-f.png",
       "title": "",
@@ -3557,6 +3646,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 25,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-25-f.png",
       "title": "",
@@ -3574,6 +3664,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 26,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-26-f.png",
       "title": "",
@@ -3591,6 +3682,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 27,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-27-f.png",
       "title": "",
@@ -3608,6 +3700,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 28,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-28-f.png",
       "title": "",
@@ -3625,6 +3718,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 29,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-29-f.png",
       "title": "",
@@ -3642,6 +3736,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 30,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-30-f.png",
       "title": "",
@@ -3659,6 +3754,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 31,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-31-f.png",
       "title": "",
@@ -3676,6 +3772,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 32,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-32-f.png",
       "title": "",
@@ -3693,6 +3790,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 33,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-33-f.png",
       "title": "",
@@ -3710,6 +3808,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 34,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-34-f.png",
       "title": "",
@@ -3727,6 +3826,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 35,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-35-f.png",
       "title": "",
@@ -3744,6 +3844,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 36,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-36-f.png",
       "title": "",
@@ -3761,6 +3862,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 37,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-37-f.png",
       "title": "",
@@ -3778,6 +3880,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 38,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-38-f.png",
       "title": "",
@@ -3795,6 +3898,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 39,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-39-f.png",
       "title": "",
@@ -3812,6 +3916,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 40,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-40-f.png",
       "title": "",
@@ -3829,6 +3934,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 41,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-41-f.png",
       "title": "",
@@ -3846,6 +3952,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 42,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-42-f.png",
       "title": "",
@@ -3863,6 +3970,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 43,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-43-f.png",
       "title": "",
@@ -3880,6 +3988,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 44,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-44-f.png",
       "title": "",
@@ -3897,6 +4006,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 45,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-45-f.png",
       "title": "",
@@ -3914,6 +4024,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 46,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-46-f.png",
       "title": "",
@@ -3931,6 +4042,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 47,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-47-f.png",
       "title": "",
@@ -3948,6 +4060,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 48,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-48-f.png",
       "title": "",
@@ -3965,6 +4078,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 49,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-49-f.png",
       "title": "",
@@ -3982,6 +4096,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 50,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-50-f.png",
       "title": "",
@@ -3999,6 +4114,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 51,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-51-f.png",
       "title": "",
@@ -4016,6 +4132,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 52,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-52-f.png",
       "title": "",
@@ -4033,6 +4150,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 53,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-53-f.png",
       "title": "",
@@ -4050,6 +4168,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 54,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-54-f.png",
       "title": "",
@@ -4067,6 +4186,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 55,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-55-f.png",
       "title": "",
@@ -4084,6 +4204,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 56,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-56-f.png",
       "title": "",
@@ -4101,6 +4222,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 57,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-57-f.png",
       "title": "",
@@ -4118,6 +4240,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 58,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-58-f.png",
       "title": "",
@@ -4135,6 +4258,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 59,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-59-f.png",
       "title": "",
@@ -4152,6 +4276,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 60,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-60-f.png",
       "title": "",
@@ -4169,6 +4294,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 61,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-61-f.png",
       "title": "",
@@ -4186,6 +4312,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 62,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-62-f.png",
       "title": "",
@@ -4203,6 +4330,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 63,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-63-f.png",
       "title": "",
@@ -4220,6 +4348,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 64,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-64-f.png",
       "title": "",
@@ -4237,6 +4366,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 65,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-65-f.png",
       "title": "",
@@ -4254,6 +4384,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 66,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-66-f.png",
       "title": "",
@@ -4271,6 +4402,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 67,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-67-f.png",
       "title": "",
@@ -4288,6 +4420,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 68,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-68-f.png",
       "title": "",
@@ -4305,6 +4438,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 69,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-69-f.png",
       "title": "",
@@ -4322,6 +4456,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 70,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-70-f.png",
       "title": "",
@@ -4339,6 +4474,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 71,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-71-f.png",
       "title": "",
@@ -4356,6 +4492,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 72,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-72-f.png",
       "title": "",
@@ -4373,6 +4510,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 73,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-73-f.png",
       "title": "",
@@ -4390,6 +4528,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 74,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-74-f.png",
       "title": "",
@@ -4407,6 +4546,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 75,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-75-f.png",
       "title": "",
@@ -4424,6 +4564,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 76,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-76-f.png",
       "title": "",
@@ -4441,6 +4582,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 77,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-77-f.png",
       "title": "",
@@ -4458,6 +4600,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 78,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-78-f.png",
       "title": "",
@@ -4475,6 +4618,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 79,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-79-f.png",
       "title": "",
@@ -4492,6 +4636,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 80,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-80-f.png",
       "title": "",
@@ -4509,6 +4654,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 81,
+    "faction": "",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-81-f.png",
       "title": "",

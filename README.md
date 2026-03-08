@@ -2,6 +2,8 @@
 
 A Discord bot for looking up Frosthaven ability cards, items, and event cards by name or text, returning card images directly in chat.
 
+> **Spoiler Warning:** This project works with raw game data and makes no effort to conceal spoilers of any kind. Card text, event outcomes, item names, enemy factions, and other game content are stored and displayed in full. Browse, contribute to, or deploy this project at your own discretion.
+
 ## Commands
 
 There are three types of cards you can look up:
@@ -108,6 +110,17 @@ Example: `"Gain 3 {WOOD} and 1 {SNOWTHISTLE}."`
 ### Other Formatting
 - Use `\n` for a single line break, `\n\n` for a paragraph break
 - Escape double quotes within text as `\"`
+
+### Outpost Event Fields
+
+Outpost events have a `faction` field indicating which enemy faction the event is tied to. Valid values:
+
+| Value | Meaning |
+|-------|---------|
+| `"lurker"` | Lurker faction event |
+| `"unfettered"` | Unfettered faction event |
+| `"algox"` | Algox faction event |
+| `""` | No faction (neutral event) |
 
 ## Event Card Data
 
