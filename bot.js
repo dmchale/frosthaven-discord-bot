@@ -22,8 +22,6 @@ const fs = require("fs");
 const path = require("path");
 const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const Fuse = require("fuse.js");
-const fetch = (...args) =>
-  import("node-fetch").then(({ default: f }) => f(...args));
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 
@@ -302,7 +300,9 @@ client.on("interactionCreate", async (interaction) => {
       } else {
         await interaction.reply({ content: msg, ephemeral: true });
       }
-    } catch (_) {}
+    } catch (replyErr) {
+      console.warn("Could not send error reply to user:", replyErr.message);
+    }
   }
 });
 

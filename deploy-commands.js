@@ -8,8 +8,7 @@
  */
 
 require("dotenv").config();
-const { REST, Routes } = require("discord.js");
-const { ApplicationCommandOptionType } = require("discord-api-types/v10");
+const { REST, Routes, ApplicationCommandOptionType } = require("discord.js");
 
 const commands = [
   {

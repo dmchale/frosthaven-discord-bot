@@ -34,6 +34,8 @@ Event commands search the full text of the front of the card (title, flavor text
 
 ## Setup
 
+**Requirements:** Node.js 18+ (uses native `fetch`). Node 24+ recommended.
+
 ### 1. Create a Discord Application
 1. Go to https://discord.com/developers/applications
 2. Click **New Application**, give it a name
