@@ -2152,7 +2152,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 7,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-07-f.png",
       "title": "",
@@ -2440,7 +2440,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 23,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-23-f.png",
       "title": "",
@@ -2476,7 +2476,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 25,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-25-f.png",
       "title": "",
@@ -2584,7 +2584,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 31,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-31-f.png",
       "title": "",
@@ -2620,7 +2620,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 33,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-soe-33-f.png",
       "title": "",
@@ -3232,7 +3232,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 2,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-02-f.png",
       "title": "",
@@ -3250,7 +3250,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 3,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-03-f.png",
       "title": "",
@@ -3268,7 +3268,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 4,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-04-f.png",
       "title": "",
@@ -3286,7 +3286,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 5,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-05-f.png",
       "title": "",
@@ -3322,7 +3322,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 7,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-07-f.png",
       "title": "",
@@ -3340,7 +3340,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 8,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-08-f.png",
       "title": "",
@@ -3358,7 +3358,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 9,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-09-f.png",
       "title": "",
@@ -3574,7 +3574,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 21,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-21-f.png",
       "title": "",
@@ -3592,7 +3592,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 22,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-22-f.png",
       "title": "",
@@ -3610,7 +3610,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 23,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-23-f.png",
       "title": "",
@@ -3628,7 +3628,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 24,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-24-f.png",
       "title": "",
@@ -3646,7 +3646,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 25,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-25-f.png",
       "title": "",
@@ -3664,7 +3664,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 26,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-26-f.png",
       "title": "",
@@ -3682,7 +3682,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 27,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-27-f.png",
       "title": "",
@@ -3700,7 +3700,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 28,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-28-f.png",
       "title": "",
@@ -3772,7 +3772,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 32,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-32-f.png",
       "title": "",
@@ -3790,7 +3790,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 33,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-33-f.png",
       "title": "",
@@ -3808,7 +3808,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 34,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-34-f.png",
       "title": "",
@@ -3826,7 +3826,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 35,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-35-f.png",
       "title": "",
@@ -3844,7 +3844,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 36,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-36-f.png",
       "title": "",
@@ -3880,7 +3880,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 38,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-38-f.png",
       "title": "",
@@ -3898,7 +3898,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 39,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-39-f.png",
       "title": "",
@@ -3916,7 +3916,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 40,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-40-f.png",
       "title": "",
@@ -3934,7 +3934,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 41,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-41-f.png",
       "title": "",
@@ -3952,7 +3952,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 42,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-42-f.png",
       "title": "",
@@ -3988,7 +3988,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 44,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-44-f.png",
       "title": "",
@@ -4024,7 +4024,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 46,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-46-f.png",
       "title": "",
@@ -4132,7 +4132,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 52,
-    "faction": "",
+    "faction": "unfettered",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-52-f.png",
       "title": "",
@@ -4150,7 +4150,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 53,
-    "faction": "",
+    "faction": "algox",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-53-f.png",
       "title": "",
@@ -4168,7 +4168,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 54,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-54-f.png",
       "title": "",
@@ -4654,7 +4654,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 81,
-    "faction": "",
+    "faction": "lurker",
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-81-f.png",
       "title": "",
