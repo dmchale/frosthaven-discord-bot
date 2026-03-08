@@ -138,7 +138,7 @@ Cards without any text entered will not appear in search results.
 | Road events (Summer) | 52/52 ✓ |
 | Road events (Winter) | 49/49 ✓ |
 | Outpost events (Summer) | 65/65 ✓ |
-| Outpost events (Winter) | 30/81 |
+| Outpost events (Winter) | 81/81 ✓ |
 
 **Phase 2 — Finish:**
 | Category | Progress |

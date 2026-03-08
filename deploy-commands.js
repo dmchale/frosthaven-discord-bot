@@ -10,6 +10,13 @@
 require("dotenv").config();
 const { REST, Routes, ApplicationCommandOptionType } = require("discord.js");
 
+const ephemeralOption = {
+  name: "ephemeral",
+  description: "Only show the result to you",
+  type: ApplicationCommandOptionType.Boolean,
+  required: false,
+};
+
 const commands = [
   {
     name: "card",
@@ -22,6 +29,7 @@ const commands = [
         required: true,
         autocomplete: true,
       },
+      ephemeralOption,
     ],
   },
   {
@@ -35,6 +43,7 @@ const commands = [
         required: true,
         autocomplete: true,
       },
+      ephemeralOption,
     ],
   },
   {
@@ -47,6 +56,7 @@ const commands = [
         type: ApplicationCommandOptionType.String,
         required: true,
       },
+      ephemeralOption,
     ],
   },
   {
@@ -69,6 +79,7 @@ const commands = [
           { name: "Winter", value: "winter" },
         ],
       },
+      ephemeralOption,
     ],
   },
   {
@@ -91,6 +102,7 @@ const commands = [
           { name: "Winter", value: "winter" },
         ],
       },
+      ephemeralOption,
     ],
   },
   {
@@ -104,6 +116,7 @@ const commands = [
         required: true,
         autocomplete: true,
       },
+      ephemeralOption,
     ],
   },
   {
@@ -137,6 +150,7 @@ const commands = [
           { name: "Winter", value: "winter" },
         ],
       },
+      ephemeralOption,
     ],
   },
 ];

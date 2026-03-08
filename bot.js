@@ -310,7 +310,7 @@ client.on("interactionCreate", async (interaction) => {
 
 async function handleCardLookup(interaction, type) {
   const query = interaction.options.getString("name");
-  await interaction.deferReply();
+  await interaction.deferReply({ ephemeral: !!interaction.options.getBoolean("ephemeral") });
 
   const fuse = type === "ability" ? abilityFuse : itemFuse;
 
@@ -365,7 +365,7 @@ async function handleEventLookup(interaction, typeOverride = null) {
   const type   = typeOverride ?? interaction.options.getString("type"); // boat | road | outpost | null
   const season = interaction.options.getString("season"); // summer | winter | null
 
-  await interaction.deferReply();
+  await interaction.deferReply({ ephemeral: !!interaction.options.getBoolean("ephemeral") });
 
   if (!eventFuse) {
     return interaction.editReply("Event index is still loading, please try again in a moment.");
@@ -456,7 +456,7 @@ async function handleClassLookup(interaction) {
   const raw = interaction.options.getString("query");
   const [xws, level] = raw.includes("|") ? raw.split("|") : [raw, "all"];
 
-  await interaction.deferReply();
+  await interaction.deferReply({ ephemeral: !!interaction.options.getBoolean("ephemeral") });
 
   const classEntry = classList.find(c => c.xws === xws);
   if (!classEntry) {
