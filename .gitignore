@@ -6,6 +6,8 @@ node_modules/
 
 # Misc
 *.zip
+package-lock.json
 .claude/
+CLAUDE.md
 update.sh
 bot.pid
