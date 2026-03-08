@@ -3254,9 +3254,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-03-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You're enjoying a stiff drink when a fly drops into the liquid with a light \"plunk\". You fish our the suicidal bug and are about to flick it to the floor when it musters the nerve to sting you, resulting in a reflexive slap.\n\nThe injection point leaves a spiderweb of black ink tracing down your veins. The bug itself is no bug at all - it's a miniscule clockwork machine with a long brass stinger hanging off the end. You turn to share your discovery and are horrified to see tiny brass dots pinging against the window - it's an attack!\n\nOutside the glass, you can see a glittering cloud of metal against the snowfall, descending on Frosthaven.\n\nWhatever it injected you with has left your arm as dead weight, unable to draw your weapon.",
+      "optionA": "Seal the door.",
+      "optionB": "Charge outside to warn the town.",
       "optionC": ""
     },
     "back": {
@@ -3272,9 +3272,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-04-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "Frosthaven's no stranger to snow, but as dawn breaks, even the long-time veterans of the north utter cries of surprise. An overnight storm has covered the town in a blanket of snow that rises halfway up most of the doors in town.",
+      "optionA": "Join the fight at the outpost's main gate. You might be the only reinforcements those defenders get today.",
+      "optionB": "Dig out the barracks gates and get the other guards into the action.",
       "optionC": ""
     },
     "back": {
@@ -3290,9 +3290,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-05-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "It started with discordant clanging - metal crashing against metal. Then came the abrupt twangs of taut wire being strummed, followed by the cacophonous wailing produces from deep within the robots surrounding the outpost.",
+      "optionA": "Lead a group to sabotage the machines at daybreak, when they turn off.",
+      "optionB": "Lead a group to sabotage the machines at nightfall, when they turn on.",
       "optionC": ""
     },
     "back": {
@@ -3308,9 +3308,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-06-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You're on your guard shift on the harbor wall when some commotion from below catches your attention.\n\n\"We're the ones risking our lives day-in, day-out for Frosthaven! It's time we got some recognition!\"\n\nYou see a young guard standing on a radish crate inside the barracks yard. He's drawing a crowd of other guards.\n\n\"Why should the town's protectors go hungry? Maybe instead of rationing our meals, the rest of town should ration THEIRS!\"\n\nA few meager cheers rise from the gathering. The speaker notices you watching from across the yard and shouts to you. \"Join us! I say we march down to 'Mayor Satha' and tell her that from now on, guards eat first!\"",
+      "optionA": "It's about time you got some perks! Join him in leading the crowd.",
+      "optionB": "Try to talk him down.",
       "optionC": ""
     },
     "back": {
@@ -3326,9 +3326,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-07-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "The Lurkers are unusually agitated today, skittering about manically on the docks, overturning crates and opening barrels. They move with purpose and their chittering is growing more frantic, but they're not attacking.",
+      "optionA": "Grab Bumpy and toss it to the attacking Lurkers.",
+      "optionB": "Shoo the Inox boy inside and get ready for the fight.",
       "optionC": ""
     },
     "back": {
@@ -3344,9 +3344,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-08-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You're halfway through your polar bear burger when the alarm bell tolls.",
+      "optionA": "Stay together and fend off one of the two attacks.",
+      "optionB": "Split up and support defensive efforts on both sides of the town.",
       "optionC": ""
     },
     "back": {
@@ -3362,9 +3362,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-09-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"Friends of yours?\" Mayor Satha asks flatly as the alarm bell rings behind you.",
+      "optionA": "Join Satha and attack the Algox beyond the wall.",
+      "optionB": "Use the fireworks.",
       "optionC": ""
     },
     "back": {
@@ -3380,9 +3380,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-10-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You step down into The Crater, Frosthaven's burned-out drinking spot, for an evening's relaxation.",
+      "optionA": "Support Xain and invest in the scheme.",
+      "optionB": "Try to convince Xain to make you a partner without a monetary investment.",
       "optionC": ""
     },
     "back": {
@@ -3398,9 +3398,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-11-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "Walking down the main street in Frosthaven, you see a burlap sack full of radishes slumped near the center of the road. You nudge the bag with your boot and find they're hard as ice. Looks like they've been here for some time.",
+      "optionA": "Leave the radishes, someone will come for them eventually.",
+      "optionB": "Take the radishes. It's been long enough.",
       "optionC": ""
     },
     "back": {
@@ -3416,9 +3416,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-12-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "The favored punishment for White Oak guards is to send their laziest for a year-long rotation at Frosthaven.",
+      "optionA": "Offer him some gold so he can buy better equipment.",
+      "optionB": "You have exactly what this kid is going to need. Offer him a piece of your own equipment.",
       "optionC": ""
     },
     "back": {
@@ -3434,9 +3434,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-13-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"There. Down to the left.\" The mining camp foreman points your way toward a narrow opening in the rock wall. \"Was just some scratches two days ago. Now it's a whole cavern. A miner said it's been growing every day, he figured it was the night crew.\" He refuses to go any further into the passage. \"We don't have a night crew.\"\n\nYou toss a torch into the dark chamber and it casts light on the cavern walls: long, finger-width marks carved out into a full room. In the middle of it a stone pillar looms ominously, seemingly chiseled by claw out of the rock of the mine. This is precisely the sort of issue anyone would happily pay a mercenary to deal with.\n\nSo the question is: how much?",
+      "optionA": "Demand a healthy but not excessive flat fee up-front.",
+      "optionB": "Demand that you're paid based on whatever it is you wind up having to clear out of that room.",
       "optionC": ""
     },
     "back": {
@@ -3452,9 +3452,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-14-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"There. Down to the left.\" The mining camp foreman points your way toward a narrow opening in the rock wall. \"Was just some scratches two days ago. Now it's a whole cavern. A miner said it's been growing every day, he figured it was the night crew.\" He refuses to go any further into the passage. \"We don't have a night crew.\"\n\nYou toss a torch into the dark chamber and it casts light on the cavern walls: long, finger-width marks carved out into a full room. In the middle of it a stone pillar looms ominously, seemingly chiseled by claw out of the rock of the mine. This is precisely the sort of issue anyone would happily pay a mercenary to deal with.\n\nSo the question is: how much?",
+      "optionA": "Demand a healthy but not excessive flat fee up-front.",
+      "optionB": "Demand that you're paid based on whatever it is you wind up having to clear out of that room.",
       "optionC": ""
     },
     "back": {
@@ -3470,9 +3470,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-15-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "Harrower Geminates are borne from a schism in the Harrower. That internal conflict manifests itself outwardly as two forms competing for control.",
+      "optionA": "Arrest the left portion of the Harrower.",
+      "optionB": "Arrest the right portion of the Harrower.",
       "optionC": ""
     },
     "back": {
@@ -3488,7 +3488,7 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-16-f.png",
       "title": "",
-      "text": "",
+      "text": "The side gate to town has been left unlatched, and the rigorous procedures around it leave only one conclusion: there's a traitor in your midst.",
       "optionA": "",
       "optionB": "",
       "optionC": ""
@@ -3506,9 +3506,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-17-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "Creaking into harbor comes a derelict ship with shredded sails. No one answers your hails, and the dockworkers won't board for a superstitious fear of the \"Ghost Lurker,\" an ethereal monster that pillages ships and leaves them to drift into rocky cliffsides. So, then, it's up to you.",
+      "optionA": "Open the crate.",
+      "optionB": "Set fire to the ship.",
       "optionC": ""
     },
     "back": {
@@ -3524,9 +3524,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-18-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"He was sleeping with my wife!\" A guard scratches his head, trying to explain.",
+      "optionA": "Disembowel yourself.",
+      "optionB": "Fight it.",
       "optionC": ""
     },
     "back": {
@@ -3542,9 +3542,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-19-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"Mercenaries! I require you! in the name of art!\"",
+      "optionA": "Agree to defend the show from within the icy water.",
+      "optionB": "Try to convince Eros to let you defend the show from the guard tower.",
       "optionC": ""
     },
     "back": {
@@ -3560,9 +3560,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-20-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"You know that I support this outpost's guard, but I've done everything I can.\"",
+      "optionA": "You wouldn't want to make a habit of it, but you could kick in a bit from your personal coffers to assist in the upgrades to the barracks.",
+      "optionB": "This is internal town business. They'll come up with the funds eventually.",
       "optionC": ""
     },
     "back": {
@@ -3578,9 +3578,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-21-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "the ships left the harbor a few days ago, dragged ashore or sailing into deeper waters to avoid freezing in place.",
+      "optionA": "Looks like it's your turn to play Catch the Lurker. Head out and get the kids.",
+      "optionB": "Open the gates for the kids to make it back, but keep the guards behind the wall. You've got a whole town to defend.",
       "optionC": ""
     },
     "back": {
@@ -3596,9 +3596,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-22-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You see them skittering just beyond the shoreline. Their spikes and claws make small splashes as they break against the waves.",
+      "optionA": "Lean an attack and disrupt whatever the Lurkers are up to.",
+      "optionB": "Stay behind the walls, check on your defenses, and wait them out.",
       "optionC": ""
     },
     "back": {
@@ -3614,9 +3614,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-23-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "A deckhand sprints through town, shouting at anyone who will listen.",
+      "optionA": "Fire cannons into the water to drive them off.",
+      "optionB": "If it's a tug-of-war they want, you're happy to oblige.",
       "optionC": ""
     },
     "back": {
@@ -3632,9 +3632,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-24-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "They come from the hills in the night - a horde of blinking red lights, sparkling over the dark, snowy landscape life fireflies.",
+      "optionA": "The same way you fight anything: hit it until it stops moving. Get everyone down from the guard towers and start smashing things.",
+      "optionB": "Hold back and observe the attackers. Maybe you can find a pattern to their movements.",
       "optionC": ""
     },
     "back": {
@@ -3650,9 +3650,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-25-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "\"Another Algox raid on its way,\" Satha waves a weary hand to dismiss the scout. \"At least this time we have warning.\" She turns to the assembled guard lieutenants with a sigh. \"Well, what's the plan?\"",
+      "optionA": "Let's take the risk. Bring some guards and prepare an ambush.",
+      "optionB": "You didn't build these walls so you could fight outside them. Lend a hand crafting traps.",
       "optionC": ""
     },
     "back": {
@@ -3668,9 +3668,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-26-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You're on a break during your rotation at the gate, watching children in the courtyard below roll balls of snow for their snowinox. They're happily placing sticks in the head when you hear the attack bell sound behind you. Break's over.",
+      "optionA": "Leave the guards to defend while you rush into town and evacuate the citizens.",
+      "optionB": "Hide and wait for the metallic fiends to pass, then strike from behind.",
       "optionC": ""
     },
     "back": {
@@ -3686,9 +3686,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-27-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "An alarm bell draws you to the workshop, where workers are running out from the structure followed by a steady stream of many-legged robots swinging heavy, metal flails. You grab a panicked worker as he runs by. \"They tunneled right in!\" He screams. \"They're coming in through the floor!\"",
+      "optionA": "Light 'em up.",
+      "optionB": "Contain the threat by surrounding the building and blocking the advance as long as you can.",
       "optionC": ""
     },
     "back": {
@@ -3704,9 +3704,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-28-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You're on your way to the workshop when you hear the alarm bell toll.",
+      "optionA": "The town guard will hold their own. Go out to rescue the boy.",
+      "optionB": "You cannot risk the safety of everyone. Stay and defend the town.",
       "optionC": ""
     },
     "back": {
@@ -3722,9 +3722,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-29-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "You're admiring some new construction going up in town when you feel a nagging thought at the back of your mind.",
+      "optionA": "Confront them about personal boundaries.",
+      "optionB": "Put them to work on a project of your own.",
       "optionC": ""
     },
     "back": {
@@ -3740,9 +3740,9 @@
     "front": {
       "image": "events/frosthaven/outpost/fh-woe-30-f.png",
       "title": "",
-      "text": "",
-      "optionA": "",
-      "optionB": "",
+      "text": "A cook stumbles out of the barracks, looking around frantically. He spots you across the street and lumbers over.",
+      "optionA": "Sell the cook some food.",
+      "optionB": "Give the cook food from your supply at no charge.",
       "optionC": ""
     },
     "back": {
