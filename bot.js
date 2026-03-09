@@ -415,7 +415,7 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
 
   // Offer remaining alternates as buttons (excluding the one now displayed)
   const components = [];
-  const alts = results.filter(r => r.item.name !== best.name).slice(0, 4);
+  const alts = results.filter(r => r.item !== best).slice(0, 4);
   if (alts.length) {
     const buttons = alts.map((r) => {
       const card = r.item;
