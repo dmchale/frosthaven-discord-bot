@@ -11,8 +11,8 @@ require("dotenv").config();
 const { REST, Routes, ApplicationCommandOptionType } = require("discord.js");
 
 const ephemeralOption = {
-  name: "ephemeral",
-  description: "Override the server's default visibility (true = only you, false = everyone)",
+  name: "public",
+  description: "Override the server's default visibility (true = post to channel, false = only you)",
   type: ApplicationCommandOptionType.Boolean,
   required: false,
 };

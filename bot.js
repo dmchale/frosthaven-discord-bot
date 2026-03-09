@@ -20,7 +20,7 @@
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
-const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
+const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder, ActionRowBuilder, StringSelectMenuBuilder } = require("discord.js");
 const Fuse = require("fuse.js");
 
 // ─── Config ──────────────────────────────────────────────────────────────────
@@ -33,16 +33,16 @@ const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHA
 
 const IMAGE_BASE = `${FH_RAW}/images`;
 
-// Default ephemeral setting for all command replies.
-//   Unset or "true":  replies are ephemeral by default (only visible to the invoking user)
-//   "false":          replies are public by default
-// The per-command `ephemeral` boolean option overrides this — subject to EPHEMERAL_ADMIN_IDS below.
-const DEFAULT_EPHEMERAL = process.env.DEFAULT_EPHEMERAL !== "false";
+// Default visibility for all command replies.
+//   Unset or empty: replies are ephemeral by default (only visible to the invoking user)
+//   "true":         replies are posted to the channel by default
+// The per-command `public` boolean option overrides this — subject to PUBLIC_ADMIN_IDS below.
+const PUBLIC_BY_DEFAULT = process.env.PUBLIC_BY_DEFAULT === "true";
 
-// When DEFAULT_EPHEMERAL is true, only users in this list may pass `ephemeral: false` to post
-// a result publicly. Empty = nobody may override (all results are always ephemeral).
-const EPHEMERAL_ADMIN_IDS = process.env.EPHEMERAL_ADMIN_IDS
-  ? process.env.EPHEMERAL_ADMIN_IDS.split(",").map(id => id.trim()).filter(Boolean)
+// When PUBLIC_BY_DEFAULT is false, only users in this list may pass `public: true` to post
+// a result to the channel. Empty = nobody may override (all results are always ephemeral).
+const PUBLIC_ADMIN_IDS = process.env.PUBLIC_ADMIN_IDS
+  ? process.env.PUBLIC_ADMIN_IDS.split(",").map(id => id.trim()).filter(Boolean)
   : [];
 
 // Back-card image cache TTL in hours.
@@ -64,6 +64,7 @@ let abilityIndex = []; // { name, class, level, id, imageUrl }
 let itemIndex = [];    // { name, id, imageUrl }
 let eventIndex = [];   // { id, type, season, number, title, text, optionA, optionB, frontUrl, backUrl }
 let classList = [];        // { name, xws, code, aliases? }
+let classNameMap = new Map(); // xws → display name
 let classAutocomplete = []; // { name, value } flat list for autocomplete
 let abilityFuse = null;
 let itemFuse = null;
@@ -177,6 +178,7 @@ async function buildCardIndex() {
   try {
     const raw = fs.readFileSync(path.join(__dirname, "data", "classes.json"), "utf8");
     classList = JSON.parse(raw);
+    for (const c of classList) classNameMap.set(c.xws, c.name);
 
     // Build flat autocomplete list: "All Cards" + each level per class
     const levels = ["1", "X", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -275,13 +277,32 @@ client.on("interactionCreate", async (interaction) => {
     );
   }
 
-  // ── Button interactions (card alt-pick) ─────────────────────────────────────
-  if (interaction.isButton()) {
-    const [prefix, type, ...nameParts] = interaction.customId.split(":");
+  // ── Select menu interactions (card alt-pick) ────────────────────────────────
+  if (interaction.isStringSelectMenu()) {
+    const [prefix, type] = interaction.customId.split(":");
     if (prefix === "card") {
-      const cardName = nameParts.join(":");
       await interaction.deferUpdate();
-      await resolveCardByName(interaction, type, cardName);
+
+      // Value is a composite "name|class|level" (ability) or "name" (item)
+      const value = interaction.values[0];
+      const cardIndex = type === "ability" ? abilityIndex : itemIndex;
+      const fuse    = type === "ability" ? abilityFuse  : itemFuse;
+
+      let exact, searchName;
+      if (type === "ability") {
+        const [name, cls, level] = value.split("|");
+        searchName = name;
+        exact = cardIndex.find(c => c.name === name && c.class === cls && String(c.level) === level);
+      } else {
+        searchName = value;
+        exact = cardIndex.find(c => c.name === value);
+      }
+
+      // Put the selected card first, then fill in fuzzy siblings so the dropdown re-renders
+      const siblings = fuse.search(searchName, { limit: 5 }).filter(r => r.item !== exact);
+      const results  = exact ? [{ item: exact }, ...siblings] : fuse.search(searchName, { limit: 5 });
+
+      await resolveCardByName(interaction, type, searchName, results);
     }
     return;
   }
@@ -331,24 +352,34 @@ client.on("interactionCreate", async (interaction) => {
 
 // ─── Lookup handler ───────────────────────────────────────────────────────────
 
+// Returns the display name for a class XWS code, falling back to the raw value.
+function getClassName(xws) {
+  return classNameMap.get(xws) || xws;
+}
+
+// Normalises level values from source data: "x" → "X", everything else unchanged.
+function formatLevel(level) {
+  return String(level).toLowerCase() === "x" ? "X" : String(level);
+}
+
 // Returns { ephemeral: boolean, blocked: boolean }.
-// `blocked` is true when the user tried to make a response public but lacked permission —
+// `blocked` is true when the user tried to post publicly but lacked permission —
 // the caller should send a follow-up notice so the user isn't silently confused.
 function resolveEphemeral(interaction) {
-  const override = interaction.options.getBoolean("ephemeral");
+  const override = interaction.options.getBoolean("public");
 
   // No override requested — use server default.
-  if (override === null) return { ephemeral: DEFAULT_EPHEMERAL, blocked: false };
+  if (override === null) return { ephemeral: !PUBLIC_BY_DEFAULT, blocked: false };
 
   // User wants to go public, but the server default is ephemeral.
-  // Only users in EPHEMERAL_ADMIN_IDS may override; an empty list means nobody can.
-  if (DEFAULT_EPHEMERAL && override === false) {
-    if (!EPHEMERAL_ADMIN_IDS.includes(interaction.user.id)) {
+  // Only users in PUBLIC_ADMIN_IDS may override; an empty list means nobody can.
+  if (!PUBLIC_BY_DEFAULT && override === true) {
+    if (!PUBLIC_ADMIN_IDS.includes(interaction.user.id)) {
       return { ephemeral: true, blocked: true };
     }
   }
 
-  return { ephemeral: override, blocked: false };
+  return { ephemeral: !override, blocked: false };
 }
 
 async function handleCardLookup(interaction, type) {
@@ -356,7 +387,7 @@ async function handleCardLookup(interaction, type) {
   const { ephemeral, blocked } = resolveEphemeral(interaction);
   await interaction.deferReply({ ephemeral });
   if (blocked) {
-    await interaction.followUp({ content: "You don't have permission to override the server's ephemeral setting.", ephemeral: true });
+    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", ephemeral: true });
   }
 
   const fuse = type === "ability" ? abilityFuse : itemFuse;
@@ -406,28 +437,33 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
 
   if (type === "ability") {
     embed.addFields(
-      { name: "Class", value: String(best.class), inline: true },
-      { name: "Level", value: String(best.level), inline: true }
+      { name: "Class", value: getClassName(best.class), inline: true },
+      { name: "Level", value: formatLevel(best.level), inline: true }
     );
   } else if (type === "item" && best.itemNumber !== null) {
     embed.addFields({ name: "Item #", value: String(best.itemNumber), inline: true });
   }
 
-  // Offer remaining alternates as buttons (excluding the one now displayed)
+  // Offer remaining alternates as a select menu (excluding the one now displayed)
   const components = [];
-  const alts = results.filter(r => r.item !== best).slice(0, 4);
+  const alts = results.filter(r => r.item !== best).slice(0, 25);
   if (alts.length) {
-    const buttons = alts.map((r) => {
+    const options = alts.map((r) => {
       const card = r.item;
-      const label = type === "ability"
-        ? `${card.name} (${card.class}, Lv${card.level})`
-        : card.name;
-      return new ButtonBuilder()
-        .setCustomId(`card:${type}:${card.name}`)
-        .setLabel(label.length <= 80 ? label : card.name)
-        .setStyle(ButtonStyle.Secondary);
+      const label = card.name.length <= 100 ? card.name : card.name.slice(0, 97) + "…";
+      const description = type === "ability"
+        ? `${getClassName(card.class)} — Level ${formatLevel(card.level)}`
+        : card.itemNumber !== null ? `Item #${card.itemNumber}` : undefined;
+      const value = type === "ability" ? `${card.name}|${card.class}|${card.level}` : card.name;
+      const option = { label, value };
+      if (description) option.description = description;
+      return option;
     });
-    components.push(new ActionRowBuilder().addComponents(buttons));
+    const menu = new StringSelectMenuBuilder()
+      .setCustomId(`card:${type}`)
+      .setPlaceholder("Did you mean…?")
+      .addOptions(options);
+    components.push(new ActionRowBuilder().addComponents(menu));
   }
 
   await interaction.editReply({ embeds: [embed], components });
@@ -443,7 +479,7 @@ async function handleEventLookup(interaction, typeOverride = null) {
   const { ephemeral, blocked } = resolveEphemeral(interaction);
   await interaction.deferReply({ ephemeral });
   if (blocked) {
-    await interaction.followUp({ content: "You don't have permission to override the server's ephemeral setting.", ephemeral: true });
+    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", ephemeral: true });
   }
 
   if (!eventFuse) {
@@ -538,7 +574,7 @@ async function handleClassLookup(interaction) {
   const { ephemeral, blocked } = resolveEphemeral(interaction);
   await interaction.deferReply({ ephemeral });
   if (blocked) {
-    await interaction.followUp({ content: "You don't have permission to override the server's ephemeral setting.", ephemeral: true });
+    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", ephemeral: true });
   }
 
   const classEntry = classList.find(c => c.xws === xws);
