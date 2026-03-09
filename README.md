@@ -1,5 +1,10 @@
 # Frosthaven Card Bot
 
+[![GitHub release](https://img.shields.io/github/v/release/dmchale/frosthaven-discord-bot)](https://github.com/dmchale/frosthaven-discord-bot/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org)
+[![Discord](https://img.shields.io/badge/Discord.js-v14-5865F2?logo=discord&logoColor=white)](https://discord.js.org)
+
 A Discord bot for looking up Frosthaven ability cards, items, and event cards by name or text, returning card images directly in chat. Originally created to be a quick reference tool during online group sessions of Frosthaven Digital.
 
 Note: by default, this bot will only respond with ephemeral (private) responses when people use its slash commands. You may change this and other behavior by changing the [Environment Variables](#environment-variables).
