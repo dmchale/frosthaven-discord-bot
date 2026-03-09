@@ -68,6 +68,10 @@ If you set `GUILD_ID`, commands appear instantly in those servers. You can speci
 
 Optionally set `ALLOWED_CHANNEL_IDS` to a comma-separated list of channel IDs to restrict commands to specific channels. Leave blank to allow commands everywhere.
 
+Optionally set `DEFAULT_EPHEMERAL=false` to make all command replies public by default. When unset (or set to `true`), all replies are ephemeral — visible only to the user who ran the command. Any command's `ephemeral` option can override this per-invocation.
+
+Optionally set `EPHEMERAL_ADMIN_IDS` to a comma-separated list of Discord user IDs. Only meaningful when `DEFAULT_EPHEMERAL` is `true`. Listed users may pass `ephemeral: false` to post a result publicly; everyone else is silently held to the ephemeral default. Leave blank (the default) to prevent anyone from overriding — all results stay ephemeral, full stop.
+
 Optionally set `WORLDHAVEN_REF` to a specific commit SHA from the [any2cards/worldhaven](https://github.com/any2cards/worldhaven) repository to pin card data to a known-good version. Leave blank to always use the latest `master`.
 
 ### 5. Run the Bot

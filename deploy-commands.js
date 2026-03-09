@@ -12,7 +12,7 @@ const { REST, Routes, ApplicationCommandOptionType } = require("discord.js");
 
 const ephemeralOption = {
   name: "ephemeral",
-  description: "Only show the result to you",
+  description: "Override the server's default visibility (true = only you, false = everyone)",
   type: ApplicationCommandOptionType.Boolean,
   required: false,
 };

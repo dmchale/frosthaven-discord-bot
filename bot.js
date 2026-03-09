@@ -33,6 +33,18 @@ const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHA
 
 const IMAGE_BASE = `${FH_RAW}/images`;
 
+// Default ephemeral setting for all command replies.
+//   Unset or "true":  replies are ephemeral by default (only visible to the invoking user)
+//   "false":          replies are public by default
+// The per-command `ephemeral` boolean option overrides this — subject to EPHEMERAL_ADMIN_IDS below.
+const DEFAULT_EPHEMERAL = process.env.DEFAULT_EPHEMERAL !== "false";
+
+// When DEFAULT_EPHEMERAL is true, only users in this list may pass `ephemeral: false` to post
+// a result publicly. Empty = nobody may override (all results are always ephemeral).
+const EPHEMERAL_ADMIN_IDS = process.env.EPHEMERAL_ADMIN_IDS
+  ? process.env.EPHEMERAL_ADMIN_IDS.split(",").map(id => id.trim()).filter(Boolean)
+  : [];
+
 // Back-card image cache TTL in hours.
 //   Unset or empty: default to 168 (7 days)
 //   0:  cache never expires
@@ -319,9 +331,33 @@ client.on("interactionCreate", async (interaction) => {
 
 // ─── Lookup handler ───────────────────────────────────────────────────────────
 
+// Returns { ephemeral: boolean, blocked: boolean }.
+// `blocked` is true when the user tried to make a response public but lacked permission —
+// the caller should send a follow-up notice so the user isn't silently confused.
+function resolveEphemeral(interaction) {
+  const override = interaction.options.getBoolean("ephemeral");
+
+  // No override requested — use server default.
+  if (override === null) return { ephemeral: DEFAULT_EPHEMERAL, blocked: false };
+
+  // User wants to go public, but the server default is ephemeral.
+  // Only users in EPHEMERAL_ADMIN_IDS may override; an empty list means nobody can.
+  if (DEFAULT_EPHEMERAL && override === false) {
+    if (!EPHEMERAL_ADMIN_IDS.includes(interaction.user.id)) {
+      return { ephemeral: true, blocked: true };
+    }
+  }
+
+  return { ephemeral: override, blocked: false };
+}
+
 async function handleCardLookup(interaction, type) {
   const query = interaction.options.getString("name");
-  await interaction.deferReply({ ephemeral: !!interaction.options.getBoolean("ephemeral") });
+  const { ephemeral, blocked } = resolveEphemeral(interaction);
+  await interaction.deferReply({ ephemeral });
+  if (blocked) {
+    await interaction.followUp({ content: "You don't have permission to override the server's ephemeral setting.", ephemeral: true });
+  }
 
   const fuse = type === "ability" ? abilityFuse : itemFuse;
 
@@ -404,7 +440,11 @@ async function handleEventLookup(interaction, typeOverride = null) {
   const type   = typeOverride ?? interaction.options.getString("type"); // boat | road | outpost | null
   const season = interaction.options.getString("season"); // summer | winter | null
 
-  await interaction.deferReply({ ephemeral: !!interaction.options.getBoolean("ephemeral") });
+  const { ephemeral, blocked } = resolveEphemeral(interaction);
+  await interaction.deferReply({ ephemeral });
+  if (blocked) {
+    await interaction.followUp({ content: "You don't have permission to override the server's ephemeral setting.", ephemeral: true });
+  }
 
   if (!eventFuse) {
     return interaction.editReply("Event index is still loading, please try again in a moment.");
@@ -495,7 +535,11 @@ async function handleClassLookup(interaction) {
   const raw = interaction.options.getString("query");
   const [xws, level] = raw.includes("|") ? raw.split("|") : [raw, "all"];
 
-  await interaction.deferReply({ ephemeral: !!interaction.options.getBoolean("ephemeral") });
+  const { ephemeral, blocked } = resolveEphemeral(interaction);
+  await interaction.deferReply({ ephemeral });
+  if (blocked) {
+    await interaction.followUp({ content: "You don't have permission to override the server's ephemeral setting.", ephemeral: true });
+  }
 
   const classEntry = classList.find(c => c.xws === xws);
   if (!classEntry) {
