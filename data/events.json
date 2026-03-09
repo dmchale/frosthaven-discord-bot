@@ -4,6 +4,7 @@
     "type": "boat",
     "season": null,
     "number": 1,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-01-f.png",
       "title": null,
@@ -21,6 +22,7 @@
     "type": "boat",
     "season": null,
     "number": 2,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-02-f.png",
       "title": null,
@@ -38,6 +40,7 @@
     "type": "boat",
     "season": null,
     "number": 3,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-03-f.png",
       "title": null,
@@ -55,6 +58,7 @@
     "type": "boat",
     "season": null,
     "number": 4,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-04-f.png",
       "title": null,
@@ -72,6 +76,7 @@
     "type": "boat",
     "season": null,
     "number": 5,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-05-f.png",
       "title": null,
@@ -89,6 +94,7 @@
     "type": "boat",
     "season": null,
     "number": 6,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-06-f.png",
       "title": null,
@@ -106,6 +112,7 @@
     "type": "boat",
     "season": null,
     "number": 7,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-07-f.png",
       "title": null,
@@ -123,6 +130,7 @@
     "type": "boat",
     "season": null,
     "number": 8,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-08-f.png",
       "title": null,
@@ -140,6 +148,7 @@
     "type": "boat",
     "season": null,
     "number": 9,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-09-f.png",
       "title": null,
@@ -157,6 +166,7 @@
     "type": "boat",
     "season": null,
     "number": 10,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-10-f.png",
       "title": null,
@@ -174,6 +184,7 @@
     "type": "boat",
     "season": null,
     "number": 11,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-11-f.png",
       "title": null,
@@ -191,6 +202,7 @@
     "type": "boat",
     "season": null,
     "number": 12,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-12-f.png",
       "title": null,
@@ -208,6 +220,7 @@
     "type": "boat",
     "season": null,
     "number": 13,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-13-f.png",
       "title": null,
@@ -225,6 +238,7 @@
     "type": "boat",
     "season": null,
     "number": 14,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-14-f.png",
       "title": null,
@@ -242,6 +256,7 @@
     "type": "boat",
     "season": null,
     "number": 15,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-15-f.png",
       "title": null,
@@ -259,6 +274,7 @@
     "type": "boat",
     "season": null,
     "number": 16,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-16-f.png",
       "title": null,
@@ -276,6 +292,7 @@
     "type": "boat",
     "season": null,
     "number": 17,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-17-f.png",
       "title": null,
@@ -293,6 +310,7 @@
     "type": "boat",
     "season": null,
     "number": 18,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-18-f.png",
       "title": null,
@@ -310,6 +328,7 @@
     "type": "boat",
     "season": null,
     "number": 19,
+    "faction": null,
     "front": {
       "image": "boat/fh-be-19-f.png",
       "title": null,
@@ -327,6 +346,7 @@
     "type": "road",
     "season": "summer",
     "number": 1,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-01-f.png",
       "title": null,
@@ -344,6 +364,7 @@
     "type": "road",
     "season": "summer",
     "number": 2,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-02-f.png",
       "title": null,
@@ -361,6 +382,7 @@
     "type": "road",
     "season": "summer",
     "number": 3,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-03-f.png",
       "title": null,
@@ -378,6 +400,7 @@
     "type": "road",
     "season": "summer",
     "number": 4,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-04-f.png",
       "title": null,
@@ -395,6 +418,7 @@
     "type": "road",
     "season": "summer",
     "number": 5,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-05-f.png",
       "title": null,
@@ -412,6 +436,7 @@
     "type": "road",
     "season": "summer",
     "number": 6,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-06-f.png",
       "title": null,
@@ -429,6 +454,7 @@
     "type": "road",
     "season": "summer",
     "number": 7,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-07-f.png",
       "title": null,
@@ -446,6 +472,7 @@
     "type": "road",
     "season": "summer",
     "number": 8,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-08-f.png",
       "title": null,
@@ -463,6 +490,7 @@
     "type": "road",
     "season": "summer",
     "number": 9,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-09-f.png",
       "title": null,
@@ -480,6 +508,7 @@
     "type": "road",
     "season": "summer",
     "number": 10,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-10-f.png",
       "title": null,
@@ -497,6 +526,7 @@
     "type": "road",
     "season": "summer",
     "number": 11,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-11-f.png",
       "title": null,
@@ -514,6 +544,7 @@
     "type": "road",
     "season": "summer",
     "number": 12,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-12-f.png",
       "title": null,
@@ -531,6 +562,7 @@
     "type": "road",
     "season": "summer",
     "number": 13,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-13-f.png",
       "title": null,
@@ -548,6 +580,7 @@
     "type": "road",
     "season": "summer",
     "number": 14,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-14-f.png",
       "title": null,
@@ -565,6 +598,7 @@
     "type": "road",
     "season": "summer",
     "number": 15,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-15-f.png",
       "title": null,
@@ -582,6 +616,7 @@
     "type": "road",
     "season": "summer",
     "number": 16,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-16-f.png",
       "title": null,
@@ -599,6 +634,7 @@
     "type": "road",
     "season": "summer",
     "number": 17,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-17-f.png",
       "title": null,
@@ -616,6 +652,7 @@
     "type": "road",
     "season": "summer",
     "number": 18,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-18-f.png",
       "title": null,
@@ -633,6 +670,7 @@
     "type": "road",
     "season": "summer",
     "number": 19,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-19-f.png",
       "title": null,
@@ -650,6 +688,7 @@
     "type": "road",
     "season": "summer",
     "number": 20,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-20-f.png",
       "title": null,
@@ -667,6 +706,7 @@
     "type": "road",
     "season": "summer",
     "number": 21,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-21-f.png",
       "title": null,
@@ -684,6 +724,7 @@
     "type": "road",
     "season": "summer",
     "number": 22,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-22-f.png",
       "title": null,
@@ -701,6 +742,7 @@
     "type": "road",
     "season": "summer",
     "number": 23,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-23-f.png",
       "title": null,
@@ -718,6 +760,7 @@
     "type": "road",
     "season": "summer",
     "number": 24,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-24-f.png",
       "title": null,
@@ -735,6 +778,7 @@
     "type": "road",
     "season": "summer",
     "number": 25,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-25-f.png",
       "title": null,
@@ -752,6 +796,7 @@
     "type": "road",
     "season": "summer",
     "number": 26,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-26-f.png",
       "title": null,
@@ -769,6 +814,7 @@
     "type": "road",
     "season": "summer",
     "number": 27,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-27-f.png",
       "title": null,
@@ -786,6 +832,7 @@
     "type": "road",
     "season": "summer",
     "number": 28,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-28-f.png",
       "title": null,
@@ -803,6 +850,7 @@
     "type": "road",
     "season": "summer",
     "number": 29,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-29-f.png",
       "title": null,
@@ -820,6 +868,7 @@
     "type": "road",
     "season": "summer",
     "number": 30,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-30-f.png",
       "title": null,
@@ -837,6 +886,7 @@
     "type": "road",
     "season": "summer",
     "number": 31,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-31-f.png",
       "title": null,
@@ -854,6 +904,7 @@
     "type": "road",
     "season": "summer",
     "number": 32,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-32-f.png",
       "title": null,
@@ -871,6 +922,7 @@
     "type": "road",
     "season": "summer",
     "number": 33,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-33-f.png",
       "title": null,
@@ -888,6 +940,7 @@
     "type": "road",
     "season": "summer",
     "number": 34,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-34-f.png",
       "title": null,
@@ -905,6 +958,7 @@
     "type": "road",
     "season": "summer",
     "number": 35,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-35-f.png",
       "title": null,
@@ -922,6 +976,7 @@
     "type": "road",
     "season": "summer",
     "number": 36,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-36-f.png",
       "title": null,
@@ -939,6 +994,7 @@
     "type": "road",
     "season": "summer",
     "number": 37,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-37-f.png",
       "title": null,
@@ -956,6 +1012,7 @@
     "type": "road",
     "season": "summer",
     "number": 38,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-38-f.png",
       "title": null,
@@ -973,6 +1030,7 @@
     "type": "road",
     "season": "summer",
     "number": 39,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-39-f.png",
       "title": null,
@@ -990,6 +1048,7 @@
     "type": "road",
     "season": "summer",
     "number": 40,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-40-f.png",
       "title": null,
@@ -1007,6 +1066,7 @@
     "type": "road",
     "season": "summer",
     "number": 41,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-41-f.png",
       "title": null,
@@ -1024,6 +1084,7 @@
     "type": "road",
     "season": "summer",
     "number": 42,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-42-f.png",
       "title": null,
@@ -1041,6 +1102,7 @@
     "type": "road",
     "season": "summer",
     "number": 43,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-43-f.png",
       "title": null,
@@ -1058,6 +1120,7 @@
     "type": "road",
     "season": "summer",
     "number": 44,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-44-f.png",
       "title": null,
@@ -1075,6 +1138,7 @@
     "type": "road",
     "season": "summer",
     "number": 45,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-45-f.png",
       "title": null,
@@ -1092,6 +1156,7 @@
     "type": "road",
     "season": "summer",
     "number": 46,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-46-f.png",
       "title": null,
@@ -1109,6 +1174,7 @@
     "type": "road",
     "season": "summer",
     "number": 47,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-47-f.png",
       "title": null,
@@ -1126,6 +1192,7 @@
     "type": "road",
     "season": "summer",
     "number": 48,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-48-f.png",
       "title": null,
@@ -1143,6 +1210,7 @@
     "type": "road",
     "season": "summer",
     "number": 49,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-49-f.png",
       "title": null,
@@ -1160,6 +1228,7 @@
     "type": "road",
     "season": "summer",
     "number": 50,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-50-f.png",
       "title": null,
@@ -1177,6 +1246,7 @@
     "type": "road",
     "season": "summer",
     "number": 51,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-51-f.png",
       "title": null,
@@ -1194,6 +1264,7 @@
     "type": "road",
     "season": "summer",
     "number": 52,
+    "faction": null,
     "front": {
       "image": "road/fh-sre-52-f.png",
       "title": null,
@@ -1211,6 +1282,7 @@
     "type": "road",
     "season": "winter",
     "number": 1,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-01-f.png",
       "title": null,
@@ -1228,6 +1300,7 @@
     "type": "road",
     "season": "winter",
     "number": 2,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-02-f.png",
       "title": null,
@@ -1245,6 +1318,7 @@
     "type": "road",
     "season": "winter",
     "number": 3,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-03-f.png",
       "title": null,
@@ -1262,6 +1336,7 @@
     "type": "road",
     "season": "winter",
     "number": 4,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-04-f.png",
       "title": null,
@@ -1279,6 +1354,7 @@
     "type": "road",
     "season": "winter",
     "number": 5,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-05-f.png",
       "title": null,
@@ -1296,6 +1372,7 @@
     "type": "road",
     "season": "winter",
     "number": 6,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-06-f.png",
       "title": null,
@@ -1313,6 +1390,7 @@
     "type": "road",
     "season": "winter",
     "number": 7,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-07-f.png",
       "title": null,
@@ -1330,6 +1408,7 @@
     "type": "road",
     "season": "winter",
     "number": 8,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-08-f.png",
       "title": null,
@@ -1347,6 +1426,7 @@
     "type": "road",
     "season": "winter",
     "number": 9,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-09-f.png",
       "title": null,
@@ -1364,6 +1444,7 @@
     "type": "road",
     "season": "winter",
     "number": 10,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-10-f.png",
       "title": null,
@@ -1381,6 +1462,7 @@
     "type": "road",
     "season": "winter",
     "number": 11,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-11-f.png",
       "title": null,
@@ -1398,6 +1480,7 @@
     "type": "road",
     "season": "winter",
     "number": 12,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-12-f.png",
       "title": null,
@@ -1415,6 +1498,7 @@
     "type": "road",
     "season": "winter",
     "number": 13,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-13-f.png",
       "title": null,
@@ -1432,6 +1516,7 @@
     "type": "road",
     "season": "winter",
     "number": 14,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-14-f.png",
       "title": null,
@@ -1449,6 +1534,7 @@
     "type": "road",
     "season": "winter",
     "number": 15,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-15-f.png",
       "title": null,
@@ -1466,6 +1552,7 @@
     "type": "road",
     "season": "winter",
     "number": 16,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-16-f.png",
       "title": null,
@@ -1483,6 +1570,7 @@
     "type": "road",
     "season": "winter",
     "number": 17,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-17-f.png",
       "title": null,
@@ -1500,6 +1588,7 @@
     "type": "road",
     "season": "winter",
     "number": 18,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-18-f.png",
       "title": null,
@@ -1517,6 +1606,7 @@
     "type": "road",
     "season": "winter",
     "number": 19,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-19-f.png",
       "title": null,
@@ -1534,6 +1624,7 @@
     "type": "road",
     "season": "winter",
     "number": 20,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-20-f.png",
       "title": null,
@@ -1551,6 +1642,7 @@
     "type": "road",
     "season": "winter",
     "number": 21,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-21-f.png",
       "title": null,
@@ -1568,6 +1660,7 @@
     "type": "road",
     "season": "winter",
     "number": 22,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-22-f.png",
       "title": null,
@@ -1585,6 +1678,7 @@
     "type": "road",
     "season": "winter",
     "number": 23,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-23-f.png",
       "title": null,
@@ -1602,6 +1696,7 @@
     "type": "road",
     "season": "winter",
     "number": 24,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-24-f.png",
       "title": null,
@@ -1619,6 +1714,7 @@
     "type": "road",
     "season": "winter",
     "number": 25,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-25-f.png",
       "title": null,
@@ -1636,6 +1732,7 @@
     "type": "road",
     "season": "winter",
     "number": 26,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-26-f.png",
       "title": null,
@@ -1653,6 +1750,7 @@
     "type": "road",
     "season": "winter",
     "number": 27,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-27-f.png",
       "title": null,
@@ -1670,6 +1768,7 @@
     "type": "road",
     "season": "winter",
     "number": 28,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-28-f.png",
       "title": null,
@@ -1687,6 +1786,7 @@
     "type": "road",
     "season": "winter",
     "number": 29,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-29-f.png",
       "title": null,
@@ -1704,6 +1804,7 @@
     "type": "road",
     "season": "winter",
     "number": 30,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-30-f.png",
       "title": null,
@@ -1721,6 +1822,7 @@
     "type": "road",
     "season": "winter",
     "number": 31,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-31-f.png",
       "title": null,
@@ -1738,6 +1840,7 @@
     "type": "road",
     "season": "winter",
     "number": 32,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-32-f.png",
       "title": null,
@@ -1755,6 +1858,7 @@
     "type": "road",
     "season": "winter",
     "number": 33,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-33-f.png",
       "title": null,
@@ -1772,6 +1876,7 @@
     "type": "road",
     "season": "winter",
     "number": 34,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-34-f.png",
       "title": null,
@@ -1789,6 +1894,7 @@
     "type": "road",
     "season": "winter",
     "number": 35,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-35-f.png",
       "title": null,
@@ -1806,6 +1912,7 @@
     "type": "road",
     "season": "winter",
     "number": 36,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-36-f.png",
       "title": null,
@@ -1823,6 +1930,7 @@
     "type": "road",
     "season": "winter",
     "number": 37,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-37-f.png",
       "title": null,
@@ -1840,6 +1948,7 @@
     "type": "road",
     "season": "winter",
     "number": 38,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-38-f.png",
       "title": null,
@@ -1857,6 +1966,7 @@
     "type": "road",
     "season": "winter",
     "number": 39,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-39-f.png",
       "title": null,
@@ -1874,6 +1984,7 @@
     "type": "road",
     "season": "winter",
     "number": 40,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-40-f.png",
       "title": null,
@@ -1891,6 +2002,7 @@
     "type": "road",
     "season": "winter",
     "number": 41,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-41-f.png",
       "title": null,
@@ -1908,6 +2020,7 @@
     "type": "road",
     "season": "winter",
     "number": 42,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-42-f.png",
       "title": null,
@@ -1925,6 +2038,7 @@
     "type": "road",
     "season": "winter",
     "number": 43,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-43-f.png",
       "title": null,
@@ -1942,6 +2056,7 @@
     "type": "road",
     "season": "winter",
     "number": 44,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-44-f.png",
       "title": null,
@@ -1959,6 +2074,7 @@
     "type": "road",
     "season": "winter",
     "number": 45,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-45-f.png",
       "title": null,
@@ -1976,6 +2092,7 @@
     "type": "road",
     "season": "winter",
     "number": 46,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-46-f.png",
       "title": null,
@@ -1993,6 +2110,7 @@
     "type": "road",
     "season": "winter",
     "number": 47,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-47-f.png",
       "title": null,
@@ -2010,6 +2128,7 @@
     "type": "road",
     "season": "winter",
     "number": 48,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-48-f.png",
       "title": null,
@@ -2027,6 +2146,7 @@
     "type": "road",
     "season": "winter",
     "number": 49,
+    "faction": null,
     "front": {
       "image": "road/fh-wre-49-f.png",
       "title": null,
@@ -2044,7 +2164,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 1,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-01-f.png",
       "title": null,
@@ -2062,7 +2182,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 2,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-02-f.png",
       "title": null,
@@ -2080,7 +2200,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 3,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-03-f.png",
       "title": null,
@@ -2098,7 +2218,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 4,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-04-f.png",
       "title": null,
@@ -2116,7 +2236,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 5,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-05-f.png",
       "title": null,
@@ -2134,7 +2254,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 6,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-06-f.png",
       "title": null,
@@ -2170,7 +2290,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 8,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-08-f.png",
       "title": null,
@@ -2188,7 +2308,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 9,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-09-f.png",
       "title": null,
@@ -2206,7 +2326,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 10,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-10-f.png",
       "title": null,
@@ -2224,7 +2344,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 11,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-11-f.png",
       "title": null,
@@ -2242,7 +2362,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 12,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-12-f.png",
       "title": null,
@@ -2260,7 +2380,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 13,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-13-f.png",
       "title": null,
@@ -2278,7 +2398,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 14,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-14-f.png",
       "title": null,
@@ -2296,7 +2416,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 15,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-15-f.png",
       "title": null,
@@ -2314,7 +2434,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 16,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-16-f.png",
       "title": null,
@@ -2332,7 +2452,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 17,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-17-f.png",
       "title": null,
@@ -2350,7 +2470,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 18,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-18-f.png",
       "title": null,
@@ -2368,7 +2488,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 19,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-19-f.png",
       "title": null,
@@ -2386,7 +2506,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 20,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-20-f.png",
       "title": null,
@@ -2404,7 +2524,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 21,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-21-f.png",
       "title": null,
@@ -2422,7 +2542,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 22,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-22-f.png",
       "title": null,
@@ -2458,7 +2578,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 24,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-24-f.png",
       "title": null,
@@ -2494,7 +2614,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 26,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-26-f.png",
       "title": null,
@@ -2512,7 +2632,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 27,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-27-f.png",
       "title": null,
@@ -2530,7 +2650,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 28,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-28-f.png",
       "title": null,
@@ -2548,7 +2668,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 29,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-29-f.png",
       "title": null,
@@ -2566,7 +2686,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 30,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-30-f.png",
       "title": null,
@@ -2602,7 +2722,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 32,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-32-f.png",
       "title": null,
@@ -2638,7 +2758,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 34,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-34-f.png",
       "title": null,
@@ -2656,7 +2776,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 35,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-35-f.png",
       "title": null,
@@ -2674,7 +2794,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 36,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-36-f.png",
       "title": null,
@@ -2692,7 +2812,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 37,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-37-f.png",
       "title": null,
@@ -2710,7 +2830,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 38,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-38-f.png",
       "title": null,
@@ -2728,7 +2848,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 39,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-39-f.png",
       "title": null,
@@ -2746,7 +2866,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 40,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-40-f.png",
       "title": null,
@@ -2764,7 +2884,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 41,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-41-f.png",
       "title": null,
@@ -2782,7 +2902,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 42,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-42-f.png",
       "title": null,
@@ -2800,7 +2920,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 43,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-43-f.png",
       "title": null,
@@ -2818,7 +2938,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 44,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-44-f.png",
       "title": null,
@@ -2836,7 +2956,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 45,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-45-f.png",
       "title": null,
@@ -2854,7 +2974,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 46,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-46-f.png",
       "title": null,
@@ -2872,7 +2992,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 47,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-47-f.png",
       "title": null,
@@ -2890,7 +3010,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 48,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-48-f.png",
       "title": null,
@@ -2908,7 +3028,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 49,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-49-f.png",
       "title": null,
@@ -2926,7 +3046,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 50,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-50-f.png",
       "title": null,
@@ -2944,7 +3064,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 51,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-51-f.png",
       "title": null,
@@ -2962,7 +3082,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 52,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-52-f.png",
       "title": null,
@@ -2980,7 +3100,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 53,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-53-f.png",
       "title": null,
@@ -2998,7 +3118,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 54,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-54-f.png",
       "title": null,
@@ -3016,7 +3136,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 55,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-55-f.png",
       "title": null,
@@ -3034,7 +3154,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 56,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-56-f.png",
       "title": null,
@@ -3052,7 +3172,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 57,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-57-f.png",
       "title": null,
@@ -3070,7 +3190,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 58,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-58-f.png",
       "title": null,
@@ -3088,7 +3208,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 59,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-59-f.png",
       "title": null,
@@ -3106,7 +3226,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 60,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-60-f.png",
       "title": null,
@@ -3124,7 +3244,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 61,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-61-f.png",
       "title": null,
@@ -3142,7 +3262,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 62,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-62-f.png",
       "title": null,
@@ -3160,7 +3280,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 63,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-63-f.png",
       "title": null,
@@ -3178,7 +3298,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 64,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-64-f.png",
       "title": null,
@@ -3196,7 +3316,7 @@
     "type": "outpost",
     "season": "summer",
     "number": 65,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-soe-65-f.png",
       "title": null,
@@ -3304,7 +3424,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 6,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-06-f.png",
       "title": null,
@@ -3376,7 +3496,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 10,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-10-f.png",
       "title": null,
@@ -3394,7 +3514,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 11,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-11-f.png",
       "title": null,
@@ -3412,7 +3532,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 12,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-12-f.png",
       "title": null,
@@ -3430,7 +3550,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 13,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-13-f.png",
       "title": null,
@@ -3448,7 +3568,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 14,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-14-f.png",
       "title": null,
@@ -3466,7 +3586,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 15,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-15-f.png",
       "title": null,
@@ -3484,7 +3604,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 16,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-16-f.png",
       "title": null,
@@ -3502,7 +3622,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 17,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-17-f.png",
       "title": null,
@@ -3520,7 +3640,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 18,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-18-f.png",
       "title": null,
@@ -3538,7 +3658,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 19,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-19-f.png",
       "title": null,
@@ -3556,7 +3676,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 20,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-20-f.png",
       "title": null,
@@ -3718,7 +3838,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 29,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-29-f.png",
       "title": null,
@@ -3736,7 +3856,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 30,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-30-f.png",
       "title": null,
@@ -3754,7 +3874,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 31,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-31-f.png",
       "title": null,
@@ -3862,7 +3982,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 37,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-37-f.png",
       "title": null,
@@ -3970,7 +4090,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 43,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-43-f.png",
       "title": null,
@@ -4006,7 +4126,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 45,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-45-f.png",
       "title": null,
@@ -4042,7 +4162,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 47,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-47-f.png",
       "title": null,
@@ -4060,7 +4180,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 48,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-48-f.png",
       "title": null,
@@ -4078,7 +4198,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 49,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-49-f.png",
       "title": null,
@@ -4096,7 +4216,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 50,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-50-f.png",
       "title": null,
@@ -4114,7 +4234,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 51,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-51-f.png",
       "title": null,
@@ -4186,7 +4306,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 55,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-55-f.png",
       "title": null,
@@ -4204,7 +4324,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 56,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-56-f.png",
       "title": null,
@@ -4222,7 +4342,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 57,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-57-f.png",
       "title": null,
@@ -4240,7 +4360,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 58,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-58-f.png",
       "title": null,
@@ -4258,7 +4378,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 59,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-59-f.png",
       "title": null,
@@ -4276,7 +4396,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 60,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-60-f.png",
       "title": null,
@@ -4294,7 +4414,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 61,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-61-f.png",
       "title": null,
@@ -4312,7 +4432,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 62,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-62-f.png",
       "title": null,
@@ -4330,7 +4450,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 63,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-63-f.png",
       "title": null,
@@ -4348,7 +4468,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 64,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-64-f.png",
       "title": null,
@@ -4366,7 +4486,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 65,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-65-f.png",
       "title": null,
@@ -4384,7 +4504,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 66,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-66-f.png",
       "title": null,
@@ -4402,7 +4522,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 67,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-67-f.png",
       "title": null,
@@ -4420,7 +4540,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 68,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-68-f.png",
       "title": null,
@@ -4438,7 +4558,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 69,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-69-f.png",
       "title": null,
@@ -4456,7 +4576,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 70,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-70-f.png",
       "title": null,
@@ -4474,7 +4594,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 71,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-71-f.png",
       "title": null,
@@ -4492,7 +4612,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 72,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-72-f.png",
       "title": null,
@@ -4510,7 +4630,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 73,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-73-f.png",
       "title": null,
@@ -4528,7 +4648,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 74,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-74-f.png",
       "title": null,
@@ -4546,7 +4666,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 75,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-75-f.png",
       "title": null,
@@ -4564,7 +4684,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 76,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-76-f.png",
       "title": null,
@@ -4582,7 +4702,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 77,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-77-f.png",
       "title": null,
@@ -4600,7 +4720,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 78,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-78-f.png",
       "title": null,
@@ -4618,7 +4738,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 79,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-79-f.png",
       "title": null,
@@ -4636,7 +4756,7 @@
     "type": "outpost",
     "season": "winter",
     "number": 80,
-    "faction": "",
+    "faction": null,
     "front": {
       "image": "outpost/fh-woe-80-f.png",
       "title": null,

@@ -127,11 +127,7 @@ Outpost events have a `faction` field indicating which enemy faction the event i
 | `"lurker"` | Lurker faction event |
 | `"unfettered"` | Unfettered faction event |
 | `"algox"` | Algox faction event |
-| `""` | No faction (neutral event) |
-
-## Card Data Source
-
-Ability card and item data and images are pulled live from the [Worldhaven Asset Viewer](https://github.com/any2cards/worldhaven) repository. No assets are bundled with this bot.
+| `null` | No faction (neutral event) |
 
 ## Legal & Attribution
 
