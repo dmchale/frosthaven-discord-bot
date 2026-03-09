@@ -20,7 +20,7 @@
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
-const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require("discord.js");
+const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 const Fuse = require("fuse.js");
 
 // ─── Config ──────────────────────────────────────────────────────────────────
@@ -152,8 +152,8 @@ async function buildCardIndex() {
         optionA:  ev.front.optionA,
         optionB:  ev.front.optionB,
         optionC:  ev.front.optionC,
-        frontUrl: `${IMAGE_BASE}/${ev.front.image}`,
-        backUrl:  `${IMAGE_BASE}/${ev.back.image}`,
+        frontUrl: `${IMAGE_BASE}/events/frosthaven/${ev.front.image}`,
+        backUrl:  `${IMAGE_BASE}/events/frosthaven/${ev.back.image}`,
       });
     }
     console.log(`  Loaded ${eventIndex.length} events.`);
@@ -263,6 +263,17 @@ client.on("interactionCreate", async (interaction) => {
     );
   }
 
+  // ── Button interactions (card alt-pick) ─────────────────────────────────────
+  if (interaction.isButton()) {
+    const [prefix, type, ...nameParts] = interaction.customId.split(":");
+    if (prefix === "card") {
+      const cardName = nameParts.join(":");
+      await interaction.deferUpdate();
+      await resolveCardByName(interaction, type, cardName);
+    }
+    return;
+  }
+
   if (!interaction.isChatInputCommand()) return;
 
   const { commandName } = interaction;
@@ -328,9 +339,29 @@ async function handleCardLookup(interaction, type) {
     );
   }
 
+  await resolveCardByName(interaction, type, results[0].item.name, results);
+}
+
+// Builds and sends (or edits) a card embed. Used by both the slash command and button handler.
+// `results` is the full Fuse result set; if omitted, an exact-name lookup is performed.
+async function resolveCardByName(interaction, type, cardName, results = null) {
+  const index = type === "ability" ? abilityIndex : itemIndex;
+  const fuse  = type === "ability" ? abilityFuse  : itemFuse;
+
+  if (!results) {
+    // Exact match first, fall back to fuzzy
+    const exact = index.find(c => c.name === cardName);
+    results = exact
+      ? [{ item: exact }]
+      : fuse.search(cardName, { limit: 5 });
+  }
+
+  if (!results.length) {
+    return interaction.editReply(`No card found for **${cardName}**.`);
+  }
+
   const best = results[0].item;
 
-  // Build embed
   const embed = new EmbedBuilder()
     .setColor(type === "ability" ? 0x4a90d9 : 0xe8a838)
     .setTitle(best.name)
@@ -346,16 +377,24 @@ async function handleCardLookup(interaction, type) {
     embed.addFields({ name: "Item #", value: String(best.itemNumber), inline: true });
   }
 
-  // If there were close alternates, list them
-  if (results.length > 1) {
-    const alts = results
-      .slice(1)
-      .map((r) => `• ${r.item.name}`)
-      .join("\n");
-    embed.addFields({ name: "Did you mean…?", value: alts });
+  // Offer remaining alternates as buttons (excluding the one now displayed)
+  const components = [];
+  const alts = results.filter(r => r.item.name !== best.name).slice(0, 4);
+  if (alts.length) {
+    const buttons = alts.map((r) => {
+      const card = r.item;
+      const label = type === "ability"
+        ? `${card.name} (${card.class}, Lv${card.level})`
+        : card.name;
+      return new ButtonBuilder()
+        .setCustomId(`card:${type}:${card.name}`)
+        .setLabel(label.length <= 80 ? label : card.name)
+        .setStyle(ButtonStyle.Secondary);
+    });
+    components.push(new ActionRowBuilder().addComponents(buttons));
   }
 
-  await interaction.editReply({ embeds: [embed] });
+  await interaction.editReply({ embeds: [embed], components });
 }
 
 // ─── Event lookup handler ─────────────────────────────────────────────────────
