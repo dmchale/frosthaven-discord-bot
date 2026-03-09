@@ -1,6 +1,6 @@
 # Frosthaven Card Bot
 
-A Discord bot for looking up Frosthaven ability cards, items, and event cards by name or text, returning card images directly in chat.
+A Discord bot for looking up Frosthaven ability cards, items, and event cards by name or text, returning card images directly in chat. Intended for groups that are past the point of worrying about spoilers, or players who just want quick reference access during a session.
 
 > **Spoiler Warning:** This project works with raw game data and makes no effort to conceal spoilers of any kind. Card text, event outcomes, item names, enemy factions, and other game content are stored and displayed in full. Browse, contribute to, or deploy this project at your own discretion.
 
@@ -12,7 +12,7 @@ There are three types of cards you can look up:
 
 | Command | Description |
 |---|---|
-| `/card <name>` | Fuzzy name search — finds a card by name (autocomplete supported) |
+| `/card <name>` | Fuzzy name search — finds a character ability card by name (autocomplete supported) |
 | `/class <query>` | Browse by class and level — autocomplete lets you pick a class with "All Cards" or a specific level; levels 2–9 and X return card images, others link to the full card browser |
 
 Fuzzy matching means typos and partial names work — `/card burning` will find "Burning Rain" even if you don't type the full name.
@@ -66,7 +66,7 @@ npm run deploy
 
 If you set `GUILD_ID`, commands appear instantly in those servers. You can specify multiple servers as a comma-separated list (e.g. `GUILD_ID=111,222,333`). Without it, global registration can take up to 1 hour.
 
-Optionally set `ALLOWED_CHANNEL_IDS` to a comma-separated list of channel IDs to restrict commands to specific channels. Leave blank to allow commands everywhere.
+Optionally set `ALLOWED_CHANNEL_IDS` to a comma-separated list of channel IDs to restrict commands to specific channels. This lets the bot owner control where commands are allowed to run without relying on the server admin to set up channel-level permissions — Discord registers slash commands at the server level, so by default they're available everywhere. Leave blank to allow commands everywhere.
 
 Optionally set `DEFAULT_EPHEMERAL=false` to make all command replies public by default. When unset (or set to `true`), all replies are ephemeral — visible only to the user who ran the command. Any command's `ephemeral` option can override this per-invocation.
 
@@ -126,36 +126,15 @@ Outpost events have a `faction` field indicating which enemy faction the event i
 | `"algox"` | Algox faction event |
 | `""` | No faction (neutral event) |
 
-## Event Card Data
-
-Event card text (`data/events.json`) is manually transcribed from the physical cards and is a work in progress in two phases:
-
-1. **Rough in** — Enter enough text on each card to make it searchable (title, flavor text, options)
-2. **Finish** — Review and complete all text for accuracy and completeness
-
-Cards without any text entered will not appear in search results.
-
-**Phase 1 — Rough In:**
-| Category | Progress |
-|---|---|
-| Boat events | 19/19 ✓ |
-| Road events (Summer) | 52/52 ✓ |
-| Road events (Winter) | 49/49 ✓ |
-| Outpost events (Summer) | 65/65 ✓ |
-| Outpost events (Winter) | 81/81 ✓ |
-
-**Phase 2 — Finish:**
-| Category | Progress |
-|---|---|
-| Boat events | 19/19 ✓ |
-| Road events (Summer) | 52/52 ✓ |
-| Road events (Winter) | 49/49 ✓ |
-| Outpost events (Summer) | 65/65 ✓ |
-| Outpost events (Winter) | 81/81 ✓ |
-
 ## Card Data Source
 
 Ability card and item data and images are pulled live from the [Worldhaven Asset Viewer](https://github.com/any2cards/worldhaven) repository. No assets are bundled with this bot.
+
+## Legal & Attribution
+
+This is an unofficial fan project. All Frosthaven card content, artwork, and game assets belong to their respective owners, including but not limited to Isaac Childres, Cephalofair Games, and any of its partners. No infringement is intended — this project exists as a free convenience tool for fans and nothing more.
+
+Some card data, and all images, are sourced from the community-maintained [Worldhaven Asset Viewer](https://github.com/any2cards/worldhaven) project.
 
 ## Notes
 
