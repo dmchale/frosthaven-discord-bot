@@ -56,23 +56,26 @@ Open the generated URL and invite the bot to your server.
 ```bash
 npm install
 cp .env.example .env
-# Edit .env and fill in DISCORD_TOKEN, CLIENT_ID, and optionally GUILD_ID
 ```
+
+Then edit `.env` with your values. See the table below for all supported variables.
+
+#### Environment Variables
+
+| Variable | Required | Description |
+|---|---|---|
+| `DISCORD_TOKEN` | Yes | Your bot token from the Discord Developer Portal |
+| `CLIENT_ID` | Yes | Your application ID from the Discord Developer Portal |
+| `GUILD_ID` | No | Comma-separated server IDs for instant command registration. Omit for global registration (up to 1 hour to propagate) |
+| `ALLOWED_CHANNEL_IDS` | No | Comma-separated channel IDs to restrict where commands can be used. Leave blank to allow commands everywhere |
+| `PUBLIC_BY_DEFAULT` | No | Set to `true` to post all replies to the channel by default. When unset, all replies are ephemeral (visible only to the invoking user). Any command's `public` option overrides this per-invocation |
+| `PUBLIC_ADMIN_IDS` | No | Comma-separated user IDs allowed to use `public: true` when `PUBLIC_BY_DEFAULT` is off. Leave blank to prevent anyone from overriding — all results stay ephemeral |
+| `WORLDHAVEN_REF` | No | A specific commit SHA from [any2cards/worldhaven](https://github.com/any2cards/worldhaven) to pin card data to a known-good version. Leave blank to always use the latest `master` |
 
 ### 4. Register Slash Commands
 ```bash
 npm run deploy
 ```
-
-If you set `GUILD_ID`, commands appear instantly in those servers. You can specify multiple servers as a comma-separated list (e.g. `GUILD_ID=111,222,333`). Without it, global registration can take up to 1 hour.
-
-Optionally set `ALLOWED_CHANNEL_IDS` to a comma-separated list of channel IDs to restrict commands to specific channels. This lets the bot owner control where commands are allowed to run without relying on the server admin to set up channel-level permissions — Discord registers slash commands at the server level, so by default they're available everywhere. Leave blank to allow commands everywhere.
-
-Optionally set `PUBLIC_BY_DEFAULT=true` to make all command replies public (posted to the channel) by default. When unset or empty, all replies are ephemeral — visible only to the user who ran the command. Any command's `public` option can override this per-invocation.
-
-Optionally set `PUBLIC_ADMIN_IDS` to a comma-separated list of Discord user IDs. Only meaningful when `PUBLIC_BY_DEFAULT` is unset or false. Listed users may pass `public: true` to post a result to the channel; everyone else is silently held to the ephemeral default. Leave blank (the default) to prevent anyone from overriding — all results stay ephemeral, full stop.
-
-Optionally set `WORLDHAVEN_REF` to a specific commit SHA from the [any2cards/worldhaven](https://github.com/any2cards/worldhaven) repository to pin card data to a known-good version. Leave blank to always use the latest `master`.
 
 ### 5. Run the Bot
 ```bash
