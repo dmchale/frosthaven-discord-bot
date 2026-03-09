@@ -1,8 +1,10 @@
 # Frosthaven Card Bot
 
-A Discord bot for looking up Frosthaven ability cards, items, and event cards by name or text, returning card images directly in chat. Intended for groups that are past the point of worrying about spoilers, or players who just want quick reference access during a session.
+A Discord bot for looking up Frosthaven ability cards, items, and event cards by name or text, returning card images directly in chat. Originally created to be a quick reference tool during online group sessions of Frosthaven Digital.
 
-> **Spoiler Warning:** This project works with raw game data and makes no effort to conceal spoilers of any kind. Card text, event outcomes, item names, enemy factions, and other game content are stored and displayed in full. Browse, contribute to, or deploy this project at your own discretion.
+Note: by default, this bot will only respond with ephemeral (private) responses when people use its slash commands. You may change this and other behavior by changing the [Environment Variables](#environment-variables).
+
+> **Spoiler Warning:** This bot does little to hide spoiler content beyond spoiler-tagging the backs of event cards. Any user who interacts with it will have immediate, easy access to card text, item names, event outcomes, and other game content. Better spoiler support may be added in the future, but for now this should be treated as a spoiler-forward tool — browse, contribute to, or deploy it at your own discretion.
 
 ## Commands
 
