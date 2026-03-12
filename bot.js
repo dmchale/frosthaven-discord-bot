@@ -317,9 +317,12 @@ function toDisplayName(name) {
   return name
     .toLowerCase()
     .split(" ")
-    .map((word, i) => (i === 0 || !TITLE_STOP_WORDS.has(word))
-      ? word.charAt(0).toUpperCase() + word.slice(1)
-      : word)
+    .map((word, i) => {
+      const cased = (i === 0 || !TITLE_STOP_WORDS.has(word))
+        ? word.charAt(0).toUpperCase() + word.slice(1)
+        : word;
+      return cased.replace(/-([a-z])/g, (_, c) => "-" + c.toUpperCase());
+    })
     .join(" ");
 }
 
