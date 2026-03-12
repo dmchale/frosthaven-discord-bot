@@ -20,7 +20,7 @@
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
-const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder, ActionRowBuilder, StringSelectMenuBuilder } = require("discord.js");
+const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder, ActionRowBuilder, StringSelectMenuBuilder, MessageFlags } = require("discord.js");
 const Fuse = require("fuse.js");
 
 // ─── Config ──────────────────────────────────────────────────────────────────
@@ -315,7 +315,7 @@ client.on("interactionCreate", async (interaction) => {
   if (allowedChannelIds.length && !allowedChannelIds.includes(interaction.channelId)) {
     return interaction.reply({
       content: "This command is not available in this channel.",
-      ephemeral: true,
+      flags: MessageFlags.Ephemeral,
     });
   }
 
@@ -342,7 +342,7 @@ client.on("interactionCreate", async (interaction) => {
       if (interaction.deferred || interaction.replied) {
         await interaction.editReply(msg);
       } else {
-        await interaction.reply({ content: msg, ephemeral: true });
+        await interaction.reply({ content: msg, flags: MessageFlags.Ephemeral });
       }
     } catch (replyErr) {
       console.warn("Could not send error reply to user:", replyErr.message);
@@ -391,9 +391,9 @@ function resolveEphemeral(interaction) {
 async function handleCardLookup(interaction, type) {
   const query = interaction.options.getString("name");
   const { ephemeral, blocked } = resolveEphemeral(interaction);
-  await interaction.deferReply({ ephemeral });
+  await interaction.deferReply({ flags: ephemeral ? MessageFlags.Ephemeral : undefined });
   if (blocked) {
-    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", ephemeral: true });
+    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", flags: MessageFlags.Ephemeral });
   }
 
   const fuse = type === "ability" ? abilityFuse : itemFuse;
@@ -484,9 +484,9 @@ async function handleEventLookup(interaction, typeOverride = null) {
   const season = interaction.options.getString("season"); // summer | winter | null
 
   const { ephemeral, blocked } = resolveEphemeral(interaction);
-  await interaction.deferReply({ ephemeral });
+  await interaction.deferReply({ flags: ephemeral ? MessageFlags.Ephemeral : undefined });
   if (blocked) {
-    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", ephemeral: true });
+    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", flags: MessageFlags.Ephemeral });
   }
 
   if (!eventFuse) {
@@ -565,7 +565,7 @@ async function handleEventLookup(interaction, typeOverride = null) {
   if (seasonIgnored) {
     await interaction.followUp({
       content: "Note: boat events don't have seasons, so the season filter was ignored.",
-      ephemeral: true,
+      flags: MessageFlags.Ephemeral,
     });
   }
 }
@@ -579,9 +579,9 @@ async function handleClassLookup(interaction) {
   const [xws, level] = raw.includes("|") ? raw.split("|") : [raw, "all"];
 
   const { ephemeral, blocked } = resolveEphemeral(interaction);
-  await interaction.deferReply({ ephemeral });
+  await interaction.deferReply({ flags: ephemeral ? MessageFlags.Ephemeral : undefined });
   if (blocked) {
-    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", ephemeral: true });
+    await interaction.followUp({ content: "You don't have permission to post results publicly in this server.", flags: MessageFlags.Ephemeral });
   }
 
   const classEntry = classList.find(c => c.xws === xws);
