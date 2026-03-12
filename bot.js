@@ -25,14 +25,6 @@ const Fuse = require("fuse.js");
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 
-// Data from any2cards/worldhaven (the renamed/continued frosthaven repo)
-// Pin WORLDHAVEN_REF to a specific commit SHA in .env for stability,
-// or leave unset to always use the latest master.
-const WORLDHAVEN_REF = process.env.WORLDHAVEN_REF || "master";
-const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHAVEN_REF}`;
-
-const IMAGE_BASE = `${FH_RAW}/images`;
-
 // Base URL for self-hosted item card images.
 // Item imageUrl values in items.json are bare filenames; this is prepended at display time.
 const ITEM_IMAGE_BASE = (
@@ -40,11 +32,18 @@ const ITEM_IMAGE_BASE = (
   "https://raw.githubusercontent.com/dmchale/frosthaven-discord-bot/main/images/items/frosthaven"
 ).replace(/\/$/, "");
 
-// Base URL for self-hosted ability card images.
+// Base URL for self-hosted ability card images (ability cards and class back-card images).
 // Ability imageUrl values in ability-cards.json are "CLASS/filename.jpeg"; this is prepended at display time.
 const ABILITY_IMAGE_BASE = (
   process.env.ABILITY_IMAGE_BASE ||
   "https://raw.githubusercontent.com/dmchale/frosthaven-discord-bot/main/images/character-ability-cards/frosthaven"
+).replace(/\/$/, "");
+
+// Base URL for self-hosted event card images.
+// Event image paths in events.json are "type/filename.jpeg"; this is prepended at display time.
+const EVENT_IMAGE_BASE = (
+  process.env.EVENT_IMAGE_BASE ||
+  "https://raw.githubusercontent.com/dmchale/frosthaven-discord-bot/main/images/events/frosthaven"
 ).replace(/\/$/, "");
 
 // Default visibility for all command replies.
@@ -121,8 +120,8 @@ async function buildCardIndex() {
         optionA:  ev.front.optionA,
         optionB:  ev.front.optionB,
         optionC:  ev.front.optionC,
-        frontUrl: `${IMAGE_BASE}/events/frosthaven/${ev.front.image}`,
-        backUrl:  `${IMAGE_BASE}/events/frosthaven/${ev.back.image}`,
+        frontUrl: `${EVENT_IMAGE_BASE}/${ev.front.image}`,
+        backUrl:  `${EVENT_IMAGE_BASE}/${ev.back.image}`,
       });
     }
     console.log(`  Loaded ${eventIndex.length} events.`);
@@ -582,7 +581,7 @@ async function handleClassLookup(interaction) {
   if (level === "all" || level === "1") {
     // No level specified — link to full card browser with class back card as preview
     const code = classEntry.code.toLowerCase();
-    const classImageUrl = `${IMAGE_BASE}/character-ability-cards/frosthaven/${code}/fh-${code}-back.png`;
+    const classImageUrl = `${ABILITY_IMAGE_BASE}/${classEntry.code.toUpperCase()}/fh-${code}-back.jpeg`;
     const embed = new EmbedBuilder()
       .setColor(color)
       .setTitle(`${classEntry.name}${level === "1" ? " — Level 1" : ""} — Click to view all cards 🔗`)
