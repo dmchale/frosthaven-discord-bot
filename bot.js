@@ -247,7 +247,7 @@ client.on("error", (err) => {
   console.error("Discord client error:", err.message);
 });
 
-client.once("ready", async () => {
+client.once("clientReady", async () => {
   await buildCardIndex();
   console.log(`Logged in as ${client.user.tag}`);
 });
