@@ -92,10 +92,12 @@ async function fetchItems() {
 
     const itemNumMatch = (item.image || "").match(/fh-(\d+)/);
 
+    const filename = item.image ? item.image.split("/").pop() : null;
+
     index.push({
       name:       toTitleCase(name),
       itemNumber: itemNumMatch ? parseInt(itemNumMatch[1], 10) : null,
-      imageUrl:   item.image ? `${IMAGE_BASE}/${item.image}` : null,
+      imageUrl:   filename,
     });
   }
 

@@ -33,6 +33,10 @@ const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHA
 
 const IMAGE_BASE = `${FH_RAW}/images`;
 
+// Base URL for self-hosted item card images (e.g. a GitHub raw URL pointing to /images/items/frosthaven/).
+// Item imageUrl values in items.json are bare filenames; this is prepended at display time.
+const ITEM_IMAGE_BASE = (process.env.ITEM_IMAGE_BASE || "").replace(/\/$/, "");
+
 // Default visibility for all command replies.
 //   Unset or empty: replies are ephemeral by default (only visible to the invoking user)
 //   "true":         replies are posted to the channel by default
@@ -393,11 +397,16 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
 
   const best = results[0].item;
 
+  const imageUrl = (type === "item" && best.imageUrl)
+    ? (ITEM_IMAGE_BASE ? `${ITEM_IMAGE_BASE}/${best.imageUrl}` : null)
+    : best.imageUrl;
+
   const embed = new EmbedBuilder()
     .setColor(type === "ability" ? 0x4a90d9 : 0xe8a838)
     .setTitle(toDisplayName(best.name))
-    .setImage(best.imageUrl)
     .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+
+  if (imageUrl) embed.setImage(imageUrl);
 
   if (type === "ability") {
     embed.addFields(
