@@ -60,12 +60,21 @@ async function fetchAbilityCards() {
     if ((card.image || "").includes("-back.")) continue;  // skip card backs
     if (!name) continue;
 
+    // Store path as "CLASS/filename.jpeg" to match cmlenius image layout (uppercase subdir, jpeg).
+    // e.g. "character-ability-cards/frosthaven/bb/fh-blurry-jab.png" → "BB/fh-blurry-jab.jpeg"
+    let imageUrl = null;
+    if (card.image) {
+      const parts = card.image.split("/");
+      const classDir = parts[parts.length - 2].toUpperCase();
+      const filename = parts[parts.length - 1].replace(/\.png$/, ".jpeg");
+      imageUrl = `${classDir}/${filename}`;
+    }
+
     index.push({
-      name,
-      class: card["character-xws"] || "Unknown",
-      level: card.level ?? "?",
-      id:    card.xws || name,
-      imageUrl: card.image ? `${IMAGE_BASE}/${card.image}` : null,
+      name:     toTitleCase(name),
+      class:    card["character-xws"] || "Unknown",
+      level:    card.level ?? "?",
+      imageUrl,
     });
   }
 

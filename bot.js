@@ -40,6 +40,13 @@ const ITEM_IMAGE_BASE = (
   "https://raw.githubusercontent.com/dmchale/frosthaven-discord-bot/main/images/items/frosthaven"
 ).replace(/\/$/, "");
 
+// Base URL for self-hosted ability card images.
+// Ability imageUrl values in ability-cards.json are "CLASS/filename.jpeg"; this is prepended at display time.
+const ABILITY_IMAGE_BASE = (
+  process.env.ABILITY_IMAGE_BASE ||
+  "https://raw.githubusercontent.com/dmchale/frosthaven-discord-bot/main/images/character-ability-cards/frosthaven"
+).replace(/\/$/, "");
+
 // Default visibility for all command replies.
 //   Unset or empty: replies are ephemeral by default (only visible to the invoking user)
 //   "true":         replies are posted to the channel by default
@@ -411,9 +418,11 @@ async function resolveCardByName(interaction, type, cardName, results = null, op
 
   const best = results[0].item;
 
-  const imageUrl = (type === "item" && best.imageUrl)
-    ? (ITEM_IMAGE_BASE ? `${ITEM_IMAGE_BASE}/${best.imageUrl}` : null)
-    : best.imageUrl;
+  const imageUrl = best.imageUrl
+    ? (type === "item"
+        ? `${ITEM_IMAGE_BASE}/${best.imageUrl}`
+        : `${ABILITY_IMAGE_BASE}/${best.imageUrl}`)
+    : null;
 
   const embed = new EmbedBuilder()
     .setColor(type === "ability" ? 0x4a90d9 : 0xe8a838)
