@@ -1,1585 +1,1321 @@
 [
   {
-    "name": "spyglass",
-    "id": "spyglass",
+    "name": "Spyglass",
     "itemNumber": 1,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-001-spyglass.png"
   },
   {
-    "name": "crude helmet",
-    "id": "crudehelmet",
+    "name": "Crude Helmet",
     "itemNumber": 2,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-002-crude-helmet.png"
   },
   {
-    "name": "traveling cloak",
-    "id": "travelingcloak",
+    "name": "Traveling Cloak",
     "itemNumber": 3,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-003-traveling-cloak.png"
   },
   {
-    "name": "crude hide armor",
-    "id": "crudehidearmor",
+    "name": "Crude Hide Armor",
     "itemNumber": 4,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-004-crude-hide-armor.png"
   },
   {
-    "name": "crude boots",
-    "id": "crudeboots",
+    "name": "Crude Boots",
     "itemNumber": 5,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-005-crude-boots.png"
   },
   {
-    "name": "flexible slippers",
-    "id": "flexibleslippers",
+    "name": "Flexible Slippers",
     "itemNumber": 6,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-006-flexible-slippers.png"
   },
   {
-    "name": "crude bow",
-    "id": "crudebow",
+    "name": "Crude Bow",
     "itemNumber": 7,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-007-crude-bow.png"
   },
   {
-    "name": "crude spear",
-    "id": "crudespear",
+    "name": "Crude Spear",
     "itemNumber": 8,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-008-crude-spear.png"
   },
   {
-    "name": "protective scepter",
-    "id": "protectivescepter",
+    "name": "Protective Scepter",
     "itemNumber": 9,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-009-protective-scepter.png"
   },
   {
-    "name": "crude shield",
-    "id": "crudeshield",
+    "name": "Crude Shield",
     "itemNumber": 10,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/001-010/fh-010-crude-shield.png"
   },
   {
-    "name": "simple charm",
-    "id": "simplecharm",
+    "name": "Simple Charm",
     "itemNumber": 11,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/011-015/fh-011-simple-charm.png"
   },
   {
-    "name": "crude chain armor",
-    "id": "crudechainarmor",
+    "name": "Crude Chain Armor",
     "itemNumber": 12,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/011-015/fh-012-crude-chain-armor.png"
   },
   {
-    "name": "dancing slippers",
-    "id": "dancingslippers",
+    "name": "Dancing Slippers",
     "itemNumber": 13,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/011-015/fh-013-dancing-slippers.png"
   },
   {
-    "name": "heavy sword",
-    "id": "heavysword",
+    "name": "Heavy Sword",
     "itemNumber": 14,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/011-015/fh-014-heavy-sword.png"
   },
   {
-    "name": "reinforced shield",
-    "id": "reinforcedshield",
+    "name": "Reinforced Shield",
     "itemNumber": 15,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/011-015/fh-015-reinforced-shield.png"
   },
   {
-    "name": "inspiring helmet",
-    "id": "inspiringhelmet",
+    "name": "Inspiring Helmet",
     "itemNumber": 16,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/016-020/fh-016-inspiring-helmet.png"
   },
   {
-    "name": "cured leather armor",
-    "id": "curedleatherarmor",
+    "name": "Cured Leather Armor",
     "itemNumber": 17,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/016-020/fh-017-cured-leather-armor.png"
   },
   {
-    "name": "rough boots",
-    "id": "roughboots",
+    "name": "Rough Boots",
     "itemNumber": 18,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/016-020/fh-018-rough-boots.png"
   },
   {
-    "name": "ringing hammer",
-    "id": "ringinghammer",
+    "name": "Ringing Hammer",
     "itemNumber": 19,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/016-020/fh-019-ringing-hammer.png"
   },
   {
-    "name": "well-strung bow",
-    "id": "wellstrungbow",
+    "name": "Well-strung Bow",
     "itemNumber": 20,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/016-020/fh-020-well-strung-bow.png"
   },
   {
-    "name": "chain hood",
-    "id": "chainhood",
+    "name": "Chain Hood",
     "itemNumber": 21,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/021-025/fh-021-chain-hood.png"
   },
   {
-    "name": "heavy chain armor",
-    "id": "heavychainarmor",
+    "name": "Heavy Chain Armor",
     "itemNumber": 22,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/021-025/fh-022-heavy-chain-armor.png"
   },
   {
-    "name": "sturdy greaves",
-    "id": "sturdygreaves",
+    "name": "Sturdy Greaves",
     "itemNumber": 23,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/021-025/fh-023-sturdy-greaves.png"
   },
   {
-    "name": "corrupted blade",
-    "id": "corruptedblade",
+    "name": "Corrupted Blade",
     "itemNumber": 24,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/021-025/fh-024-corrupted-blade.png"
   },
   {
-    "name": "soothing scepter",
-    "id": "soothingscepter",
+    "name": "Soothing Scepter",
     "itemNumber": 25,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/021-025/fh-025-soothing-scepter.png"
   },
   {
-    "name": "truesight lenses",
-    "id": "truesightlenses",
+    "name": "Truesight Lenses",
     "itemNumber": 26,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/026-030/fh-026-truesight-lenses.png"
   },
   {
-    "name": "cloak of warding",
-    "id": "cloakofwarding",
+    "name": "Cloak of Warding",
     "itemNumber": 27,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/026-030/fh-027-cloak-of-warding.png"
   },
   {
-    "name": "sturdy boots",
-    "id": "sturdyboots",
+    "name": "Sturdy Boots",
     "itemNumber": 28,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/026-030/fh-028-sturdy-boots.png"
   },
   {
-    "name": "cleaving axe",
-    "id": "cleavingaxe",
+    "name": "Cleaving Axe",
     "itemNumber": 29,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/026-030/fh-029-cleaving-axe.png"
   },
   {
-    "name": "parrying gauntlet",
-    "id": "parryinggauntlet",
+    "name": "Parrying Gauntlet",
     "itemNumber": 30,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/026-030/fh-030-parrying-gauntlet.png"
   },
   {
-    "name": "deathproof charm",
-    "id": "deathproofcharm",
+    "name": "Deathproof Charm",
     "itemNumber": 31,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/031-035/fh-031-deathproof-charm.png"
   },
   {
-    "name": "shell armor",
-    "id": "shellarmor",
+    "name": "Shell Armor",
     "itemNumber": 32,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/031-035/fh-032-shell-armor.png"
   },
   {
-    "name": "volatile boots",
-    "id": "volatileboots",
+    "name": "Volatile Boots",
     "itemNumber": 33,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/031-035/fh-033-volatile-boots.png"
   },
   {
-    "name": "shrapnel bomb",
-    "id": "shrapnelbomb",
+    "name": "Shrapnel Bomb",
     "itemNumber": 34,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/031-035/fh-034-shrapnel-bomb.png"
   },
   {
-    "name": "kite shield",
-    "id": "kiteshield",
+    "name": "Kite Shield",
     "itemNumber": 35,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/031-035/fh-035-kite-shield.png"
   },
   {
-    "name": "plumed helmet",
-    "id": "plumedhelmet",
+    "name": "Plumed Helmet",
     "itemNumber": 36,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/036-040/fh-036-plumed-helmet.png"
   },
   {
-    "name": "ghost cloak",
-    "id": "ghostcloak",
+    "name": "Ghost Cloak",
     "itemNumber": 37,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/036-040/fh-037-ghost-cloak.png"
   },
   {
-    "name": "duelist's shoes",
-    "id": "duelistsshoes",
+    "name": "Duelist's Shoes",
     "itemNumber": 38,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/036-040/fh-038-duelists-shoes.png"
   },
   {
-    "name": "abyss axe",
-    "id": "abyssaxe",
+    "name": "Abyss Axe",
     "itemNumber": 39,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/036-040/fh-039-abyss-axe.png"
   },
   {
-    "name": "heartstrike bow",
-    "id": "heartstrikebow",
+    "name": "Heartstrike Bow",
     "itemNumber": 40,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/036-040/fh-040-heartstrike-bow.png"
   },
   {
-    "name": "intricate charm",
-    "id": "intricatecharm",
+    "name": "Intricate Charm",
     "itemNumber": 41,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/041-045/fh-041-intricate-charm.png"
   },
   {
-    "name": "ornate armor",
-    "id": "ornatearmor",
+    "name": "Ornate Armor",
     "itemNumber": 42,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/041-045/fh-042-ornate-armor.png"
   },
   {
-    "name": "kicking boots",
-    "id": "kickingboots",
+    "name": "Kicking Boots",
     "itemNumber": 43,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/041-045/fh-043-kicking-boots.png"
   },
   {
-    "name": "sword of absolution",
-    "id": "swordofabsolution",
+    "name": "Sword of Absolution",
     "itemNumber": 44,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/041-045/fh-044-sword-of-absolution.png"
   },
   {
-    "name": "master scepter",
-    "id": "masterscepter",
+    "name": "Master Scepter",
     "itemNumber": 45,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/041-045/fh-045-master-scepter.png"
   },
   {
-    "name": "double-lens goggles",
-    "id": "doublelensgoggles",
+    "name": "Double-lens Goggles",
     "itemNumber": 46,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/046-050/fh-046-double-lens-goggles.png"
   },
   {
-    "name": "robes of doom",
-    "id": "robesofdoom",
+    "name": "Robes of Doom",
     "itemNumber": 47,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/046-050/fh-047-robes-of-doom.png"
   },
   {
-    "name": "living shoes",
-    "id": "livingshoes",
+    "name": "Living Shoes",
     "itemNumber": 48,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/046-050/fh-048-living-shoes.png"
   },
   {
-    "name": "cruel dagger",
-    "id": "crueldagger",
+    "name": "Cruel Dagger",
     "itemNumber": 49,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/046-050/fh-049-cruel-dagger.png"
   },
   {
-    "name": "shield of reciprocity",
-    "id": "shieldofreciprocity",
+    "name": "Shield of Reciprocity",
     "itemNumber": 50,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/046-050/fh-050-shield-of-reciprocity.png"
   },
   {
-    "name": "spiked collar",
-    "id": "spikedcollar",
+    "name": "Spiked Collar",
     "itemNumber": 51,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-051a-spiked-collar.png"
   },
   {
-    "name": "laser lens",
-    "id": "laserlens",
+    "name": "Laser Lens",
     "itemNumber": 52,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-052a-laser-lens.png"
   },
   {
-    "name": "hobnail boots",
-    "id": "hobnailboots",
+    "name": "Hobnail Boots",
     "itemNumber": 53,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-053a-hobnail-boots.png"
   },
   {
-    "name": "restful slippers",
-    "id": "restfulslippers",
+    "name": "Restful Slippers",
     "itemNumber": 54,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-054a-restful-slippers.png"
   },
   {
-    "name": "biting gauntlet",
-    "id": "bitinggauntlet",
+    "name": "Biting Gauntlet",
     "itemNumber": 55,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-055a-biting-gauntlet.png"
   },
   {
-    "name": "scavenger's magnet",
-    "id": "scavengersmagnet",
+    "name": "Scavenger's Magnet",
     "itemNumber": 56,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-056a-scavengers-magnet.png"
   },
   {
-    "name": "shovel",
-    "id": "shovel",
+    "name": "Shovel",
     "itemNumber": 57,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-057a-shovel.png"
   },
   {
-    "name": "slippery sword",
-    "id": "slipperysword",
+    "name": "Slippery Sword",
     "itemNumber": 58,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-058a-slippery-sword.png"
   },
   {
-    "name": "charm of expertise",
-    "id": "charmofexpertise",
+    "name": "Charm of Expertise",
     "itemNumber": 59,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-059a-charm-of-expertise.png"
   },
   {
-    "name": "cloak of many pockets",
-    "id": "cloakofmanypockets",
+    "name": "Cloak of Many Pockets",
     "itemNumber": 60,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-060a-cloak-of-many-pockets.png"
   },
   {
-    "name": "spiked shell",
-    "id": "spikedshell",
+    "name": "Spiked Shell",
     "itemNumber": 61,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-061a-spiked-shell.png"
   },
   {
-    "name": "everlasting boots",
-    "id": "everlastingboots",
+    "name": "Everlasting Boots",
     "itemNumber": 62,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-062a-everlasting-boots.png"
   },
   {
-    "name": "shadow stompers",
-    "id": "shadowstompers",
+    "name": "Shadow Stompers",
     "itemNumber": 63,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-063a-shadow-stompers.png"
   },
   {
-    "name": "detonator",
-    "id": "detonator",
+    "name": "Detonator",
     "itemNumber": 64,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-064a-detonator.png"
   },
   {
-    "name": "rust powder",
-    "id": "rustpowder",
+    "name": "Rust Powder",
     "itemNumber": 65,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/051-065/fh-065a-rust-powder.png"
   },
   {
-    "name": "amulet of eternal life",
-    "id": "amuletofeternallife",
+    "name": "Amulet of Eternal Life",
     "itemNumber": 66,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-066-amulet-of-eternal-life.png"
   },
   {
-    "name": "converging lenses",
-    "id": "converginglenses",
+    "name": "Converging Lenses",
     "itemNumber": 67,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-067-converging-lenses.png"
   },
   {
-    "name": "scaled armor",
-    "id": "scaledarmor",
+    "name": "Scaled Armor",
     "itemNumber": 68,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-068-scaled-armor.png"
   },
   {
-    "name": "feathered cloak",
-    "id": "featheredcloak",
+    "name": "Feathered Cloak",
     "itemNumber": 69,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-069-feathered-cloak.png"
   },
   {
-    "name": "aesther robe",
-    "id": "aestherrobe",
+    "name": "Aesther Robe",
     "itemNumber": 70,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-070-aesther-robe.png"
   },
   {
-    "name": "bone boots",
-    "id": "boneboots",
+    "name": "Bone Boots",
     "itemNumber": 71,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-071-bone-boots.png"
   },
   {
-    "name": "oak staff",
-    "id": "oakstaff",
+    "name": "Oak Staff",
     "itemNumber": 72,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-072-oak-staff.png"
   },
   {
-    "name": "energizing baton",
-    "id": "energizingbaton",
+    "name": "Energizing Baton",
     "itemNumber": 73,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-073-energizing-baton.png"
   },
   {
-    "name": "shock grenades",
-    "id": "shockgrenades",
+    "name": "Shock Grenades",
     "itemNumber": 74,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-074-shock-grenades.png"
   },
   {
-    "name": "rose gauntlet",
-    "id": "rosegauntlet",
+    "name": "Rose Gauntlet",
     "itemNumber": 75,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-075-rose-gauntlet.png"
   },
   {
-    "name": "horn of command",
-    "id": "hornofcommand",
+    "name": "Horn of Command",
     "itemNumber": 76,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-076-horn-of-command.png"
   },
   {
-    "name": "chaos cannon",
-    "id": "chaoscannon",
+    "name": "Chaos Cannon",
     "itemNumber": 77,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-077-chaos-cannon.png"
   },
   {
-    "name": "balanced scales",
-    "id": "balancedscales",
+    "name": "Balanced Scales",
     "itemNumber": 78,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-078-balanced-scales.png"
   },
   {
-    "name": "roasted fowl",
-    "id": "roastedfowl",
+    "name": "Roasted Fowl",
     "itemNumber": 79,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-079-roasted-fowl.png"
   },
   {
-    "name": "living stone",
-    "id": "livingstone",
+    "name": "Living Stone",
     "itemNumber": 80,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-080-living-stone.png"
   },
   {
-    "name": "pain simulacrum",
-    "id": "painsimulacrum",
+    "name": "Pain Simulacrum",
     "itemNumber": 81,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-081-pain-simulacrum.png"
   },
   {
-    "name": "mechanical cube",
-    "id": "mechanicalcube",
+    "name": "Mechanical Cube",
     "itemNumber": 82,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/066-082/fh-082-mechanical-cube.png"
   },
   {
-    "name": "healing potion",
-    "id": "healingpotion",
+    "name": "Healing Potion",
     "itemNumber": 83,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-083-healing-potion.png"
   },
   {
-    "name": "stamina potion",
-    "id": "staminapotion",
+    "name": "Stamina Potion",
     "itemNumber": 84,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-084-stamina-potion.png"
   },
   {
-    "name": "power potion",
-    "id": "powerpotion",
+    "name": "Power Potion",
     "itemNumber": 85,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-085-power-potion.png"
   },
   {
-    "name": "element potion",
-    "id": "elementpotion",
+    "name": "Element Potion",
     "itemNumber": 86,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-086-element-potion.png"
   },
   {
-    "name": "cure potion",
-    "id": "curepotion",
+    "name": "Cure Potion",
     "itemNumber": 87,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-087-cure-potion.png"
   },
   {
-    "name": "fireshield potion",
-    "id": "fireshieldpotion",
+    "name": "Fireshield Potion",
     "itemNumber": 88,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-088-fireshield-potion.png"
   },
   {
-    "name": "stoneskin potion",
-    "id": "stoneskinpotion",
+    "name": "Stoneskin Potion",
     "itemNumber": 89,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-089-stoneskin-potion.png"
   },
   {
-    "name": "muscle potion",
-    "id": "musclepotion",
+    "name": "Muscle Potion",
     "itemNumber": 90,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-090-muscle-potion.png"
   },
   {
-    "name": "holy water",
-    "id": "holywater",
+    "name": "Holy Water",
     "itemNumber": 91,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-091-holy-water.png"
   },
   {
-    "name": "renewing potion",
-    "id": "renewingpotion",
+    "name": "Renewing Potion",
     "itemNumber": 92,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-092-renewing-potion.png"
   },
   {
-    "name": "glancing potion",
-    "id": "glancingpotion",
+    "name": "Glancing Potion",
     "itemNumber": 93,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-093-glancing-potion.png"
   },
   {
-    "name": "frenzy potion",
-    "id": "frenzypotion",
+    "name": "Frenzy Potion",
     "itemNumber": 94,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-094-frenzy-potion.png"
   },
   {
-    "name": "poison vial",
-    "id": "poisonvial",
+    "name": "Poison Vial",
     "itemNumber": 95,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-095-poison-vial.png"
   },
   {
-    "name": "flame vial",
-    "id": "flamevial",
+    "name": "Flame Vial",
     "itemNumber": 96,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-096-flame-vial.png"
   },
   {
-    "name": "explosive vial",
-    "id": "explosivevial",
+    "name": "Explosive Vial",
     "itemNumber": 97,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-097-explosive-vial.png"
   },
   {
-    "name": "unhealthy mixture",
-    "id": "unhealthymixture",
+    "name": "Unhealthy Mixture",
     "itemNumber": 98,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-098-unhealthy-mixture.png"
   },
   {
-    "name": "major healing potion",
-    "id": "majorhealingpotion",
+    "name": "Major Healing Potion",
     "itemNumber": 99,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-099-major-healing-potion.png"
   },
   {
-    "name": "major stamina potion",
-    "id": "majorstaminapotion",
+    "name": "Major Stamina Potion",
     "itemNumber": 100,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-100-major-stamina-potion.png"
   },
   {
-    "name": "major power potion",
-    "id": "majorpowerpotion",
+    "name": "Major Power Potion",
     "itemNumber": 101,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-101-major-power-potion.png"
   },
   {
-    "name": "major element potion",
-    "id": "majorelementpotion",
+    "name": "Major Element Potion",
     "itemNumber": 102,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-102-major-element-potion.png"
   },
   {
-    "name": "major cure potion",
-    "id": "majorcurepotion",
+    "name": "Major Cure Potion",
     "itemNumber": 103,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-103-major-cure-potion.png"
   },
   {
-    "name": "swiftness potion",
-    "id": "swiftnesspotion",
+    "name": "Swiftness Potion",
     "itemNumber": 104,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-104-swiftness-potion.png"
   },
   {
-    "name": "major fireshield potion",
-    "id": "majorfireshieldpotion",
+    "name": "Major Fireshield Potion",
     "itemNumber": 105,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-105-major-fireshield-potion.png"
   },
   {
-    "name": "stonewall potion",
-    "id": "stonewallpotion",
+    "name": "Stonewall Potion",
     "itemNumber": 106,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-106-stonewall-potion.png"
   },
   {
-    "name": "vigor potion",
-    "id": "vigorpotion",
+    "name": "Vigor Potion",
     "itemNumber": 107,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-107-vigor-potion.png"
   },
   {
-    "name": "holy rain",
-    "id": "holyrain",
+    "name": "Holy Rain",
     "itemNumber": 108,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-108-holy-rain.png"
   },
   {
-    "name": "major renewing potion",
-    "id": "majorrenewingpotion",
+    "name": "Major Renewing Potion",
     "itemNumber": 109,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-109-major-renewing-potion.png"
   },
   {
-    "name": "precision potion",
-    "id": "precisionpotion",
+    "name": "Precision Potion",
     "itemNumber": 110,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-110-precision-potion.png"
   },
   {
-    "name": "major frenzy potion",
-    "id": "majorfrenzypotion",
+    "name": "Major Frenzy Potion",
     "itemNumber": 111,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-111-major-frenzy-potion.png"
   },
   {
-    "name": "hammer potion",
-    "id": "hammerpotion",
+    "name": "Hammer Potion",
     "itemNumber": 112,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-112-hammer-potion.png"
   },
   {
-    "name": "expertise potion",
-    "id": "expertisepotion",
+    "name": "Expertise Potion",
     "itemNumber": 113,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-113-expertise-potion.png"
   },
   {
-    "name": "foresight potion",
-    "id": "foresightpotion",
+    "name": "Foresight Potion",
     "itemNumber": 114,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-114-foresight-potion.png"
   },
   {
-    "name": "infusion potion",
-    "id": "infusionpotion",
+    "name": "Infusion Potion",
     "itemNumber": 115,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-115-infusion-potion.png"
   },
   {
-    "name": "plague flask",
-    "id": "plagueflask",
+    "name": "Plague Flask",
     "itemNumber": 116,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-116-plague-flask.png"
   },
   {
-    "name": "inferno flask",
-    "id": "infernoflask",
+    "name": "Inferno Flask",
     "itemNumber": 117,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-117-inferno-flask.png"
   },
   {
-    "name": "fulminant flask",
-    "id": "fulminantflask",
+    "name": "Fulminant Flask",
     "itemNumber": 118,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-118-fulminant-flask.png"
   },
   {
-    "name": "deadly mixture",
-    "id": "deadlymixture",
+    "name": "Deadly Mixture",
     "itemNumber": 119,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/083-119/fh-119-deadly-mixture.png"
   },
   {
-    "name": "amulet of life",
-    "id": "amuletoflife",
+    "name": "Amulet of Life",
     "itemNumber": 120,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-120-amulet-of-life.png"
   },
   {
-    "name": "circlet of elements",
-    "id": "circletofelements",
+    "name": "Circlet of Elements",
     "itemNumber": 121,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-121-circlet-of-elements.png"
   },
   {
-    "name": "warden's robes",
-    "id": "wardensrobes",
+    "name": "Warden's Robes",
     "itemNumber": 122,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-122-wardens-robes.png"
   },
   {
-    "name": "leather armor",
-    "id": "leatherarmor",
+    "name": "Leather Armor",
     "itemNumber": 123,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-123-leather-armor.png"
   },
   {
-    "name": "winged shoes",
-    "id": "wingedshoes",
+    "name": "Winged Shoes",
     "itemNumber": 124,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-124-winged-shoes.png"
   },
   {
-    "name": "boots of speed",
-    "id": "bootsofspeed",
+    "name": "Boots of Speed",
     "itemNumber": 125,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-125-boots-of-speed.png"
   },
   {
-    "name": "weighted net",
-    "id": "weightednet",
+    "name": "Weighted Net",
     "itemNumber": 126,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-126-weighted-net.png"
   },
   {
-    "name": "poison dagger",
-    "id": "poisondagger",
+    "name": "Poison Dagger",
     "itemNumber": 127,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-127-poison-dagger.png"
   },
   {
-    "name": "heater shield",
-    "id": "heatershield",
+    "name": "Heater Shield",
     "itemNumber": 128,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/120-128/fh-128-heater-shield.png"
   },
   {
-    "name": "eagle-eye goggles",
-    "id": "eagleeyegoggles",
+    "name": "Eagle-eye Goggles",
     "itemNumber": 129,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-129-eagle-eye-goggles.png"
   },
   {
-    "name": "iron helmet",
-    "id": "ironhelmet",
+    "name": "Iron Helmet",
     "itemNumber": 130,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-130-iron-helmet.png"
   },
   {
-    "name": "chainmail",
-    "id": "chainmail",
+    "name": "Chainmail",
     "itemNumber": 131,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-131-chainmail.png"
   },
   {
-    "name": "cloak of pockets",
-    "id": "cloakofpockets",
+    "name": "Cloak of Pockets",
     "itemNumber": 132,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-132-cloak-of-pockets.png"
   },
   {
-    "name": "nimble legguards",
-    "id": "nimblelegguards",
+    "name": "Nimble Legguards",
     "itemNumber": 133,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-133-nimble-legguards.png"
   },
   {
-    "name": "comfortable shoes",
-    "id": "comfortableshoes",
+    "name": "Comfortable Shoes",
     "itemNumber": 134,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-134-comfortable-shoes.png"
   },
   {
-    "name": "armorbane bow",
-    "id": "armorbanebow",
+    "name": "Armorbane Bow",
     "itemNumber": 135,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-135-armorbane-bow.png"
   },
   {
-    "name": "battle axe",
-    "id": "battleaxe",
+    "name": "Battle Axe",
     "itemNumber": 136,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-136-battle-axe.png"
   },
   {
-    "name": "tower shield",
-    "id": "towershield",
+    "name": "Tower Shield",
     "itemNumber": 137,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/129-137/fh-137-tower-shield.png"
   },
   {
-    "name": "heavy basinet",
-    "id": "heavybasinet",
+    "name": "Heavy Basinet",
     "itemNumber": 138,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-138-heavy-basinet.png"
   },
   {
-    "name": "horned helm",
-    "id": "hornedhelm",
+    "name": "Horned Helm",
     "itemNumber": 139,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-139-horned-helm.png"
   },
   {
-    "name": "mantle of summoning",
-    "id": "mantleofsummoning",
+    "name": "Mantle of Summoning",
     "itemNumber": 140,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-140-mantle-of-summoning.png"
   },
   {
-    "name": "studded leather",
-    "id": "studdedleather",
+    "name": "Studded Leather",
     "itemNumber": 141,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-141-studded-leather.png"
   },
   {
-    "name": "boots of quickness",
-    "id": "bootsofquickness",
+    "name": "Boots of Quickness",
     "itemNumber": 142,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-142-boots-of-quickness.png"
   },
   {
-    "name": "endurance footwraps",
-    "id": "endurancefootwraps",
+    "name": "Endurance Footwraps",
     "itemNumber": 143,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-143-endurance-footwraps.png"
   },
   {
-    "name": "staff of eminence",
-    "id": "staffofeminence",
+    "name": "Staff of Eminence",
     "itemNumber": 144,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-144-staff-of-eminence.png"
   },
   {
-    "name": "versatile dagger",
-    "id": "versatiledagger",
+    "name": "Versatile Dagger",
     "itemNumber": 145,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-145-versatile-dagger.png"
   },
   {
-    "name": "hooked chain",
-    "id": "hookedchain",
+    "name": "Hooked Chain",
     "itemNumber": 146,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/138-146/fh-146-hooked-chain.png"
   },
   {
-    "name": "mask of terror",
-    "id": "maskofterror",
+    "name": "Mask of Terror",
     "itemNumber": 147,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-147-mask-of-terror.png"
   },
   {
-    "name": "circlet of sanctity",
-    "id": "circletofsanctity",
+    "name": "Circlet of Sanctity",
     "itemNumber": 148,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-148-circlet-of-sanctity.png"
   },
   {
-    "name": "platemail",
-    "id": "platemail",
+    "name": "Platemail",
     "itemNumber": 149,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-149-platemail.png"
   },
   {
-    "name": "robes of the oak",
-    "id": "robesoftheoak",
+    "name": "Robes of the Oak",
     "itemNumber": 150,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-150-robes-of-the-oak.png"
   },
   {
-    "name": "serene sandals",
-    "id": "serenesandals",
+    "name": "Serene Sandals",
     "itemNumber": 151,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-151-serene-sandals.png"
   },
   {
-    "name": "steel sabatons",
-    "id": "steelsabatons",
+    "name": "Steel Sabatons",
     "itemNumber": 152,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-152-steel-sabatons.png"
   },
   {
-    "name": "long spear",
-    "id": "longspear",
+    "name": "Long Spear",
     "itemNumber": 153,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-153-long-spear.png"
   },
   {
-    "name": "volatile bomb",
-    "id": "volatilebomb",
+    "name": "Volatile Bomb",
     "itemNumber": 154,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-154-volatile-bomb.png"
   },
   {
-    "name": "wall shield",
-    "id": "wallshield",
+    "name": "Wall Shield",
     "itemNumber": 155,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/147-155/fh-155-wall-shield.png"
   },
   {
-    "name": "moon earring",
-    "id": "moonearring",
+    "name": "Moon Earring",
     "itemNumber": 156,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/156-159/fh-156-moon-earring.png"
   },
   {
-    "name": "steel ring",
-    "id": "steelring",
+    "name": "Steel Ring",
     "itemNumber": 157,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/156-159/fh-157-steel-ring.png"
   },
   {
-    "name": "deep earth brooch",
-    "id": "deepearthbrooch",
+    "name": "Deep Earth Brooch",
     "itemNumber": 158,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/156-159/fh-158-deep-earth-brooch.png"
   },
   {
-    "name": "glorious bracelet",
-    "id": "gloriousbracelet",
+    "name": "Glorious Bracelet",
     "itemNumber": 159,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/156-159/fh-159-glorious-bracelet.png"
   },
   {
-    "name": "sun earring",
-    "id": "sunearring",
+    "name": "Sun Earring",
     "itemNumber": 160,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/160-163/fh-160-sun-earring.png"
   },
   {
-    "name": "strategist's ring",
-    "id": "strategistsring",
+    "name": "Strategist's Ring",
     "itemNumber": 161,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/160-163/fh-161-strategists-ring.png"
   },
   {
-    "name": "howling ice brooch",
-    "id": "howlingicebrooch",
+    "name": "Howling Ice Brooch",
     "itemNumber": 162,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/160-163/fh-162-howling-ice-brooch.png"
   },
   {
-    "name": "stunning bracelet",
-    "id": "stunningbracelet",
+    "name": "Stunning Bracelet",
     "itemNumber": 163,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/160-163/fh-163-stunning-bracelet.png"
   },
   {
-    "name": "star earring",
-    "id": "starearring",
+    "name": "Star Earring",
     "itemNumber": 164,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/164-167/fh-164-star-earring.png"
   },
   {
-    "name": "ring of haste",
-    "id": "ringofhaste",
+    "name": "Ring of Haste",
     "itemNumber": 165,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/164-167/fh-165-ring-of-haste.png"
   },
   {
-    "name": "blazing sun brooch",
-    "id": "blazingsunbrooch",
+    "name": "Blazing Sun Brooch",
     "itemNumber": 166,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/164-167/fh-166-blazing-sun-brooch.png"
   },
   {
-    "name": "attractive bracelet",
-    "id": "attractivebracelet",
+    "name": "Attractive Bracelet",
     "itemNumber": 167,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/164-167/fh-167-attractive-bracelet.png"
   },
   {
-    "name": "circlet of eyes",
-    "id": "circletofeyes",
+    "name": "Circlet of Eyes",
     "itemNumber": 168,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-168-circlet-of-eyes.png"
   },
   {
-    "name": "fateful charm",
-    "id": "fatefulcharm",
+    "name": "Fateful Charm",
     "itemNumber": 169,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-169-fateful-charm.png"
   },
   {
-    "name": "eye of truth",
-    "id": "eyeoftruth",
+    "name": "Eye of Truth",
     "itemNumber": 170,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-170-eye-of-truth.png"
   },
   {
-    "name": "rejuvenating charm",
-    "id": "rejuvenatingcharm",
+    "name": "Rejuvenating Charm",
     "itemNumber": 171,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-171-rejuvenating-charm.png"
   },
   {
-    "name": "cap of premonition",
-    "id": "capofpremonition",
+    "name": "Cap of Premonition",
     "itemNumber": 172,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-172-cap-of-premonition.png"
   },
   {
-    "name": "multi-colored cloak",
-    "id": "multicoloredcloak",
+    "name": "Multi-colored Cloak",
     "itemNumber": 173,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-173-multi-colored-cloak.png"
   },
   {
-    "name": "magnetic cape",
-    "id": "magneticcape",
+    "name": "Magnetic Cape",
     "itemNumber": 174,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-174-magnetic-cape.png"
   },
   {
-    "name": "mirrored armor",
-    "id": "mirroredarmor",
+    "name": "Mirrored Armor",
     "itemNumber": 175,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-175-mirrored-armor.png"
   },
   {
-    "name": "blinking cape",
-    "id": "blinkingcape",
+    "name": "Blinking Cape",
     "itemNumber": 176,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-176-blinking-cape.png"
   },
   {
-    "name": "boots of transference",
-    "id": "bootsoftransference",
+    "name": "Boots of Transference",
     "itemNumber": 177,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-177-boots-of-transference.png"
   },
   {
-    "name": "tranquil shoes",
-    "id": "tranquilshoes",
+    "name": "Tranquil Shoes",
     "itemNumber": 178,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-178-tranquil-shoes.png"
   },
   {
-    "name": "burst boots",
-    "id": "burstboots",
+    "name": "Burst Boots",
     "itemNumber": 179,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-179-burst-boots.png"
   },
   {
-    "name": "boots of greed",
-    "id": "bootsofgreed",
+    "name": "Boots of Greed",
     "itemNumber": 180,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-180-boots-of-greed.png"
   },
   {
-    "name": "translocation rod",
-    "id": "translocationrod",
+    "name": "Translocation Rod",
     "itemNumber": 181,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-181-translocation-rod.png"
   },
   {
-    "name": "wing clippers",
-    "id": "wingclippers",
+    "name": "Wing Clippers",
     "itemNumber": 182,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-182-wing-clippers.png"
   },
   {
-    "name": "decanter of mists",
-    "id": "decanterofmists",
+    "name": "Decanter of Mists",
     "itemNumber": 183,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-183-decanter-of-mists.png"
   },
   {
-    "name": "flashing axe",
-    "id": "flashingaxe",
+    "name": "Flashing Axe",
     "itemNumber": 184,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-184-flashing-axe.png"
   },
   {
-    "name": "mirrored knife",
-    "id": "mirroredknife",
+    "name": "Mirrored Knife",
     "itemNumber": 185,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-185-mirrored-knife.png"
   },
   {
-    "name": "wild growth seeds",
-    "id": "wildgrowthseeds",
+    "name": "Wild Growth Seeds",
     "itemNumber": 186,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-186-wild-growth-seeds.png"
   },
   {
-    "name": "dangerous gear",
-    "id": "dangerousgear",
+    "name": "Dangerous Gear",
     "itemNumber": 187,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-187-dangerous-gear.png"
   },
   {
-    "name": "freezing crystal",
-    "id": "freezingcrystal",
+    "name": "Freezing Crystal",
     "itemNumber": 188,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-188-freezing-crystal.png"
   },
   {
-    "name": "ring of the night",
-    "id": "ringofthenight",
+    "name": "Ring of the Night",
     "itemNumber": 189,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-189-ring-of-the-night.png"
   },
   {
-    "name": "white card",
-    "id": "whitecard",
+    "name": "White Card",
     "itemNumber": 190,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-190-white-card.png"
   },
   {
-    "name": "corrupted scroll",
-    "id": "corruptedscroll",
+    "name": "Corrupted Scroll",
     "itemNumber": 191,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-191-corrupted-scroll.png"
   },
   {
-    "name": "enticing bell",
-    "id": "enticingbell",
+    "name": "Enticing Bell",
     "itemNumber": 192,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/168-192/fh-192-enticing-bell.png"
   },
   {
-    "name": "mind-thieving helmet",
-    "id": "mindthievinghelmet",
+    "name": "Mind-thieving Helmet",
     "itemNumber": 193,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-193-mind-thieving-helmet.png"
   },
   {
-    "name": "temporal amulet",
-    "id": "temporalamulet",
+    "name": "Temporal Amulet",
     "itemNumber": 194,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-194-temporal-amulet.png"
   },
   {
-    "name": "tri-corner hat",
-    "id": "tricornerhat",
+    "name": "Tri-corner Hat",
     "itemNumber": 195,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-195-tri-corner-hat.png"
   },
   {
-    "name": "choker of sacrifice",
-    "id": "chokerofsacrifice",
+    "name": "Choker of Sacrifice",
     "itemNumber": 196,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-196-choker-of-sacrifice.png"
   },
   {
-    "name": "aesther diadem",
-    "id": "aestherdiadem",
+    "name": "Aesther Diadem",
     "itemNumber": 197,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-197-aesther-diadem.png"
   },
   {
-    "name": "hunter's necklace",
-    "id": "huntersnecklace",
+    "name": "Hunter's Necklace",
     "itemNumber": 198,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-198-hunters-necklace.png"
   },
   {
-    "name": "opulent shoes",
-    "id": "opulentshoes",
+    "name": "Opulent Shoes",
     "itemNumber": 199,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-199-opulent-shoes.png"
   },
   {
-    "name": "eventide scepter",
-    "id": "eventidescepter",
+    "name": "Eventide Scepter",
     "itemNumber": 200,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-200-eventide-scepter.png"
   },
   {
-    "name": "wave blade",
-    "id": "waveblade",
+    "name": "Wave Blade",
     "itemNumber": 201,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-201-wave-blade.png"
   },
   {
-    "name": "giant piranha pig spine",
-    "id": "giantpiranhapigspine",
+    "name": "Giant Piranha Pig Spine",
     "itemNumber": 202,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-202-giant-piranha-pig-spine.png"
   },
   {
-    "name": "scepter of control",
-    "id": "scepterofcontrol",
+    "name": "Scepter of Control",
     "itemNumber": 203,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-203-scepter-of-control.png"
   },
   {
-    "name": "severed claw",
-    "id": "severedclaw",
+    "name": "Severed Claw",
     "itemNumber": 204,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-204-severed-claw.png"
   },
   {
-    "name": "harpoon",
-    "id": "harpoon",
+    "name": "Harpoon",
     "itemNumber": 205,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-205-harpoon.png"
   },
   {
-    "name": "giant sword",
-    "id": "giantsword",
+    "name": "Giant Sword",
     "itemNumber": 206,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-206-giant-sword.png"
   },
   {
-    "name": "fishhook",
-    "id": "fishhook",
+    "name": "Fishhook",
     "itemNumber": 207,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-207-fishhook.png"
   },
   {
-    "name": "titan nail",
-    "id": "titannail",
+    "name": "Titan Nail",
     "itemNumber": 208,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-208-titan-nail.png"
   },
   {
-    "name": "sword of mastery",
-    "id": "swordofmastery",
+    "name": "Sword of Mastery",
     "itemNumber": 209,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-209-sword-of-mastery.png"
   },
   {
-    "name": "tanjo",
-    "id": "tanjo",
+    "name": "Tanjo",
     "itemNumber": 210,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-210-tanjo.png"
   },
   {
-    "name": "boom barrel",
-    "id": "boombarrel",
+    "name": "Boom Barrel",
     "itemNumber": 211,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-211-boom-barrel.png"
   },
   {
-    "name": "elemental stone",
-    "id": "elementalstone",
+    "name": "Elemental Stone",
     "itemNumber": 212,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-212-elemental-stone.png"
   },
   {
-    "name": "key of seasons",
-    "id": "keyofseasons",
+    "name": "Key of Seasons",
     "itemNumber": 213,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-213-key-of-seasons.png"
   },
   {
-    "name": "cup of ventillion",
-    "id": "cupofventillion",
+    "name": "Cup of Ventillion",
     "itemNumber": 214,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-214-cup-of-ventillion.png"
   },
   {
-    "name": "befuddling mug",
-    "id": "befuddlingmug",
+    "name": "Befuddling Mug",
     "itemNumber": 215,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-215-befuddling-mug.png"
   },
   {
-    "name": "tome of elements",
-    "id": "tomeofelements",
+    "name": "Tome of Elements",
     "itemNumber": 216,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-216-tome-of-elements.png"
   },
   {
-    "name": "tome of time",
-    "id": "tomeoftime",
+    "name": "Tome of Time",
     "itemNumber": 217,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-217-tome-of-time.png"
   },
   {
-    "name": "tome of life",
-    "id": "tomeoflife",
+    "name": "Tome of Life",
     "itemNumber": 218,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-218-tome-of-life.png"
   },
   {
-    "name": "tome of conflict",
-    "id": "tomeofconflict",
+    "name": "Tome of Conflict",
     "itemNumber": 219,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-219-tome-of-conflict.png"
   },
   {
-    "name": "belara's quill",
-    "id": "belarasquill",
+    "name": "Belara's Quill",
     "itemNumber": 220,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-220-belaras-quill.png"
   },
   {
-    "name": "ice shiv",
-    "id": "iceshiv",
+    "name": "Ice Shiv",
     "itemNumber": 221,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-221-ice-shiv.png"
   },
   {
-    "name": "black box",
-    "id": "blackbox",
+    "name": "Black Box",
     "itemNumber": 222,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-222-black-box.png"
   },
   {
-    "name": "lightning rod",
-    "id": "lightningrod",
+    "name": "Lightning Rod",
     "itemNumber": 223,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-223-lightning-rod.png"
   },
   {
-    "name": "armor of empathy",
-    "id": "armorofempathy",
+    "name": "Armor of Empathy",
     "itemNumber": 224,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-224-armor-of-empathy.png"
   },
   {
-    "name": "algox carving",
-    "id": "algoxcarving",
+    "name": "Algox Carving",
     "itemNumber": 225,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-225-algox-carving.png"
   },
   {
-    "name": "unfettered arm",
-    "id": "unfetteredarm",
+    "name": "Unfettered Arm",
     "itemNumber": 226,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-226-unfettered-arm.png"
   },
   {
-    "name": "data drive",
-    "id": "datadrive",
+    "name": "Data Drive",
     "itemNumber": 227,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-227-data-drive.png"
   },
   {
-    "name": "extendable pole",
-    "id": "extendablepole",
+    "name": "Extendable Pole",
     "itemNumber": 228,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-228-extendable-pole.png"
   },
   {
-    "name": "exquisite map",
-    "id": "exquisitemap",
+    "name": "Exquisite Map",
     "itemNumber": 229,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-229-exquisite-map.png"
   },
   {
-    "name": "examination glass",
-    "id": "examinationglass",
+    "name": "Examination Glass",
     "itemNumber": 230,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-230-examination-glass.png"
   },
   {
-    "name": "skinning knife",
-    "id": "skinningknife",
+    "name": "Skinning Knife",
     "itemNumber": 231,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-231-skinning-knife.png"
   },
   {
-    "name": "orchid wand",
-    "id": "orchidwand",
+    "name": "Orchid Wand",
     "itemNumber": 232,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-232-orchid-wand.png"
   },
   {
-    "name": "dead raven",
-    "id": "deadraven",
+    "name": "Dead Raven",
     "itemNumber": 233,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-233-dead-raven.png"
   },
   {
-    "name": "ooze vial",
-    "id": "oozevial",
+    "name": "Ooze Vial",
     "itemNumber": 234,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-234-ooze-vial.png"
   },
   {
-    "name": "small rat",
-    "id": "smallrat",
+    "name": "Small Rat",
     "itemNumber": 235,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-235-small-rat.png"
   },
   {
-    "name": "cracked mirror",
-    "id": "crackedmirror",
+    "name": "Cracked Mirror",
     "itemNumber": 236,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-236-cracked-mirror.png"
   },
   {
-    "name": "mesmerizing seashell",
-    "id": "mesmerizingseashell",
+    "name": "Mesmerizing Seashell",
     "itemNumber": 237,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-237-mesmerizing-seashell.png"
   },
   {
-    "name": "cracked idol",
-    "id": "crackedidol",
+    "name": "Cracked Idol",
     "itemNumber": 238,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-238-cracked-idol.png"
   },
   {
-    "name": "eye of the storm",
-    "id": "eyeofthestorm",
+    "name": "Eye of the Storm",
     "itemNumber": 239,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-239-eye-of-the-storm.png"
   },
   {
-    "name": "demon's gem",
-    "id": "demonsgem",
+    "name": "Demon's Gem",
     "itemNumber": 240,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-240-demons-gem.png"
   },
   {
-    "name": "shimmering powder",
-    "id": "shimmeringpowder",
+    "name": "Shimmering Powder",
     "itemNumber": 241,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-241-shimmering-powder.png"
   },
   {
-    "name": "lucky dice",
-    "id": "luckydice",
+    "name": "Lucky Dice",
     "itemNumber": 242,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-242-lucky-dice.png"
   },
   {
-    "name": "cursed rock",
-    "id": "cursedrock",
+    "name": "Cursed Rock",
     "itemNumber": 243,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-243-cursed-rock.png"
   },
   {
-    "name": "ember energy source",
-    "id": "emberenergysource",
+    "name": "Ember Energy Source",
     "itemNumber": 244,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-244-ember-energy-source.png"
   },
   {
-    "name": "ancient coin",
-    "id": "ancientcoin",
+    "name": "Ancient Coin",
     "itemNumber": 245,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-245a-ancient-coin.png"
   },
   {
-    "name": "key card",
-    "id": "keycard",
+    "name": "Key Card",
     "itemNumber": 246,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-246-key-card.png"
   },
   {
-    "name": "trainer's net",
-    "id": "trainersnet",
+    "name": "Trainer's Net",
     "itemNumber": 247,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/193-247/fh-247-trainers-net.png"
   },
   {
-    "name": "wanderer's club",
-    "id": "wanderersclub",
+    "name": "Wanderer's Club",
     "itemNumber": 248,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-248-wanderers-club.png"
   },
   {
-    "name": "recalibration trigger",
-    "id": "recalibrationtrigger",
+    "name": "Recalibration Trigger",
     "itemNumber": 249,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-249-recalibration-trigger.png"
   },
   {
-    "name": "spear of justice",
-    "id": "spearofjustice",
+    "name": "Spear of Justice",
     "itemNumber": 250,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-250-spear-of-justice.png"
   },
   {
-    "name": "soul urn",
-    "id": "soulurn",
+    "name": "Soul Urn",
     "itemNumber": 251,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-251-soul-urn.png"
   },
   {
-    "name": "black earth codex",
-    "id": "blackearthcodex",
+    "name": "Black Earth Codex",
     "itemNumber": 252,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-252-black-earth-codex.png"
   },
   {
-    "name": "mask of duality",
-    "id": "maskofduality",
+    "name": "Mask of Duality",
     "itemNumber": 253,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-253-mask-of-duality.png"
   },
   {
-    "name": "ancestral blade",
-    "id": "ancestralblade",
+    "name": "Ancestral Blade",
     "itemNumber": 254,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-254-ancestral-blade.png"
   },
   {
-    "name": "mountain's heart",
-    "id": "mountainsheart",
+    "name": "Mountain's Heart",
     "itemNumber": 255,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-255-mountains-heart.png"
   },
   {
-    "name": "sonorous shard",
-    "id": "sonorousshard",
+    "name": "Sonorous Shard",
     "itemNumber": 256,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-256-sonorous-shard.png"
   },
   {
-    "name": "sly camouflage",
-    "id": "slycamouflage",
+    "name": "Sly Camouflage",
     "itemNumber": 257,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-257-sly-camouflage.png"
   },
   {
-    "name": "skull of agony",
-    "id": "skullofagony",
+    "name": "Skull of Agony",
     "itemNumber": 258,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-258-skull-of-agony.png"
   },
   {
-    "name": "storm carving",
-    "id": "stormcarving",
+    "name": "Storm Carving",
     "itemNumber": 259,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-259-storm-carving.png"
   },
   {
-    "name": "freezing orb",
-    "id": "freezingorb",
+    "name": "Freezing Orb",
     "itemNumber": 260,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-260-freezing-orb.png"
   },
   {
-    "name": "energized module",
-    "id": "energizedmodule",
+    "name": "Energized Module",
     "itemNumber": 261,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-261-energized-module.png"
   },
   {
-    "name": "exhaust boots",
-    "id": "exhaustboots",
+    "name": "Exhaust Boots",
     "itemNumber": 262,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-262-exhaust-boots.png"
   },
   {
-    "name": "warlord's skull",
-    "id": "warlordsskull",
+    "name": "Warlord's Skull",
     "itemNumber": 263,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-263-warlords-skull.png"
   },
   {
-    "name": "spiraled medallion",
-    "id": "spiraledmedallion",
+    "name": "Spiraled Medallion",
     "itemNumber": 264,
     "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/items/frosthaven/248-264/fh-264-spiraled-medallion.png"
   }

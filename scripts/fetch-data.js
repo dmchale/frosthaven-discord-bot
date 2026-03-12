@@ -27,6 +27,24 @@ async function fetchJson(url) {
   return res.json();
 }
 
+// Title-cases a string, keeping common short words lowercase unless they are
+// the first word (e.g. "tome of power" → "Tome of Power").
+const TITLE_STOP_WORDS = new Set([
+  "a", "an", "the",
+  "and", "but", "or", "nor", "for", "so", "yet",
+  "at", "by", "from", "in", "into", "of", "off", "on", "onto", "out", "over", "to", "up", "with",
+]);
+
+function toTitleCase(str) {
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word, i) => (i === 0 || !TITLE_STOP_WORDS.has(word))
+      ? word.charAt(0).toUpperCase() + word.slice(1)
+      : word)
+    .join(" ");
+}
+
 async function fetchAbilityCards() {
   console.log("Fetching ability cards from worldhaven...");
   const cards = await fetchJson(`${FH_RAW}/data/character-ability-cards.js`);
@@ -72,8 +90,7 @@ async function fetchItems() {
     const itemNumMatch = (item.image || "").match(/fh-(\d+)/);
 
     index.push({
-      name,
-      id:         item.xws || item.assetno || name,
+      name:       toTitleCase(name),
       itemNumber: itemNumMatch ? parseInt(itemNumMatch[1], 10) : null,
       imageUrl:   item.image ? `${IMAGE_BASE}/${item.image}` : null,
     });

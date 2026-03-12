@@ -305,9 +305,22 @@ function formatLevel(level) {
 }
 
 // Converts a name from source data to display-ready title case.
-// Source data stores names in all-lowercase; this capitalizes the first letter of each word.
+// Common short words (articles, prepositions, conjunctions) stay lowercase
+// unless they are the first word — e.g. "tome of power" → "Tome of Power".
+const TITLE_STOP_WORDS = new Set([
+  "a", "an", "the",
+  "and", "but", "or", "nor", "for", "so", "yet",
+  "at", "by", "from", "in", "into", "of", "off", "on", "onto", "out", "over", "to", "up", "with",
+]);
+
 function toDisplayName(name) {
-  return name.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+  return name
+    .toLowerCase()
+    .split(" ")
+    .map((word, i) => (i === 0 || !TITLE_STOP_WORDS.has(word))
+      ? word.charAt(0).toUpperCase() + word.slice(1)
+      : word)
+    .join(" ");
 }
 
 // Returns { ephemeral: boolean, blocked: boolean }.
