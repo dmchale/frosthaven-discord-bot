@@ -273,7 +273,7 @@ client.on("interactionCreate", async (interaction) => {
 
     const results = fuse.search(query, { limit: 25 });
     return interaction.respond(
-      results.map(r => ({ name: r.item.name, value: r.item.name }))
+      results.map(r => ({ name: toDisplayName(r.item.name), value: r.item.name }))
     );
   }
 
@@ -362,6 +362,12 @@ function formatLevel(level) {
   return String(level).toLowerCase() === "x" ? "X" : String(level);
 }
 
+// Converts a name from source data to display-ready title case.
+// Source data stores names in all-lowercase; this capitalizes the first letter of each word.
+function toDisplayName(name) {
+  return name.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+}
+
 // Returns { ephemeral: boolean, blocked: boolean }.
 // `blocked` is true when the user tried to post publicly but lacked permission —
 // the caller should send a follow-up notice so the user isn't silently confused.
@@ -431,7 +437,7 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
 
   const embed = new EmbedBuilder()
     .setColor(type === "ability" ? 0x4a90d9 : 0xe8a838)
-    .setTitle(best.name)
+    .setTitle(toDisplayName(best.name))
     .setImage(best.imageUrl)
     .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
 
@@ -450,7 +456,8 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
   if (alts.length) {
     const options = alts.map((r) => {
       const card = r.item;
-      const label = card.name.length <= 100 ? card.name : card.name.slice(0, 97) + "…";
+      const displayName = toDisplayName(card.name);
+      const label = displayName.length <= 100 ? displayName : displayName.slice(0, 97) + "…";
       const description = type === "ability"
         ? `${getClassName(card.class)} — Level ${formatLevel(card.level)}`
         : card.itemNumber !== null ? `Item #${card.itemNumber}` : undefined;
@@ -461,7 +468,7 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
     });
     const menu = new StringSelectMenuBuilder()
       .setCustomId(`card:${type}`)
-      .setPlaceholder("Did you mean…?")
+      .setPlaceholder(`Did you mean…? (${alts.length} option${alts.length === 1 ? "" : "s"})`)
       .addOptions(options);
     components.push(new ActionRowBuilder().addComponents(menu));
   }
@@ -612,7 +619,7 @@ async function handleClassLookup(interaction) {
   const embeds = cards.map((card, i) =>
     new EmbedBuilder()
       .setColor(color)
-      .setTitle(i === 0 ? `${classEntry.name} — ${levelLabel}` : card.name)
+      .setTitle(i === 0 ? `${classEntry.name} — ${levelLabel}` : toDisplayName(card.name))
       .setImage(card.imageUrl)
       .setFooter({ text: "Frosthaven • Worldhaven Card Database" })
   );
