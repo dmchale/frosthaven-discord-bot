@@ -92,7 +92,13 @@ async function fetchItems() {
 
     const itemNumMatch = (item.image || "").match(/fh-(\d+)/);
 
-    const filename = item.image ? item.image.split("/").pop() : null;
+    // Normalize to match the cmlenius/gloomhaven-card-browser image filenames:
+    //   - strip single-letter variant suffix after item number (e.g. fh-051a- → fh-051-)
+    //   - change extension from .png to .jpeg
+    const rawFilename = item.image ? item.image.split("/").pop() : null;
+    const filename = rawFilename
+      ? rawFilename.replace(/(fh-\d+)[a-z](-)/,"$1$2").replace(/\.png$/, ".jpeg")
+      : null;
 
     index.push({
       name:       toTitleCase(name),
