@@ -417,8 +417,7 @@ async function resolveCardByName(interaction, type, cardName, results = null, op
 
   const embed = new EmbedBuilder()
     .setColor(type === "ability" ? 0x4a90d9 : 0xe8a838)
-    .setTitle(toDisplayName(best.name))
-    .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+    .setTitle(toDisplayName(best.name));
 
   if (imageUrl) embed.setImage(imageUrl);
 
@@ -508,8 +507,7 @@ async function handleEventLookup(interaction, typeOverride = null) {
   const frontEmbed = new EmbedBuilder()
     .setColor(color)
     .setTitle(best.title ? `${cardLabel} — ${best.title}` : cardLabel)
-    .setImage(best.frontUrl)
-    .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+    .setImage(best.frontUrl);
 
 
   try {
@@ -581,7 +579,7 @@ async function handleClassLookup(interaction) {
       .setTitle(`${classEntry.name}${level === "1" ? " — Level 1" : ""} — Click to view all cards 🔗`)
       .setURL(`${CARDS_BASE_URL}/${classEntry.code}`)
       .setImage(classImageUrl)
-      .setFooter({ text: "Frosthaven • Worldhaven Card Database" });
+  ;
     return interaction.editReply({ embeds: [embed] });
   }
 
@@ -602,7 +600,6 @@ async function handleClassLookup(interaction) {
       .setColor(color)
       .setTitle(i === 0 ? `${classEntry.name} — ${levelLabel}` : toDisplayName(card.name))
       .setImage(card.imageUrl)
-      .setFooter({ text: "Frosthaven • Worldhaven Card Database" })
   );
 
   await interaction.editReply({ embeds });
