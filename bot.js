@@ -70,80 +70,22 @@ let abilityFuse = null;
 let itemFuse = null;
 let eventFuse = null;
 
-async function fetchJson(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status} fetching ${url}`);
-  return res.json();
-}
-
 async function buildCardIndex() {
-  console.log("Building card index from any2cards/worldhaven...");
+  console.log("Building card index from local data files...");
 
-  // ── Ability cards ──────────────────────────────────────────────────────────
-  // The data file is a flat JSON array. Each card has character-xws for class.
-  // Each card appears multiple times with different name aliases (points 0,1,2…).
-  // We keep only the canonical entry (points === 0).
+  // ── Ability cards (local data/ability-cards.json) ──────────────────────────
   try {
-    const cards = await fetchJson(`${FH_RAW}/data/character-ability-cards.js`);
-
-    // Each card appears twice: once with the real name, once with the asset number
-    // as the name. Also skip card-back images. Filter to Frosthaven only.
-    for (const card of cards) {
-      if (card.expansion !== "frosthaven") continue;
-      const name = card.name || "";
-      if (/^\d+$/.test(name)) continue;          // skip numeric-name duplicates
-      if ((card.image || "").includes("-back.")) continue; // skip card backs
-      if (!name) continue;
-
-      const imageUrl = card.image
-        ? `${IMAGE_BASE}/${card.image}`
-        : null;
-
-      abilityIndex.push({
-        name,
-        class: card["character-xws"] || "Unknown",
-        level: card.level ?? "?",
-        id: card.xws || name,
-        imageUrl,
-      });
-    }
+    const raw = fs.readFileSync(path.join(__dirname, "data", "ability-cards.json"), "utf8");
+    abilityIndex = JSON.parse(raw);
     console.log(`  Loaded ${abilityIndex.length} ability cards.`);
   } catch (err) {
     console.warn("Could not load ability cards:", err.message);
   }
 
-  // ── Item cards ─────────────────────────────────────────────────────────────
+  // ── Item cards (local data/items.json) ─────────────────────────────────────
   try {
-    const items = await fetchJson(`${FH_RAW}/data/items.js`);
-    const seenItemNames = new Set();
-
-    // Items have many alias entries ("item 1", "item 01", asset numbers, back images).
-    // Some items have a/b variants with the same name — keep only the first occurrence.
-    for (const item of items) {
-      if (item.expansion !== "frosthaven") continue;
-      const name = item.name || "";
-      if (name.toLowerCase().startsWith("item ")) continue; // skip "item 1" aliases
-      if (/^\d+$/.test(name)) continue;                     // skip asset number aliases
-      if (item.assetno === "####") continue;                 // skip back images
-      if (!name) continue;
-      if (seenItemNames.has(name)) continue;                 // skip a/b variant duplicates
-      seenItemNames.add(name);
-
-      const imageUrl = item.image
-        ? `${IMAGE_BASE}/${item.image}`
-        : null;
-
-      // Extract in-game item number from image filename (e.g. "fh-056a-..." → "056")
-      const itemNumMatch = (item.image || "").match(/fh-(\d+)/);
-      const itemNumber = itemNumMatch ? parseInt(itemNumMatch[1], 10) : null;
-
-      itemIndex.push({
-        name,
-        id: item.xws || item.assetno || name,
-        itemNumber,
-        imageUrl,
-      });
-    }
+    const raw = fs.readFileSync(path.join(__dirname, "data", "items.json"), "utf8");
+    itemIndex = JSON.parse(raw);
     console.log(`  Loaded ${itemIndex.length} items.`);
   } catch (err) {
     console.warn("Could not load items:", err.message);

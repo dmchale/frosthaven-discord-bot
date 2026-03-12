@@ -5,7 +5,8 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
-    "deploy": "node deploy-commands.js"
+    "deploy": "node deploy-commands.js",
+    "fetch-data": "node scripts/fetch-data.js"
   },
   "dependencies": {
     "@discordjs/rest": "^2.3.0",

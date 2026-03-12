@@ -1,0 +1,3838 @@
+[
+  {
+    "name": "blurry jab",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "blurryjab",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-blurry-jab.png"
+  },
+  {
+    "name": "borrowed time",
+    "class": "blinkblade",
+    "level": "x",
+    "id": "borrowedtime",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-borrowed-time.png"
+  },
+  {
+    "name": "breakneck speed",
+    "class": "blinkblade",
+    "level": "5",
+    "id": "breakneckspeed",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-breakneck-speed.png"
+  },
+  {
+    "name": "cascading reaction",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "cascadingreaction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-cascading-reaction.png"
+  },
+  {
+    "name": "double time",
+    "class": "blinkblade",
+    "level": "3",
+    "id": "doubletime",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-double-time.png"
+  },
+  {
+    "name": "drive recharge",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "driverecharge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-drive-recharge.png"
+  },
+  {
+    "name": "experimental adjustment",
+    "class": "blinkblade",
+    "level": "x",
+    "id": "experimentaladjustment",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-experimental-adjustment.png"
+  },
+  {
+    "name": "fastest alive",
+    "class": "blinkblade",
+    "level": "8",
+    "id": "fastestalive",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-fastest-alive.png"
+  },
+  {
+    "name": "flashing flurry",
+    "class": "blinkblade",
+    "level": "5",
+    "id": "flashingflurry",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-flashing-flurry.png"
+  },
+  {
+    "name": "fractured timeline",
+    "class": "blinkblade",
+    "level": "9",
+    "id": "fracturedtimeline",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-fractured-timeline.png"
+  },
+  {
+    "name": "hit and run",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "hitandrun",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-hit-and-run.png"
+  },
+  {
+    "name": "kinetic transfer",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "kinetictransfer",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-kinetic-transfer.png"
+  },
+  {
+    "name": "make it count",
+    "class": "blinkblade",
+    "level": "3",
+    "id": "makeitcount",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-make-it-count.png"
+  },
+  {
+    "name": "overdrive",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "overdrive",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-overdrive.png"
+  },
+  {
+    "name": "phasing blades",
+    "class": "blinkblade",
+    "level": "7",
+    "id": "phasingblades",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-phasing-blades.png"
+  },
+  {
+    "name": "potential energy",
+    "class": "blinkblade",
+    "level": "4",
+    "id": "potentialenergy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-potential-energy.png"
+  },
+  {
+    "name": "power leak",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "powerleak",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-power-leak.png"
+  },
+  {
+    "name": "precision timing",
+    "class": "blinkblade",
+    "level": "4",
+    "id": "precisiontiming",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-precision-timing.png"
+  },
+  {
+    "name": "quantum uncertainty",
+    "class": "blinkblade",
+    "level": "8",
+    "id": "quantumuncertainty",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-quantum-uncertainty.png"
+  },
+  {
+    "name": "reckless augmentation",
+    "class": "blinkblade",
+    "level": "2",
+    "id": "recklessaugmentation",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-reckless-augmentation.png"
+  },
+  {
+    "name": "reverse the flow",
+    "class": "blinkblade",
+    "level": "9",
+    "id": "reversetheflow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-reverse-the-flow.png"
+  },
+  {
+    "name": "rushed to the end",
+    "class": "blinkblade",
+    "level": "7",
+    "id": "rushedtotheend",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-rushed-to-the-end.png"
+  },
+  {
+    "name": "sand in the hourglass",
+    "class": "blinkblade",
+    "level": "x",
+    "id": "sandinthehourglass",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-sand-in-the-hourglass.png"
+  },
+  {
+    "name": "sap speed",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "sapspeed",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-sap-speed.png"
+  },
+  {
+    "name": "stab them all",
+    "class": "blinkblade",
+    "level": "6",
+    "id": "stabthemall",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-stab-them-all.png"
+  },
+  {
+    "name": "systems reboot",
+    "class": "blinkblade",
+    "level": "2",
+    "id": "systemsreboot",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-systems-reboot.png"
+  },
+  {
+    "name": "temporal displacement",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "temporaldisplacement",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-temporal-displacement.png"
+  },
+  {
+    "name": "the knife's edge",
+    "class": "blinkblade",
+    "level": "6",
+    "id": "theknifesedge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-the-knifes-edge.png"
+  },
+  {
+    "name": "twin strike",
+    "class": "blinkblade",
+    "level": "1",
+    "id": "twinstrike",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bb/fh-twin-strike.png"
+  },
+  {
+    "name": "air support",
+    "class": "banner spear",
+    "level": "4",
+    "id": "airsupport",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-air-support.png"
+  },
+  {
+    "name": "trained falcon",
+    "class": "banner spear",
+    "level": "4",
+    "id": "trainedfalcon",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-air-support.png"
+  },
+  {
+    "name": "at all costs",
+    "class": "banner spear",
+    "level": "1",
+    "id": "atallcosts",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-at-all-costs.png"
+  },
+  {
+    "name": "reinforcement",
+    "class": "banner spear",
+    "level": "1",
+    "id": "reinforcement",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-at-all-costs.png"
+  },
+  {
+    "name": "barricade",
+    "class": "banner spear",
+    "level": "6",
+    "id": "barricade",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-barricade.png"
+  },
+  {
+    "name": "banner of valor",
+    "class": "banner spear",
+    "level": "6",
+    "id": "bannerofvalor",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-barricade.png"
+  },
+  {
+    "name": "boldening blow",
+    "class": "banner spear",
+    "level": "4",
+    "id": "boldeningblow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-boldening-blow.png"
+  },
+  {
+    "name": "bolstering shout",
+    "class": "banner spear",
+    "level": "6",
+    "id": "bolsteringshout",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-bolstering-shout.png"
+  },
+  {
+    "name": "combined effort",
+    "class": "banner spear",
+    "level": "1",
+    "id": "combinedeffort",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-combined-effort.png"
+  },
+  {
+    "name": "deflecting maneuver",
+    "class": "banner spear",
+    "level": "1",
+    "id": "deflectingmaneuver",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-deflecting-maneuver.png"
+  },
+  {
+    "name": "driving inspiration",
+    "class": "banner spear",
+    "level": "x",
+    "id": "drivinginspiration",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-driving-inspiration.png"
+  },
+  {
+    "name": "banner of hope",
+    "class": "banner spear",
+    "level": "x",
+    "id": "bannerofhope",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-driving-inspiration.png"
+  },
+  {
+    "name": "explosive epicenter",
+    "class": "banner spear",
+    "level": "5",
+    "id": "explosiveepicenter",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-explosive-epicenter.png"
+  },
+  {
+    "name": "hail of spears",
+    "class": "banner spear",
+    "level": "9",
+    "id": "hailofspears",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-hail-of-spears.png"
+  },
+  {
+    "name": "head of the hammer",
+    "class": "banner spear",
+    "level": "3",
+    "id": "headofthehammer",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-head-of-the-hammer.png"
+  },
+  {
+    "name": "hold the line",
+    "class": "banner spear",
+    "level": "5",
+    "id": "holdtheline",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-hold-the-line.png"
+  },
+  {
+    "name": "incendiary throw",
+    "class": "banner spear",
+    "level": "x",
+    "id": "incendiarythrow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-incendiary-throw.png"
+  },
+  {
+    "name": "torch bearer",
+    "class": "banner spear",
+    "level": "x",
+    "id": "torchbearer",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-incendiary-throw.png"
+  },
+  {
+    "name": "javelin",
+    "class": "banner spear",
+    "level": "1",
+    "id": "javelin",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-javelin.png"
+  },
+  {
+    "name": "lead from afar",
+    "class": "banner spear",
+    "level": "7",
+    "id": "leadfromafar",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-lead-from-afar.png"
+  },
+  {
+    "name": "longbowman",
+    "class": "banner spear",
+    "level": "7",
+    "id": "longbowman",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-lead-from-afar.png"
+  },
+  {
+    "name": "let them come",
+    "class": "banner spear",
+    "level": "3",
+    "id": "letthemcome",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-let-them-come.png"
+  },
+  {
+    "name": "banner of courage",
+    "class": "banner spear",
+    "level": "3",
+    "id": "bannerofcourage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-let-them-come.png"
+  },
+  {
+    "name": "meat grinder",
+    "class": "banner spear",
+    "level": "2",
+    "id": "meatgrinder",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-meat-grinder.png"
+  },
+  {
+    "name": "pincer movement",
+    "class": "banner spear",
+    "level": "1",
+    "id": "pincermovement",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-pincer-movement.png"
+  },
+  {
+    "name": "pinning charge",
+    "class": "banner spear",
+    "level": "2",
+    "id": "pinningcharge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-pinning-charge.png"
+  },
+  {
+    "name": "rallying cry",
+    "class": "banner spear",
+    "level": "1",
+    "id": "rallyingcry",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-rallying-cry.png"
+  },
+  {
+    "name": "banner of strength",
+    "class": "banner spear",
+    "level": "1",
+    "id": "bannerofstrength",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-rallying-cry.png"
+  },
+  {
+    "name": "regroup",
+    "class": "banner spear",
+    "level": "1",
+    "id": "regroup",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-regroup.png"
+  },
+  {
+    "name": "resolved courage",
+    "class": "banner spear",
+    "level": "x",
+    "id": "resolvedcourage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-resolved-courage.png"
+  },
+  {
+    "name": "set for the charge",
+    "class": "banner spear",
+    "level": "1",
+    "id": "setforthecharge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-set-for-the-charge.png"
+  },
+  {
+    "name": "sweeping aid",
+    "class": "banner spear",
+    "level": "8",
+    "id": "sweepingaid",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-sweeping-aid.png"
+  },
+  {
+    "name": "take no prisoners",
+    "class": "banner spear",
+    "level": "9",
+    "id": "takenoprisoners",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-take-no-prisoners.png"
+  },
+  {
+    "name": "banner of doom",
+    "class": "banner spear",
+    "level": "9",
+    "id": "bannerofdoom",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-take-no-prisoners.png"
+  },
+  {
+    "name": "taunting howl",
+    "class": "banner spear",
+    "level": "8",
+    "id": "tauntinghowl",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-taunting-howl.png"
+  },
+  {
+    "name": "tip of the spear",
+    "class": "banner spear",
+    "level": "1",
+    "id": "tipofthespear",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-tip-of-the-spear.png"
+  },
+  {
+    "name": "tri-thrust",
+    "class": "banner spear",
+    "level": "7",
+    "id": "trithrust",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-tri-thrust.png"
+  },
+  {
+    "name": "unbreakable wall",
+    "class": "banner spear",
+    "level": "1",
+    "id": "unbreakablewall",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bn/fh-unbreakable-wall.png"
+  },
+  {
+    "name": "angry spirits",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "angryspirits",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-angry-spirits.png"
+  },
+  {
+    "name": "wraith",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "wraith",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-angry-spirits.png"
+  },
+  {
+    "name": "approach oblivion",
+    "class": "boneshaper",
+    "level": "x",
+    "id": "approachoblivion",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-approach-oblivion.png"
+  },
+  {
+    "name": "behold the shrouded sun",
+    "class": "boneshaper",
+    "level": "9",
+    "id": "beholdtheshroudedsun",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-behold-the-shrouded-sun.png"
+  },
+  {
+    "name": "bone dagger",
+    "class": "boneshaper",
+    "level": "2",
+    "id": "bonedagger",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-bone-dagger.png"
+  },
+  {
+    "name": "command the wretched",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "commandthewretched",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-command-the-wretched.png"
+  },
+  {
+    "name": "critical failure",
+    "class": "boneshaper",
+    "level": "4",
+    "id": "criticalfailure",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-critical-failure.png"
+  },
+  {
+    "name": "damned horde",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "damnedhorde",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-damned-horde.png"
+  },
+  {
+    "name": "shambling skeleton",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "shamblingskeleton",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-damned-horde.png"
+  },
+  {
+    "name": "dark tidings",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "darktidings",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-dark-tidings.png"
+  },
+  {
+    "name": "decaying will",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "decayingwill",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-decaying-will.png"
+  },
+  {
+    "name": "endless numbers",
+    "class": "boneshaper",
+    "level": "8",
+    "id": "endlessnumbers",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-endless-numbers.png"
+  },
+  {
+    "name": "bone horde",
+    "class": "boneshaper",
+    "level": "8",
+    "id": "bonehorde",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-endless-numbers.png"
+  },
+  {
+    "name": "eternal torment",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "eternaltorment",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-eternal-torment.png"
+  },
+  {
+    "name": "exploding corpse",
+    "class": "boneshaper",
+    "level": "x",
+    "id": "explodingcorpse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-exploding-corpse.png"
+  },
+  {
+    "name": "fell remedy",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "fellremedy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-fell-remedy.png"
+  },
+  {
+    "name": "flesh shield",
+    "class": "boneshaper",
+    "level": "4",
+    "id": "fleshshield",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-flesh-shield.png"
+  },
+  {
+    "name": "flow of the black river",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "flowoftheblackriver",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-flow-of-the-black-river.png"
+  },
+  {
+    "name": "grave digging",
+    "class": "boneshaper",
+    "level": "3",
+    "id": "gravedigging",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-grave-digging.png"
+  },
+  {
+    "name": "shambling skeleton",
+    "class": "boneshaper",
+    "level": "3",
+    "id": "shamblingskeleton",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-grave-digging.png"
+  },
+  {
+    "name": "life in death",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "lifeindeath",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-life-in-death.png"
+  },
+  {
+    "name": "shambling skeleton",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "shamblingskeleton",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-life-in-death.png"
+  },
+  {
+    "name": "malicious conversion",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "maliciousconversion",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-malicious-conversion.png"
+  },
+  {
+    "name": "putrid cloud",
+    "class": "boneshaper",
+    "level": "3",
+    "id": "putridcloud",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-putrid-cloud.png"
+  },
+  {
+    "name": "recycled limbs",
+    "class": "boneshaper",
+    "level": "7",
+    "id": "recycledlimbs",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-recycled-limbs.png"
+  },
+  {
+    "name": "returned servant",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "returnedservant",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-returned-servant.png"
+  },
+  {
+    "name": "shambling skeleton",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "shamblingskeleton",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-returned-servant.png"
+  },
+  {
+    "name": "rotting multitude",
+    "class": "boneshaper",
+    "level": "6",
+    "id": "rottingmultitude",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-rotting-multitude.png"
+  },
+  {
+    "name": "two shambling skeletons",
+    "class": "boneshaper",
+    "level": "6",
+    "id": "twoshamblingskeletons",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-rotting-multitude.png"
+  },
+  {
+    "name": "solid bones",
+    "class": "boneshaper",
+    "level": "5",
+    "id": "solidbones",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-solid-bones.png"
+  },
+  {
+    "name": "soul claim",
+    "class": "boneshaper",
+    "level": "7",
+    "id": "soulclaim",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-soul-claim.png"
+  },
+  {
+    "name": "transfer of essence",
+    "class": "boneshaper",
+    "level": "1",
+    "id": "transferofessence",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-transfer-of-essence.png"
+  },
+  {
+    "name": "twisted decree",
+    "class": "boneshaper",
+    "level": "6",
+    "id": "twisteddecree",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-twisted-decree.png"
+  },
+  {
+    "name": "unearthed horror",
+    "class": "boneshaper",
+    "level": "2",
+    "id": "unearthedhorror",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-unearthed-horror.png"
+  },
+  {
+    "name": "raging corpse",
+    "class": "boneshaper",
+    "level": "2",
+    "id": "ragingcorpse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-unearthed-horror.png"
+  },
+  {
+    "name": "unforgivable methods",
+    "class": "boneshaper",
+    "level": "5",
+    "id": "unforgivablemethods",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-unforgivable-methods.png"
+  },
+  {
+    "name": "stitched atrocity",
+    "class": "boneshaper",
+    "level": "5",
+    "id": "stitchedatrocity",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-unforgivable-methods.png"
+  },
+  {
+    "name": "unholy prowess",
+    "class": "boneshaper",
+    "level": "9",
+    "id": "unholyprowess",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-unholy-prowess.png"
+  },
+  {
+    "name": "skeleton sorcerer",
+    "class": "boneshaper",
+    "level": "9",
+    "id": "skeletonsorcerer",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-unholy-prowess.png"
+  },
+  {
+    "name": "wailing from beyond",
+    "class": "boneshaper",
+    "level": "8",
+    "id": "wailingfrombeyond",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-wailing-from-beyond.png"
+  },
+  {
+    "name": "wrath of the turned earth",
+    "class": "boneshaper",
+    "level": "x",
+    "id": "wrathoftheturnedearth",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/bo/fh-wrath-of-the-turned-earth.png"
+  },
+  {
+    "name": "blood in the water",
+    "class": "crashing tide",
+    "level": "2",
+    "id": "bloodinthewater",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-blood-in-the-water.png"
+  },
+  {
+    "name": "chaotic refraction",
+    "class": "crashing tide",
+    "level": "4",
+    "id": "chaoticrefraction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-chaotic-refraction.png"
+  },
+  {
+    "name": "cleansing swell",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "cleansingswell",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-cleansing-swell.png"
+  },
+  {
+    "name": "clean sweep",
+    "class": "crashing tide",
+    "level": "4",
+    "id": "cleansweep",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-clean-sweep.png"
+  },
+  {
+    "name": "crashing surge",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "crashingsurge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-crashing-surge.png"
+  },
+  {
+    "name": "cresting force",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "crestingforce",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-cresting-force.png"
+  },
+  {
+    "name": "crush armor",
+    "class": "crashing tide",
+    "level": "x",
+    "id": "crusharmor",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-crush-armor.png"
+  },
+  {
+    "name": "death on all sides",
+    "class": "crashing tide",
+    "level": "8",
+    "id": "deathonallsides",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-death-on-all-sides.png"
+  },
+  {
+    "name": "down to the depths",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "downtothedepths",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-down-to-the-depths.png"
+  },
+  {
+    "name": "drown beneath the waves",
+    "class": "crashing tide",
+    "level": "7",
+    "id": "drownbeneaththewaves",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-drown-beneath-the-waves.png"
+  },
+  {
+    "name": "dug in",
+    "class": "crashing tide",
+    "level": "7",
+    "id": "dugin",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-dug-in.png"
+  },
+  {
+    "name": "ebb and flow",
+    "class": "crashing tide",
+    "level": "8",
+    "id": "ebbandflow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-ebb-and-flow.png"
+  },
+  {
+    "name": "endless cycle",
+    "class": "crashing tide",
+    "level": "3",
+    "id": "endlesscycle",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-endless-cycle.png"
+  },
+  {
+    "name": "high tide",
+    "class": "crashing tide",
+    "level": "9",
+    "id": "hightide",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-high-tide.png"
+  },
+  {
+    "name": "low tide",
+    "class": "crashing tide",
+    "level": "9",
+    "id": "lowtide",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-low-tide.png"
+  },
+  {
+    "name": "mighty claws",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "mightyclaws",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-mighty-claws.png"
+  },
+  {
+    "name": "overwhelming wave",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "overwhelmingwave",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-overwhelming-wave.png"
+  },
+  {
+    "name": "pool of power",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "poolofpower",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-pool-of-power.png"
+  },
+  {
+    "name": "powerful pincer",
+    "class": "crashing tide",
+    "level": "6",
+    "id": "powerfulpincer",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-powerful-pincer.png"
+  },
+  {
+    "name": "rancid brine",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "rancidbrine",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-rancid-brine.png"
+  },
+  {
+    "name": "rising flood",
+    "class": "crashing tide",
+    "level": "x",
+    "id": "risingflood",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-rising-flood.png"
+  },
+  {
+    "name": "sharp chitin",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "sharpchitin",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-sharp-chitin.png"
+  },
+  {
+    "name": "shuck",
+    "class": "crashing tide",
+    "level": "3",
+    "id": "shuck",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-shuck.png"
+  },
+  {
+    "name": "skitter",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "skitter",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-skitter.png"
+  },
+  {
+    "name": "smashing torrent",
+    "class": "crashing tide",
+    "level": "2",
+    "id": "smashingtorrent",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-smashing-torrent.png"
+  },
+  {
+    "name": "sodden soil",
+    "class": "crashing tide",
+    "level": "5",
+    "id": "soddensoil",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-sodden-soil.png"
+  },
+  {
+    "name": "soft flesh",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "softflesh",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-soft-flesh.png"
+  },
+  {
+    "name": "submerge",
+    "class": "crashing tide",
+    "level": "1",
+    "id": "submerge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-submerge.png"
+  },
+  {
+    "name": "tidal blast",
+    "class": "crashing tide",
+    "level": "5",
+    "id": "tidalblast",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-tidal-blast.png"
+  },
+  {
+    "name": "twilight grasp",
+    "class": "crashing tide",
+    "level": "6",
+    "id": "twilightgrasp",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-twilight-grasp.png"
+  },
+  {
+    "name": "undertow",
+    "class": "crashing tide",
+    "level": "x",
+    "id": "undertow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/cr/fh-undertow.png"
+  },
+  {
+    "name": "accurate strikes",
+    "class": "drifter",
+    "level": "6",
+    "id": "accuratestrikes",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-accurate-strikes.png"
+  },
+  {
+    "name": "against all odds",
+    "class": "drifter",
+    "level": "8",
+    "id": "againstallodds",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-against-all-odds.png"
+  },
+  {
+    "name": "bloodletting",
+    "class": "drifter",
+    "level": "1",
+    "id": "bloodletting",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-bloodletting.png"
+  },
+  {
+    "name": "break through",
+    "class": "drifter",
+    "level": "5",
+    "id": "breakthrough",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-break-through.png"
+  },
+  {
+    "name": "chunk of flesh",
+    "class": "drifter",
+    "level": "4",
+    "id": "chunkofflesh",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-chunk-of-flesh.png"
+  },
+  {
+    "name": "consume stamina",
+    "class": "drifter",
+    "level": "6",
+    "id": "consumestamina",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-consume-stamina.png"
+  },
+  {
+    "name": "continuous health",
+    "class": "drifter",
+    "level": "1",
+    "id": "continuoushealth",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-continuous-health.png"
+  },
+  {
+    "name": "crushing weight",
+    "class": "drifter",
+    "level": "1",
+    "id": "crushingweight",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-crushing-weight.png"
+  },
+  {
+    "name": "deadly shot",
+    "class": "drifter",
+    "level": "1",
+    "id": "deadlyshot",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-deadly-shot.png"
+  },
+  {
+    "name": "destructive fury",
+    "class": "drifter",
+    "level": "x",
+    "id": "destructivefury",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-destructive-fury.png"
+  },
+  {
+    "name": "draining arrows",
+    "class": "drifter",
+    "level": "1",
+    "id": "drainingarrows",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-draining-arrows.png"
+  },
+  {
+    "name": "dual bow",
+    "class": "drifter",
+    "level": "3",
+    "id": "dualbow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-dual-bow.png"
+  },
+  {
+    "name": "ever forward",
+    "class": "drifter",
+    "level": "2",
+    "id": "everforward",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-ever-forward.png"
+  },
+  {
+    "name": "everlasting",
+    "class": "drifter",
+    "level": "9",
+    "id": "everlasting",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-everlasting.png"
+  },
+  {
+    "name": "fierce barrage",
+    "class": "drifter",
+    "level": "3",
+    "id": "fiercebarrage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-fierce-barrage.png"
+  },
+  {
+    "name": "fortitude",
+    "class": "drifter",
+    "level": "x",
+    "id": "fortitude",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-fortitude.png"
+  },
+  {
+    "name": "gift of the prey",
+    "class": "drifter",
+    "level": "4",
+    "id": "giftoftheprey",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-gift-of-the-prey.png"
+  },
+  {
+    "name": "inevitable conclusion",
+    "class": "drifter",
+    "level": "8",
+    "id": "inevitableconclusion",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-inevitable-conclusion.png"
+  },
+  {
+    "name": "like the wind",
+    "class": "drifter",
+    "level": "7",
+    "id": "likethewind",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-like-the-wind.png"
+  },
+  {
+    "name": "no remorse",
+    "class": "drifter",
+    "level": "x",
+    "id": "noremorse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-no-remorse.png"
+  },
+  {
+    "name": "precision aim",
+    "class": "drifter",
+    "level": "1",
+    "id": "precisionaim",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-precision-aim.png"
+  },
+  {
+    "name": "prudent preparation",
+    "class": "drifter",
+    "level": "1",
+    "id": "prudentpreparation",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-prudent-preparation.png"
+  },
+  {
+    "name": "relentless",
+    "class": "drifter",
+    "level": "1",
+    "id": "relentless",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-relentless.png"
+  },
+  {
+    "name": "shockwave",
+    "class": "drifter",
+    "level": "2",
+    "id": "shockwave",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-shockwave.png"
+  },
+  {
+    "name": "survivalist",
+    "class": "drifter",
+    "level": "5",
+    "id": "survivalist",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-survivalist.png"
+  },
+  {
+    "name": "sustained momentum",
+    "class": "drifter",
+    "level": "1",
+    "id": "sustainedmomentum",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-sustained-momentum.png"
+  },
+  {
+    "name": "unbreakable",
+    "class": "drifter",
+    "level": "1",
+    "id": "unbreakable",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-unbreakable.png"
+  },
+  {
+    "name": "unending fight",
+    "class": "drifter",
+    "level": "7",
+    "id": "unendingfight",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-unending-fight.png"
+  },
+  {
+    "name": "use every part",
+    "class": "drifter",
+    "level": "9",
+    "id": "useeverypart",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-use-every-part.png"
+  },
+  {
+    "name": "vile assault",
+    "class": "drifter",
+    "level": "1",
+    "id": "vileassault",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-vile-assault.png"
+  },
+  {
+    "name": "violent inheritance",
+    "class": "drifter",
+    "level": "1",
+    "id": "violentinheritance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/df/fh-violent-inheritance.png"
+  },
+  {
+    "name": "black night of the deep",
+    "class": "deepwraith",
+    "level": "9",
+    "id": "blacknightofthedeep",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-black-night-of-the-deep.png"
+  },
+  {
+    "name": "black scythe",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "blackscythe",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-black-scythe.png"
+  },
+  {
+    "name": "claw of doom",
+    "class": "deepwraith",
+    "level": "6",
+    "id": "clawofdoom",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-claw-of-doom.png"
+  },
+  {
+    "name": "consume the helpless",
+    "class": "deepwraith",
+    "level": "9",
+    "id": "consumethehelpless",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-consume-the-helpless.png"
+  },
+  {
+    "name": "crippling terror",
+    "class": "deepwraith",
+    "level": "3",
+    "id": "cripplingterror",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-crippling-terror.png"
+  },
+  {
+    "name": "crushing darkness",
+    "class": "deepwraith",
+    "level": "4",
+    "id": "crushingdarkness",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-crushing-darkness.png"
+  },
+  {
+    "name": "death spiral",
+    "class": "deepwraith",
+    "level": "5",
+    "id": "deathspiral",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-death-spiral.png"
+  },
+  {
+    "name": "dire frenzy",
+    "class": "deepwraith",
+    "level": "7",
+    "id": "direfrenzy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-dire-frenzy.png"
+  },
+  {
+    "name": "extra decoration",
+    "class": "deepwraith",
+    "level": "5",
+    "id": "extradecoration",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-extra-decoration.png"
+  },
+  {
+    "name": "grim trophies",
+    "class": "deepwraith",
+    "level": "4",
+    "id": "grimtrophies",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-grim-trophies.png"
+  },
+  {
+    "name": "hasten the end",
+    "class": "deepwraith",
+    "level": "7",
+    "id": "hastentheend",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-hasten-the-end.png"
+  },
+  {
+    "name": "haunting brutality",
+    "class": "deepwraith",
+    "level": "x",
+    "id": "hauntingbrutality",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-haunting-brutality.png"
+  },
+  {
+    "name": "hollow aura",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "hollowaura",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-hollow-aura.png"
+  },
+  {
+    "name": "ink cloud",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "inkcloud",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-ink-cloud.png"
+  },
+  {
+    "name": "lacerating stabs",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "laceratingstabs",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-lacerating-stabs.png"
+  },
+  {
+    "name": "lie in wait",
+    "class": "deepwraith",
+    "level": "2",
+    "id": "lieinwait",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-lie-in-wait.png"
+  },
+  {
+    "name": "mantle of dread",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "mantleofdread",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-mantle-of-dread.png"
+  },
+  {
+    "name": "morbid camouflage",
+    "class": "deepwraith",
+    "level": "x",
+    "id": "morbidcamouflage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-morbid-camouflage.png"
+  },
+  {
+    "name": "pinning spines",
+    "class": "deepwraith",
+    "level": "3",
+    "id": "pinningspines",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-pinning-spines.png"
+  },
+  {
+    "name": "rip from the bone",
+    "class": "deepwraith",
+    "level": "8",
+    "id": "ripfromthebone",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-rip-from-the-bone.png"
+  },
+  {
+    "name": "skewer the flesh",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "skewertheflesh",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-skewer-the-flesh.png"
+  },
+  {
+    "name": "skull collection",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "skullcollection",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-skull-collection.png"
+  },
+  {
+    "name": "slipping into death",
+    "class": "deepwraith",
+    "level": "2",
+    "id": "slippingintodeath",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-slipping-into-death.png"
+  },
+  {
+    "name": "soul hunger",
+    "class": "deepwraith",
+    "level": "x",
+    "id": "soulhunger",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-soul-hunger.png"
+  },
+  {
+    "name": "staring into the abyss",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "staringintotheabyss",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-staring-into-the-abyss.png"
+  },
+  {
+    "name": "succumb to fear",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "succumbtofear",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-succumb-to-fear.png"
+  },
+  {
+    "name": "the remorseless deep",
+    "class": "deepwraith",
+    "level": "6",
+    "id": "theremorselessdeep",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-the-remorseless-deep.png"
+  },
+  {
+    "name": "tumultuous panic",
+    "class": "deepwraith",
+    "level": "1",
+    "id": "tumultuouspanic",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-tumultuous-panic.png"
+  },
+  {
+    "name": "unseen horror",
+    "class": "deepwraith",
+    "level": "8",
+    "id": "unseenhorror",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dt/fh-unseen-horror.png"
+  },
+  {
+    "name": "anger of the dead",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "angerofthedead",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-anger-of-the-dead.png"
+  },
+  {
+    "name": "black barrage",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "blackbarrage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-black-barrage.png"
+  },
+  {
+    "name": "black lance",
+    "class": "deathwalker",
+    "level": "9",
+    "id": "blacklance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-black-lance.png"
+  },
+  {
+    "name": "call of doom",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "callofdoom",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-call-of-doom.png"
+  },
+  {
+    "name": "call to the abyss",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "calltotheabyss",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-call-to-the-abyss.png"
+  },
+  {
+    "name": "dark fog",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "darkfog",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-dark-fog.png"
+  },
+  {
+    "name": "dead bolt",
+    "class": "deathwalker",
+    "level": "3",
+    "id": "deadbolt",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-dead-bolt.png"
+  },
+  {
+    "name": "deepening despair",
+    "class": "deathwalker",
+    "level": "2",
+    "id": "deepeningdespair",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-deepening-despair.png"
+  },
+  {
+    "name": "dominate",
+    "class": "deathwalker",
+    "level": "5",
+    "id": "dominate",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-dominate.png"
+  },
+  {
+    "name": "eclipse",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "eclipse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-eclipse.png"
+  },
+  {
+    "name": "fleeting dusk",
+    "class": "deathwalker",
+    "level": "4",
+    "id": "fleetingdusk",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-fleeting-dusk.png"
+  },
+  {
+    "name": "fluid night",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "fluidnight",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-fluid-night.png"
+  },
+  {
+    "name": "forceful spirits",
+    "class": "deathwalker",
+    "level": "x",
+    "id": "forcefulspirits",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-forceful-spirits.png"
+  },
+  {
+    "name": "frozen in fear",
+    "class": "deathwalker",
+    "level": "8",
+    "id": "frozeninfear",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-frozen-in-fear.png"
+  },
+  {
+    "name": "hungry grasps",
+    "class": "deathwalker",
+    "level": "7",
+    "id": "hungrygrasps",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-hungry-grasps.png"
+  },
+  {
+    "name": "lashing tendrils",
+    "class": "deathwalker",
+    "level": "8",
+    "id": "lashingtendrils",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-lashing-tendrils.png"
+  },
+  {
+    "name": "lingering rot",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "lingeringrot",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-lingering-rot.png"
+  },
+  {
+    "name": "medium",
+    "class": "deathwalker",
+    "level": "5",
+    "id": "medium",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-medium.png"
+  },
+  {
+    "name": "proliferation of the abyss",
+    "class": "deathwalker",
+    "level": "7",
+    "id": "proliferationoftheabyss",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-proliferation-of-the-abyss.png"
+  },
+  {
+    "name": "pulled across",
+    "class": "deathwalker",
+    "level": "4",
+    "id": "pulledacross",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-pulled-across.png"
+  },
+  {
+    "name": "rest in the shade",
+    "class": "deathwalker",
+    "level": "x",
+    "id": "restintheshade",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-rest-in-the-shade.png"
+  },
+  {
+    "name": "restless spirits",
+    "class": "deathwalker",
+    "level": "2",
+    "id": "restlessspirits",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-restless-spirits.png"
+  },
+  {
+    "name": "ritual sacrifice",
+    "class": "deathwalker",
+    "level": "3",
+    "id": "ritualsacrifice",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-ritual-sacrifice.png"
+  },
+  {
+    "name": "shadow step",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "shadowstep",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-shadow-step.png"
+  },
+  {
+    "name": "strength of the abyss",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "strengthoftheabyss",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-strength-of-the-abyss.png"
+  },
+  {
+    "name": "sunless apparition",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "sunlessapparition",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-sunless-apparition.png"
+  },
+  {
+    "name": "shadow beast",
+    "class": "deathwalker",
+    "level": "1",
+    "id": "shadowbeast",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-sunless-apparition.png"
+  },
+  {
+    "name": "the night takes shape",
+    "class": "deathwalker",
+    "level": "6",
+    "id": "thenighttakesshape",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-the-night-takes-shape.png"
+  },
+  {
+    "name": "shadow horror",
+    "class": "deathwalker",
+    "level": "6",
+    "id": "shadowhorror",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-the-night-takes-shape.png"
+  },
+  {
+    "name": "vengeful storm",
+    "class": "deathwalker",
+    "level": "6",
+    "id": "vengefulstorm",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-vengeful-storm.png"
+  },
+  {
+    "name": "wave of anguish",
+    "class": "deathwalker",
+    "level": "x",
+    "id": "waveofanguish",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-wave-of-anguish.png"
+  },
+  {
+    "name": "when your time comes",
+    "class": "deathwalker",
+    "level": "9",
+    "id": "whenyourtimecomes",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/dw/fh-when-your-time-comes.png"
+  },
+  {
+    "name": "bring down the mountain",
+    "class": "frozen fist",
+    "level": "9",
+    "id": "bringdownthemountain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-bring-down-the-mountain.png"
+  },
+  {
+    "name": "cold boulder",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "coldboulder",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-cold-boulder.png"
+  },
+  {
+    "name": "crushing crystals",
+    "class": "frozen fist",
+    "level": "2",
+    "id": "crushingcrystals",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-crushing-crystals.png"
+  },
+  {
+    "name": "draw of the bedrock",
+    "class": "frozen fist",
+    "level": "2",
+    "id": "drawofthebedrock",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-draw-of-the-bedrock.png"
+  },
+  {
+    "name": "draw strength",
+    "class": "frozen fist",
+    "level": "8",
+    "id": "drawstrength",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-draw-strength.png"
+  },
+  {
+    "name": "encased punch",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "encasedpunch",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-encased-punch.png"
+  },
+  {
+    "name": "freezing shell",
+    "class": "frozen fist",
+    "level": "x",
+    "id": "freezingshell",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-freezing-shell.png"
+  },
+  {
+    "name": "frost eruption",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "frosteruption",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-frost-eruption.png"
+  },
+  {
+    "name": "frozen over",
+    "class": "frozen fist",
+    "level": "3",
+    "id": "frozenover",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-frozen-over.png"
+  },
+  {
+    "name": "frozen spike",
+    "class": "frozen fist",
+    "level": "9",
+    "id": "frozenspike",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-frozen-spike.png"
+  },
+  {
+    "name": "fury of the mountain",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "furyofthemountain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-fury-of-the-mountain.png"
+  },
+  {
+    "name": "gift of the mountain",
+    "class": "frozen fist",
+    "level": "7",
+    "id": "giftofthemountain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-gift-of-the-mountain.png"
+  },
+  {
+    "name": "glacier slam",
+    "class": "frozen fist",
+    "level": "6",
+    "id": "glacierslam",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-glacier-slam.png"
+  },
+  {
+    "name": "ice blast",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "iceblast",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-ice-blast.png"
+  },
+  {
+    "name": "ice uppercut",
+    "class": "frozen fist",
+    "level": "5",
+    "id": "iceuppercut",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-ice-uppercut.png"
+  },
+  {
+    "name": "lacerating eruption",
+    "class": "frozen fist",
+    "level": "3",
+    "id": "laceratingeruption",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-lacerating-eruption.png"
+  },
+  {
+    "name": "one with the mountain",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "onewiththemountain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-one-with-the-mountain.png"
+  },
+  {
+    "name": "packed solid",
+    "class": "frozen fist",
+    "level": "4",
+    "id": "packedsolid",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-packed-solid.png"
+  },
+  {
+    "name": "piercing pummel",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "piercingpummel",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-piercing-pummel.png"
+  },
+  {
+    "name": "preserved fury",
+    "class": "frozen fist",
+    "level": "5",
+    "id": "preservedfury",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-preserved-fury.png"
+  },
+  {
+    "name": "primal bellow",
+    "class": "frozen fist",
+    "level": "x",
+    "id": "primalbellow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-primal-bellow.png"
+  },
+  {
+    "name": "seeing stars",
+    "class": "frozen fist",
+    "level": "7",
+    "id": "seeingstars",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-seeing-stars.png"
+  },
+  {
+    "name": "shard launch",
+    "class": "frozen fist",
+    "level": "x",
+    "id": "shardlaunch",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-shard-launch.png"
+  },
+  {
+    "name": "shattering blow",
+    "class": "frozen fist",
+    "level": "8",
+    "id": "shatteringblow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-shattering-blow.png"
+  },
+  {
+    "name": "the mountain's fist",
+    "class": "frozen fist",
+    "level": "4",
+    "id": "themountainsfist",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-the-mountains-fist.png"
+  },
+  {
+    "name": "thick frost",
+    "class": "frozen fist",
+    "level": "6",
+    "id": "thickfrost",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-thick-frost.png"
+  },
+  {
+    "name": "voice from below",
+    "class": "frozen fist",
+    "level": "1",
+    "id": "voicefrombelow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ff/fh-voice-from-below.png"
+  },
+  {
+    "name": "accelerated metabolism",
+    "class": "geminate",
+    "level": "8",
+    "id": "acceleratedmetabolism",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-accelerated-metabolism.png"
+  },
+  {
+    "name": "alluring pheromones",
+    "class": "geminate",
+    "level": "7",
+    "id": "alluringpheromones",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-alluring-pheromones.png"
+  },
+  {
+    "name": "changeling's boon",
+    "class": "geminate",
+    "level": "1",
+    "id": "changelingsboon",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-changelings-boon.png"
+  },
+  {
+    "name": "chitinous horde",
+    "class": "geminate",
+    "level": "5",
+    "id": "chitinoushorde",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-chitinous-horde.png"
+  },
+  {
+    "name": "corrosive acids",
+    "class": "geminate",
+    "level": "6",
+    "id": "corrosiveacids",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-corrosive-acids.png"
+  },
+  {
+    "name": "drag down",
+    "class": "geminate",
+    "level": "1",
+    "id": "dragdown",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-drag-down.png"
+  },
+  {
+    "name": "dragonfly surge",
+    "class": "geminate",
+    "level": "3",
+    "id": "dragonflysurge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-dragonfly-surge.png"
+  },
+  {
+    "name": "draining pincers",
+    "class": "geminate",
+    "level": "1",
+    "id": "drainingpincers",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-draining-pincers.png"
+  },
+  {
+    "name": "feeding frenzy",
+    "class": "geminate",
+    "level": "x",
+    "id": "feedingfrenzy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-feeding-frenzy.png"
+  },
+  {
+    "name": "firefly swarm",
+    "class": "geminate",
+    "level": "1",
+    "id": "fireflyswarm",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-firefly-swarm.png"
+  },
+  {
+    "name": "flailing tendrils",
+    "class": "geminate",
+    "level": "1",
+    "id": "flailingtendrils",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-flailing-tendrils.png"
+  },
+  {
+    "name": "formless grace",
+    "class": "geminate",
+    "level": "5",
+    "id": "formlessgrace",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-formless-grace.png"
+  },
+  {
+    "name": "hail of thorns",
+    "class": "geminate",
+    "level": "1",
+    "id": "hailofthorns",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-hail-of-thorns.png"
+  },
+  {
+    "name": "harbinger of ruin",
+    "class": "geminate",
+    "level": "9",
+    "id": "harbingerofruin",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-harbinger-of-ruin.png"
+  },
+  {
+    "name": "harvest the essence",
+    "class": "geminate",
+    "level": "1",
+    "id": "harvesttheessence",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-harvest-the-essence.png"
+  },
+  {
+    "name": "hirudotherapy",
+    "class": "geminate",
+    "level": "6",
+    "id": "hirudotherapy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-hirudotherapy.png"
+  },
+  {
+    "name": "hornbeetle carapace",
+    "class": "geminate",
+    "level": "1",
+    "id": "hornbeetlecarapace",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-hornbeetle-carapace.png"
+  },
+  {
+    "name": "hornet stingers",
+    "class": "geminate",
+    "level": "1",
+    "id": "hornetstingers",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-hornet-stingers.png"
+  },
+  {
+    "name": "icebound quills",
+    "class": "geminate",
+    "level": "1",
+    "id": "iceboundquills",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-icebound-quills.png"
+  },
+  {
+    "name": "into my embrace",
+    "class": "geminate",
+    "level": "1",
+    "id": "intomyembrace",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-into-my-embrace.png"
+  },
+  {
+    "name": "locust host",
+    "class": "geminate",
+    "level": "2",
+    "id": "locusthost",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-locust-host.png"
+  },
+  {
+    "name": "luminous descent",
+    "class": "geminate",
+    "level": "4",
+    "id": "luminousdescent",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-luminous-descent.png"
+  },
+  {
+    "name": "mandible storm",
+    "class": "geminate",
+    "level": "3",
+    "id": "mandiblestorm",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-mandible-storm.png"
+  },
+  {
+    "name": "mind spike",
+    "class": "geminate",
+    "level": "1",
+    "id": "mindspike",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-mind-spike.png"
+  },
+  {
+    "name": "oscillating entity",
+    "class": "geminate",
+    "level": "8",
+    "id": "oscillatingentity",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-oscillating-entity.png"
+  },
+  {
+    "name": "reckless jab",
+    "class": "geminate",
+    "level": "x",
+    "id": "recklessjab",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-reckless-jab.png"
+  },
+  {
+    "name": "reshape the guise",
+    "class": "geminate",
+    "level": "x",
+    "id": "reshapetheguise",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-reshape-the-guise.png"
+  },
+  {
+    "name": "scarab flight",
+    "class": "geminate",
+    "level": "1",
+    "id": "scarabflight",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-scarab-flight.png"
+  },
+  {
+    "name": "selfless offering",
+    "class": "geminate",
+    "level": "1",
+    "id": "selflessoffering",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-selfless-offering.png"
+  },
+  {
+    "name": "smoldering hatred",
+    "class": "geminate",
+    "level": "x",
+    "id": "smolderinghatred",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-smoldering-hatred.png"
+  },
+  {
+    "name": "thresh and flail",
+    "class": "geminate",
+    "level": "4",
+    "id": "threshandflail",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-thresh-and-flail.png"
+  },
+  {
+    "name": "two-pronged entrapment",
+    "class": "geminate",
+    "level": "7",
+    "id": "twoprongedentrapment",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-two-pronged-entrapment.png"
+  },
+  {
+    "name": "venomous barbs",
+    "class": "geminate",
+    "level": "2",
+    "id": "venomousbarbs",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-venomous-barbs.png"
+  },
+  {
+    "name": "voice of salvation",
+    "class": "geminate",
+    "level": "9",
+    "id": "voiceofsalvation",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ge/fh-voice-of-salvation.png"
+  },
+  {
+    "name": "aimed assault",
+    "class": "hive",
+    "level": "1",
+    "id": "aimedassault",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-aimed-assault.png"
+  },
+  {
+    "name": "sniper turret",
+    "class": "hive",
+    "level": "1",
+    "id": "sniperturret",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-aimed-assault.png"
+  },
+  {
+    "name": "burning slash",
+    "class": "hive",
+    "level": "8",
+    "id": "burningslash",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-burning-slash.png"
+  },
+  {
+    "name": "code geminate",
+    "class": "hive",
+    "level": "5",
+    "id": "codegeminate",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-code-geminate.png"
+  },
+  {
+    "name": "coiled limbs",
+    "class": "hive",
+    "level": "1",
+    "id": "coiledlimbs",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-coiled-limbs.png"
+  },
+  {
+    "name": "leaper",
+    "class": "hive",
+    "level": "1",
+    "id": "leaper",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-coiled-limbs.png"
+  },
+  {
+    "name": "disassemble",
+    "class": "hive",
+    "level": "9",
+    "id": "disassemble",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-disassemble.png"
+  },
+  {
+    "name": "divergent destruction",
+    "class": "hive",
+    "level": "4",
+    "id": "divergentdestruction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-divergent-destruction.png"
+  },
+  {
+    "name": "faceless entity",
+    "class": "hive",
+    "level": "1",
+    "id": "facelessentity",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-faceless-entity.png"
+  },
+  {
+    "name": "force field",
+    "class": "hive",
+    "level": "2",
+    "id": "forcefield",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-force-field.png"
+  },
+  {
+    "name": "dampening unit",
+    "class": "hive",
+    "level": "2",
+    "id": "dampeningunit",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-force-field.png"
+  },
+  {
+    "name": "heavy metal",
+    "class": "hive",
+    "level": "9",
+    "id": "heavymetal",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-heavy-metal.png"
+  },
+  {
+    "name": "seldge driver",
+    "class": "hive",
+    "level": "9",
+    "id": "seldgedriver",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-heavy-metal.png"
+  },
+  {
+    "name": "high impact projectiles",
+    "class": "hive",
+    "level": "1",
+    "id": "highimpactprojectiles",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-high-impact-projectiles.png"
+  },
+  {
+    "name": "hijack",
+    "class": "hive",
+    "level": "3",
+    "id": "hijack",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-hijack.png"
+  },
+  {
+    "name": "hunter-killer",
+    "class": "hive",
+    "level": "1",
+    "id": "hunterkiller",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-hunter-killer.png"
+  },
+  {
+    "name": "jackal mech",
+    "class": "hive",
+    "level": "1",
+    "id": "jackalmech",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-hunter-killer.png"
+  },
+  {
+    "name": "interference",
+    "class": "hive",
+    "level": "1",
+    "id": "interference",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-interference.png"
+  },
+  {
+    "name": "launch pod",
+    "class": "hive",
+    "level": "1",
+    "id": "launchpod",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-launch-pod.png"
+  },
+  {
+    "name": "long-range missile",
+    "class": "hive",
+    "level": "2",
+    "id": "longrangemissile",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-long-range-missile.png"
+  },
+  {
+    "name": "mortar shells",
+    "class": "hive",
+    "level": "7",
+    "id": "mortarshells",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-mortar-shells.png"
+  },
+  {
+    "name": "bombardier",
+    "class": "hive",
+    "level": "7",
+    "id": "bombardier",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-mortar-shells.png"
+  },
+  {
+    "name": "net dispersal",
+    "class": "hive",
+    "level": "5",
+    "id": "netdispersal",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-net-dispersal.png"
+  },
+  {
+    "name": "trapping unit",
+    "class": "hive",
+    "level": "5",
+    "id": "trappingunit",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-net-dispersal.png"
+  },
+  {
+    "name": "plague protocol",
+    "class": "hive",
+    "level": "4",
+    "id": "plagueprotocol",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-plague-protocol.png"
+  },
+  {
+    "name": "toxin distributor",
+    "class": "hive",
+    "level": "4",
+    "id": "toxindistributor",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-plague-protocol.png"
+  },
+  {
+    "name": "plated defense",
+    "class": "hive",
+    "level": "1",
+    "id": "plateddefense",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-plated-defense.png"
+  },
+  {
+    "name": "armored tank",
+    "class": "hive",
+    "level": "1",
+    "id": "armoredtank",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-plated-defense.png"
+  },
+  {
+    "name": "prepare for deployment",
+    "class": "hive",
+    "level": "1",
+    "id": "preparefordeployment",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-prepare-for-deployment.png"
+  },
+  {
+    "name": "rapid fire",
+    "class": "hive",
+    "level": "3",
+    "id": "rapidfire",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-rapid-fire.png"
+  },
+  {
+    "name": "machine bolter",
+    "class": "hive",
+    "level": "3",
+    "id": "machinebolter",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-rapid-fire.png"
+  },
+  {
+    "name": "reaper function",
+    "class": "hive",
+    "level": "1",
+    "id": "reaperfunction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-reaper-function.png"
+  },
+  {
+    "name": "reassemble",
+    "class": "hive",
+    "level": "x",
+    "id": "reassemble",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-reassemble.png"
+  },
+  {
+    "name": "recall",
+    "class": "hive",
+    "level": "7",
+    "id": "recall",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-recall.png"
+  },
+  {
+    "name": "reconstructive aid",
+    "class": "hive",
+    "level": "1",
+    "id": "reconstructiveaid",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-reconstructive-aid.png"
+  },
+  {
+    "name": "repair drone",
+    "class": "hive",
+    "level": "1",
+    "id": "repairdrone",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-reconstructive-aid.png"
+  },
+  {
+    "name": "remote control",
+    "class": "hive",
+    "level": "x",
+    "id": "remotecontrol",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-remote-control.png"
+  },
+  {
+    "name": "shocking pulse",
+    "class": "hive",
+    "level": "x",
+    "id": "shockingpulse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-shocking-pulse.png"
+  },
+  {
+    "name": "acring generator",
+    "class": "hive",
+    "level": "x",
+    "id": "acringgenerator",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-shocking-pulse.png"
+  },
+  {
+    "name": "spinning blades",
+    "class": "hive",
+    "level": "6",
+    "id": "spinningblades",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-spinning-blades.png"
+  },
+  {
+    "name": "sword propeller",
+    "class": "hive",
+    "level": "6",
+    "id": "swordpropeller",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-spinning-blades.png"
+  },
+  {
+    "name": "swarming bulwark",
+    "class": "hive",
+    "level": "8",
+    "id": "swarmingbulwark",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-swarming-bulwark.png"
+  },
+  {
+    "name": "shield spider",
+    "class": "hive",
+    "level": "8",
+    "id": "shieldspider",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-swarming-bulwark.png"
+  },
+  {
+    "name": "triage program",
+    "class": "hive",
+    "level": "6",
+    "id": "triageprogram",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/hv/fh-triage-program.png"
+  },
+  {
+    "name": "ancient rites of power",
+    "class": "infuser",
+    "level": "9",
+    "id": "ancientritesofpower",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-ancient-rites-of-power.png"
+  },
+  {
+    "name": "battle prowess",
+    "class": "infuser",
+    "level": "x",
+    "id": "battleprowess",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-battle-prowess.png"
+  },
+  {
+    "name": "boon of the tempest",
+    "class": "infuser",
+    "level": "1",
+    "id": "boonofthetempest",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-boon-of-the-tempest.png"
+  },
+  {
+    "name": "bounty of the earth",
+    "class": "infuser",
+    "level": "1",
+    "id": "bountyoftheearth",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-bounty-of-the-earth.png"
+  },
+  {
+    "name": "caress of the night",
+    "class": "infuser",
+    "level": "1",
+    "id": "caressofthenight",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-caress-of-the-night.png"
+  },
+  {
+    "name": "coalescing darkness",
+    "class": "infuser",
+    "level": "4",
+    "id": "coalescingdarkness",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-coalescing-darkness.png"
+  },
+  {
+    "name": "crystalline aegis",
+    "class": "infuser",
+    "level": "x",
+    "id": "crystallineaegis",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-crystalline-aegis.png"
+  },
+  {
+    "name": "desperate throw",
+    "class": "infuser",
+    "level": "4",
+    "id": "desperatethrow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-desperate-throw.png"
+  },
+  {
+    "name": "diamondization",
+    "class": "infuser",
+    "level": "7",
+    "id": "diamondization",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-diamondization.png"
+  },
+  {
+    "name": "emerald edge",
+    "class": "infuser",
+    "level": "1",
+    "id": "emeraldedge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-emerald-edge.png"
+  },
+  {
+    "name": "formless bladestorm",
+    "class": "infuser",
+    "level": "1",
+    "id": "formlessbladestorm",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-formless-bladestorm.png"
+  },
+  {
+    "name": "gale barrage",
+    "class": "infuser",
+    "level": "6",
+    "id": "galebarrage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-gale-barrage.png"
+  },
+  {
+    "name": "gemstone resonance",
+    "class": "infuser",
+    "level": "5",
+    "id": "gemstoneresonance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-gemstone-resonance.png"
+  },
+  {
+    "name": "guide the flow",
+    "class": "infuser",
+    "level": "3",
+    "id": "guidetheflow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-guide-the-flow.png"
+  },
+  {
+    "name": "imbue with life",
+    "class": "infuser",
+    "level": "x",
+    "id": "imbuewithlife",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-imbue-with-life.png"
+  },
+  {
+    "name": "animated claymore",
+    "class": "infuser",
+    "level": "x",
+    "id": "animatedclaymore",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-imbue-with-life.png"
+  },
+  {
+    "name": "malachite shockwave",
+    "class": "infuser",
+    "level": "7",
+    "id": "malachiteshockwave",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-malachite-shockwave.png"
+  },
+  {
+    "name": "obsidian spear",
+    "class": "infuser",
+    "level": "5",
+    "id": "obsidianspear",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-obsidian-spear.png"
+  },
+  {
+    "name": "onyx shards",
+    "class": "infuser",
+    "level": "1",
+    "id": "onyxshards",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-onyx-shards.png"
+  },
+  {
+    "name": "propulsive tailwind",
+    "class": "infuser",
+    "level": "6",
+    "id": "propulsivetailwind",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-propulsive-tailwind.png"
+  },
+  {
+    "name": "reinforced riposte",
+    "class": "infuser",
+    "level": "3",
+    "id": "reinforcedriposte",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-reinforced-riposte.png"
+  },
+  {
+    "name": "remote impact",
+    "class": "infuser",
+    "level": "2",
+    "id": "remoteimpact",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-remote-impact.png"
+  },
+  {
+    "name": "rising momentum",
+    "class": "infuser",
+    "level": "1",
+    "id": "risingmomentum",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-rising-momentum.png"
+  },
+  {
+    "name": "sky-splitting strike",
+    "class": "infuser",
+    "level": "9",
+    "id": "skysplittingstrike",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-sky-splitting-strike.png"
+  },
+  {
+    "name": "slashing cyclone",
+    "class": "infuser",
+    "level": "1",
+    "id": "slashingcyclone",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-slashing-cyclone.png"
+  },
+  {
+    "name": "stoic vigilance",
+    "class": "infuser",
+    "level": "1",
+    "id": "stoicvigilance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-stoic-vigilance.png"
+  },
+  {
+    "name": "swift pivot",
+    "class": "infuser",
+    "level": "8",
+    "id": "swiftpivot",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-swift-pivot.png"
+  },
+  {
+    "name": "torrential cleave",
+    "class": "infuser",
+    "level": "1",
+    "id": "torrentialcleave",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-torrential-cleave.png"
+  },
+  {
+    "name": "unstoppable impulse",
+    "class": "infuser",
+    "level": "1",
+    "id": "unstoppableimpulse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-unstoppable-impulse.png"
+  },
+  {
+    "name": "untether the shackles",
+    "class": "infuser",
+    "level": "8",
+    "id": "untethertheshackles",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-untether-the-shackles.png"
+  },
+  {
+    "name": "spiritbound falchion",
+    "class": "infuser",
+    "level": "8",
+    "id": "spiritboundfalchion",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-untether-the-shackles.png"
+  },
+  {
+    "name": "veil of protection",
+    "class": "infuser",
+    "level": "2",
+    "id": "veilofprotection",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/if/fh-veil-of-protection.png"
+  },
+  {
+    "name": "ancient drill",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "ancientdrill",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-ancient-drill.png"
+  },
+  {
+    "name": "beam axe",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "beamaxe",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-beam-axe.png"
+  },
+  {
+    "name": "bronze plating",
+    "class": "metal mosaic",
+    "level": "2",
+    "id": "bronzeplating",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-bronze-plating.png"
+  },
+  {
+    "name": "cryogenic hibernation",
+    "class": "metal mosaic",
+    "level": "7",
+    "id": "cryogenichibernation",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-cryogenic-hibernation.png"
+  },
+  {
+    "name": "curious gear",
+    "class": "metal mosaic",
+    "level": "x",
+    "id": "curiousgear",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-curious-gear.png"
+  },
+  {
+    "name": "curious machinery",
+    "class": "metal mosaic",
+    "level": "8",
+    "id": "curiousmachinery",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-curious-machinery.png"
+  },
+  {
+    "name": "electrical discharge",
+    "class": "metal mosaic",
+    "level": "3",
+    "id": "electricaldischarge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-electrical-discharge.png"
+  },
+  {
+    "name": "energy conversion",
+    "class": "metal mosaic",
+    "level": "4",
+    "id": "energyconversion",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-energy-conversion.png"
+  },
+  {
+    "name": "heat conduction",
+    "class": "metal mosaic",
+    "level": "5",
+    "id": "heatconduction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-heat-conduction.png"
+  },
+  {
+    "name": "heated drill",
+    "class": "metal mosaic",
+    "level": "7",
+    "id": "heateddrill",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-heated-drill.png"
+  },
+  {
+    "name": "magnetic field",
+    "class": "metal mosaic",
+    "level": "4",
+    "id": "magneticfield",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-magnetic-field.png"
+  },
+  {
+    "name": "memory drive",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "memorydrive",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-memory-drive.png"
+  },
+  {
+    "name": "piston barrage",
+    "class": "metal mosaic",
+    "level": "8",
+    "id": "pistonbarrage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-piston-barrage.png"
+  },
+  {
+    "name": "polarity shift",
+    "class": "metal mosaic",
+    "level": "9",
+    "id": "polarityshift",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-polarity-shift.png"
+  },
+  {
+    "name": "power core",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "powercore",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-power-core.png"
+  },
+  {
+    "name": "pressure build-up",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "pressurebuildup",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-pressure-build-up.png"
+  },
+  {
+    "name": "processing",
+    "class": "metal mosaic",
+    "level": "x",
+    "id": "processing",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-processing.png"
+  },
+  {
+    "name": "radiation",
+    "class": "metal mosaic",
+    "level": "5",
+    "id": "radiation",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-radiation.png"
+  },
+  {
+    "name": "recursion",
+    "class": "metal mosaic",
+    "level": "x",
+    "id": "recursion",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-recursion.png"
+  },
+  {
+    "name": "release valve",
+    "class": "metal mosaic",
+    "level": "2",
+    "id": "releasevalve",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-release-valve.png"
+  },
+  {
+    "name": "rocket boots",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "rocketboots",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-rocket-boots.png"
+  },
+  {
+    "name": "scalding blast",
+    "class": "metal mosaic",
+    "level": "6",
+    "id": "scaldingblast",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-scalding-blast.png"
+  },
+  {
+    "name": "steam armor",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "steamarmor",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-steam-armor.png"
+  },
+  {
+    "name": "steam core",
+    "class": "metal mosaic",
+    "level": "6",
+    "id": "steamcore",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-steam-core.png"
+  },
+  {
+    "name": "steel piston",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "steelpiston",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-steel-piston.png"
+  },
+  {
+    "name": "stress vents",
+    "class": "metal mosaic",
+    "level": "3",
+    "id": "stressvents",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-stress-vents.png"
+  },
+  {
+    "name": "super heat transfer",
+    "class": "metal mosaic",
+    "level": "1",
+    "id": "superheattransfer",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-super-heat-transfer.png"
+  },
+  {
+    "name": "unstable core",
+    "class": "metal mosaic",
+    "level": "9",
+    "id": "unstablecore",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/me/fh-unstable-core.png"
+  },
+  {
+    "name": "blood ritual",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "bloodritual",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-blood-ritual.png"
+  },
+  {
+    "name": "burned at both ends",
+    "class": "pain conduit",
+    "level": "3",
+    "id": "burnedatbothends",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-burned-at-both-ends.png"
+  },
+  {
+    "name": "chained by despair",
+    "class": "pain conduit",
+    "level": "5",
+    "id": "chainedbydespair",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-chained-by-despair.png"
+  },
+  {
+    "name": "chained by spite",
+    "class": "pain conduit",
+    "level": "5",
+    "id": "chainedbyspite",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-chained-by-spite.png"
+  },
+  {
+    "name": "cleansing fire",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "cleansingfire",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-cleansing-fire.png"
+  },
+  {
+    "name": "delayed malady",
+    "class": "pain conduit",
+    "level": "x",
+    "id": "delayedmalady",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-delayed-malady.png"
+  },
+  {
+    "name": "down to the dirt",
+    "class": "pain conduit",
+    "level": "4",
+    "id": "downtothedirt",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-down-to-the-dirt.png"
+  },
+  {
+    "name": "explosive wounds",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "explosivewounds",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-explosive-wounds.png"
+  },
+  {
+    "name": "hopelessness",
+    "class": "pain conduit",
+    "level": "6",
+    "id": "hopelessness",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-hopelessness.png"
+  },
+  {
+    "name": "infection purge",
+    "class": "pain conduit",
+    "level": "2",
+    "id": "infectionpurge",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-infection-purge.png"
+  },
+  {
+    "name": "line of transference",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "lineoftransference",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-line-of-transference.png"
+  },
+  {
+    "name": "mirrored misery",
+    "class": "pain conduit",
+    "level": "4",
+    "id": "mirroredmisery",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-mirrored-misery.png"
+  },
+  {
+    "name": "penance",
+    "class": "pain conduit",
+    "level": "7",
+    "id": "penance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-penance.png"
+  },
+  {
+    "name": "phantom limb",
+    "class": "pain conduit",
+    "level": "6",
+    "id": "phantomlimb",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-phantom-limb.png"
+  },
+  {
+    "name": "pleasure in pain",
+    "class": "pain conduit",
+    "level": "x",
+    "id": "pleasureinpain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-pleasure-in-pain.png"
+  },
+  {
+    "name": "redemption",
+    "class": "pain conduit",
+    "level": "9",
+    "id": "redemption",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-redemption.png"
+  },
+  {
+    "name": "reject the gift",
+    "class": "pain conduit",
+    "level": "7",
+    "id": "rejectthegift",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-reject-the-gift.png"
+  },
+  {
+    "name": "reprisal",
+    "class": "pain conduit",
+    "level": "3",
+    "id": "reprisal",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-reprisal.png"
+  },
+  {
+    "name": "reversal of fate",
+    "class": "pain conduit",
+    "level": "2",
+    "id": "reversaloffate",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-reversal-of-fate.png"
+  },
+  {
+    "name": "scarred effigy",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "scarredeffigy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-scarred-effigy.png"
+  },
+  {
+    "name": "flesh fiend",
+    "class": "Unknown",
+    "level": "?",
+    "id": "fleshfiend",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-scarred-effigy.png"
+  },
+  {
+    "name": "shared affliction",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "sharedaffliction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-shared-affliction.png"
+  },
+  {
+    "name": "swift vengeance",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "swiftvengeance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-swift-vengeance.png"
+  },
+  {
+    "name": "the agony of others",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "theagonyofothers",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-the-agony-of-others.png"
+  },
+  {
+    "name": "the end of everything",
+    "class": "pain conduit",
+    "level": "9",
+    "id": "theendofeverything",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-the-end-of-everything.png"
+  },
+  {
+    "name": "transferred injury",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "transferredinjury",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-transferred-injury.png"
+  },
+  {
+    "name": "unending torment",
+    "class": "pain conduit",
+    "level": "1",
+    "id": "unendingtorment",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-unending-torment.png"
+  },
+  {
+    "name": "unstable effigy",
+    "class": "pain conduit",
+    "level": "x",
+    "id": "unstableeffigy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-unstable-effigy.png"
+  },
+  {
+    "name": "flesh bomb",
+    "class": "pain conduit",
+    "level": "x",
+    "id": "fleshbomb",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-unstable-effigy.png"
+  },
+  {
+    "name": "wave of anguish",
+    "class": "pain conduit",
+    "level": "8",
+    "id": "waveofanguish",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-wave-of-anguish.png"
+  },
+  {
+    "name": "wracked with pain",
+    "class": "pain conduit",
+    "level": "8",
+    "id": "wrackedwithpain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/pc/fh-wracked-with-pain.png"
+  },
+  {
+    "name": "calamity",
+    "class": "pyroclast",
+    "level": "9",
+    "id": "calamity",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-calamity.png"
+  },
+  {
+    "name": "cinder lance",
+    "class": "pyroclast",
+    "level": "8",
+    "id": "cinderlance",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-cinder-lance.png"
+  },
+  {
+    "name": "cloud of ash",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "cloudofash",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-cloud-of-ash.png"
+  },
+  {
+    "name": "cooling",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "cooling",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-cooling.png"
+  },
+  {
+    "name": "deep fury",
+    "class": "pyroclast",
+    "level": "2",
+    "id": "deepfury",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-deep-fury.png"
+  },
+  {
+    "name": "erupting rage",
+    "class": "pyroclast",
+    "level": "7",
+    "id": "eruptingrage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-erupting-rage.png"
+  },
+  {
+    "name": "eruption",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "eruption",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-eruption.png"
+  },
+  {
+    "name": "feed the beast",
+    "class": "pyroclast",
+    "level": "8",
+    "id": "feedthebeast",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-feed-the-beast.png"
+  },
+  {
+    "name": "flowing fire",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "flowingfire",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-flowing-fire.png"
+  },
+  {
+    "name": "force of the earth",
+    "class": "pyroclast",
+    "level": "x",
+    "id": "forceoftheearth",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-force-of-the-earth.png"
+  },
+  {
+    "name": "hand of flame",
+    "class": "pyroclast",
+    "level": "4",
+    "id": "handofflame",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-hand-of-flame.png"
+  },
+  {
+    "name": "hardened spike",
+    "class": "pyroclast",
+    "level": "3",
+    "id": "hardenedspike",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-hardened-spike.png"
+  },
+  {
+    "name": "heat wave",
+    "class": "pyroclast",
+    "level": "4",
+    "id": "heatwave",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-heat-wave.png"
+  },
+  {
+    "name": "igneous path",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "igneouspath",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-igneous-path.png"
+  },
+  {
+    "name": "lava bomb",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "lavabomb",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-lava-bomb.png"
+  },
+  {
+    "name": "liquid stone",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "liquidstone",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-liquid-stone.png"
+  },
+  {
+    "name": "living magma",
+    "class": "pyroclast",
+    "level": "3",
+    "id": "livingmagma",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-living-magma.png"
+  },
+  {
+    "name": "magma orbs",
+    "class": "pyroclast",
+    "level": "5",
+    "id": "magmaorbs",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-magma-orbs.png"
+  },
+  {
+    "name": "melted armor",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "meltedarmor",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-melted-armor.png"
+  },
+  {
+    "name": "metamorphic rock",
+    "class": "pyroclast",
+    "level": "x",
+    "id": "metamorphicrock",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-metamorphic-rock.png"
+  },
+  {
+    "name": "obsidian shield",
+    "class": "pyroclast",
+    "level": "6",
+    "id": "obsidianshield",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-obsidian-shield.png"
+  },
+  {
+    "name": "quenched rage",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "quenchedrage",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-quenched-rage.png"
+  },
+  {
+    "name": "rain of fire",
+    "class": "pyroclast",
+    "level": "5",
+    "id": "rainoffire",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-rain-of-fire.png"
+  },
+  {
+    "name": "return to the source",
+    "class": "pyroclast",
+    "level": "6",
+    "id": "returntothesource",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-return-to-the-source.png"
+  },
+  {
+    "name": "searing smoke",
+    "class": "pyroclast",
+    "level": "2",
+    "id": "searingsmoke",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-searing-smoke.png"
+  },
+  {
+    "name": "stone armor",
+    "class": "pyroclast",
+    "level": "9",
+    "id": "stonearmor",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-stone-armor.png"
+  },
+  {
+    "name": "swelter",
+    "class": "pyroclast",
+    "level": "7",
+    "id": "swelter",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-swelter.png"
+  },
+  {
+    "name": "under pressure",
+    "class": "pyroclast",
+    "level": "1",
+    "id": "underpressure",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-under-pressure.png"
+  },
+  {
+    "name": "wildfire",
+    "class": "pyroclast",
+    "level": "x",
+    "id": "wildfire",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/py/fh-wildfire.png"
+  },
+  {
+    "name": "birds in a tempest",
+    "class": "snowdancer",
+    "level": "2",
+    "id": "birdsinatempest",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-birds-in-a-tempest.png"
+  },
+  {
+    "name": "2 white owls",
+    "class": "snowdancer",
+    "level": "2",
+    "id": "2whiteowls",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-birds-in-a-tempest.png"
+  },
+  {
+    "name": "biting frost",
+    "class": "snowdancer",
+    "level": "4",
+    "id": "bitingfrost",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-biting-frost.png"
+  },
+  {
+    "name": "blinding vortex",
+    "class": "snowdancer",
+    "level": "x",
+    "id": "blindingvortex",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-blinding-vortex.png"
+  },
+  {
+    "name": "blizzard",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "blizzard",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-blizzard.png"
+  },
+  {
+    "name": "chilling impact",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "chillingimpact",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-chilling-impact.png"
+  },
+  {
+    "name": "cold snap",
+    "class": "snowdancer",
+    "level": "3",
+    "id": "coldsnap",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-cold-snap.png"
+  },
+  {
+    "name": "cold therapy",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "coldtherapy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-cold-therapy.png"
+  },
+  {
+    "name": "cross winds",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "crosswinds",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-cross-winds.png"
+  },
+  {
+    "name": "enticing breeze",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "enticingbreeze",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-enticing-breeze.png"
+  },
+  {
+    "name": "freezing storm",
+    "class": "snowdancer",
+    "level": "7",
+    "id": "freezingstorm",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-freezing-storm.png"
+  },
+  {
+    "name": "frigid growth",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "frigidgrowth",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-frigid-growth.png"
+  },
+  {
+    "name": "frozen brand",
+    "class": "snowdancer",
+    "level": "6",
+    "id": "frozenbrand",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-frozen-brand.png"
+  },
+  {
+    "name": "gathering force",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "gatheringforce",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-gathering-force.png"
+  },
+  {
+    "name": "lifting gust",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "liftinggust",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-lifting-gust.png"
+  },
+  {
+    "name": "nature's breath",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "naturesbreath",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-natures-breath.png"
+  },
+  {
+    "name": "snow fox",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "snowfox",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-natures-breath.png"
+  },
+  {
+    "name": "polar vortex",
+    "class": "snowdancer",
+    "level": "3",
+    "id": "polarvortex",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-polar-vortex.png"
+  },
+  {
+    "name": "refreshing flurry",
+    "class": "snowdancer",
+    "level": "6",
+    "id": "refreshingflurry",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-refreshing-flurry.png"
+  },
+  {
+    "name": "polar cat",
+    "class": "snowdancer",
+    "level": "6",
+    "id": "polarcat",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-refreshing-flurry.png"
+  },
+  {
+    "name": "shifting snow",
+    "class": "snowdancer",
+    "level": "5",
+    "id": "shiftingsnow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-shifting-snow.png"
+  },
+  {
+    "name": "snowball",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "snowball",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-snowball.png"
+  },
+  {
+    "name": "snowblind",
+    "class": "snowdancer",
+    "level": "9",
+    "id": "snowblind",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-snowblind.png"
+  },
+  {
+    "name": "storm wall",
+    "class": "snowdancer",
+    "level": "7",
+    "id": "stormwall",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-storm-wall.png"
+  },
+  {
+    "name": "surging blow",
+    "class": "snowdancer",
+    "level": "8",
+    "id": "surgingblow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-surging-blow.png"
+  },
+  {
+    "name": "the endless white",
+    "class": "snowdancer",
+    "level": "8",
+    "id": "theendlesswhite",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-the-endless-white.png"
+  },
+  {
+    "name": "the spirit's call",
+    "class": "snowdancer",
+    "level": "x",
+    "id": "thespiritscall",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-the-spirits-call.png"
+  },
+  {
+    "name": "tornado",
+    "class": "snowdancer",
+    "level": "2",
+    "id": "tornado",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-tornado.png"
+  },
+  {
+    "name": "whipping gale",
+    "class": "snowdancer",
+    "level": "5",
+    "id": "whippinggale",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-whipping-gale.png"
+  },
+  {
+    "name": "whiteout",
+    "class": "snowdancer",
+    "level": "1",
+    "id": "whiteout",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-whiteout.png"
+  },
+  {
+    "name": "white winds",
+    "class": "snowdancer",
+    "level": "x",
+    "id": "whitewinds",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-white-winds.png"
+  },
+  {
+    "name": "winds of change",
+    "class": "snowdancer",
+    "level": "9",
+    "id": "windsofchange",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-winds-of-change.png"
+  },
+  {
+    "name": "zephyr barrier",
+    "class": "snowdancer",
+    "level": "4",
+    "id": "zephyrbarrier",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sd/fh-zephyr-barrier.png"
+  },
+  {
+    "name": "barbaric yawp",
+    "class": "shattersong",
+    "level": "9",
+    "id": "barbaricyawp",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-barbaric-yawp.png"
+  },
+  {
+    "name": "befuddling bellow",
+    "class": "shattersong",
+    "level": "2",
+    "id": "befuddlingbellow",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-befuddling-bellow.png"
+  },
+  {
+    "name": "calamitous yawp",
+    "class": "shattersong",
+    "level": "x",
+    "id": "calamitousyawp",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-calamitous-yawp.png"
+  },
+  {
+    "name": "cloaking refraction",
+    "class": "shattersong",
+    "level": "7",
+    "id": "cloakingrefraction",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-cloaking-refraction.png"
+  },
+  {
+    "name": "concentrated blast",
+    "class": "shattersong",
+    "level": "4",
+    "id": "concentratedblast",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-concentrated-blast.png"
+  },
+  {
+    "name": "devastating shout",
+    "class": "shattersong",
+    "level": "1",
+    "id": "devastatingshout",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-devastating-shout.png"
+  },
+  {
+    "name": "din of battle",
+    "class": "shattersong",
+    "level": "x",
+    "id": "dinofbattle",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-din-of-battle.png"
+  },
+  {
+    "name": "elemental pulse",
+    "class": "shattersong",
+    "level": "4",
+    "id": "elementalpulse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-elemental-pulse.png"
+  },
+  {
+    "name": "empowering note",
+    "class": "shattersong",
+    "level": "5",
+    "id": "empoweringnote",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-empowering-note.png"
+  },
+  {
+    "name": "empowering pulse",
+    "class": "shattersong",
+    "level": "1",
+    "id": "empoweringpulse",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-empowering-pulse.png"
+  },
+  {
+    "name": "feedback",
+    "class": "shattersong",
+    "level": "8",
+    "id": "feedback",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-feedback.png"
+  },
+  {
+    "name": "forceful vibrations",
+    "class": "shattersong",
+    "level": "1",
+    "id": "forcefulvibrations",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-forceful-vibrations.png"
+  },
+  {
+    "name": "foreboding tremors",
+    "class": "shattersong",
+    "level": "1",
+    "id": "forebodingtremors",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-foreboding-tremors.png"
+  },
+  {
+    "name": "future sense",
+    "class": "shattersong",
+    "level": "6",
+    "id": "futuresense",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-future-sense.png"
+  },
+  {
+    "name": "heartening harmony",
+    "class": "shattersong",
+    "level": "1",
+    "id": "hearteningharmony",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-heartening-harmony.png"
+  },
+  {
+    "name": "illuminative tone",
+    "class": "shattersong",
+    "level": "x",
+    "id": "illuminativetone",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-illuminative-tone.png"
+  },
+  {
+    "name": "lifting voice",
+    "class": "shattersong",
+    "level": "1",
+    "id": "liftingvoice",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-lifting-voice.png"
+  },
+  {
+    "name": "precious gems",
+    "class": "shattersong",
+    "level": "1",
+    "id": "preciousgems",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-precious-gems.png"
+  },
+  {
+    "name": "resonant frequency",
+    "class": "shattersong",
+    "level": "1",
+    "id": "resonantfrequency",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-resonant-frequency.png"
+  },
+  {
+    "name": "shape the path",
+    "class": "shattersong",
+    "level": "3",
+    "id": "shapethepath",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-shape-the-path.png"
+  },
+  {
+    "name": "shrieking chakram",
+    "class": "shattersong",
+    "level": "5",
+    "id": "shriekingchakram",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-shrieking-chakram.png"
+  },
+  {
+    "name": "soft spots",
+    "class": "shattersong",
+    "level": "8",
+    "id": "softspots",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-soft-spots.png"
+  },
+  {
+    "name": "sonic shock",
+    "class": "shattersong",
+    "level": "1",
+    "id": "sonicshock",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-sonic-shock.png"
+  },
+  {
+    "name": "sound therapy",
+    "class": "shattersong",
+    "level": "7",
+    "id": "soundtherapy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-sound-therapy.png"
+  },
+  {
+    "name": "stealth vibrations",
+    "class": "shattersong",
+    "level": "3",
+    "id": "stealthvibrations",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-stealth-vibrations.png"
+  },
+  {
+    "name": "transparency",
+    "class": "shattersong",
+    "level": "2",
+    "id": "transparency",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-transparency.png"
+  },
+  {
+    "name": "unrelenting wail",
+    "class": "shattersong",
+    "level": "1",
+    "id": "unrelentingwail",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-unrelenting-wail.png"
+  },
+  {
+    "name": "unsustainable wave",
+    "class": "shattersong",
+    "level": "6",
+    "id": "unsustainablewave",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-unsustainable-wave.png"
+  },
+  {
+    "name": "violent vibrations",
+    "class": "shattersong",
+    "level": "9",
+    "id": "violentvibrations",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/sh/fh-violent-vibrations.png"
+  },
+  {
+    "name": "boar catcher",
+    "class": "trapper",
+    "level": "1",
+    "id": "boarcatcher",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-boar-catcher.png"
+  },
+  {
+    "name": "cage of thorns",
+    "class": "trapper",
+    "level": "6",
+    "id": "cageofthorns",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-cage-of-thorns.png"
+  },
+  {
+    "name": "caltrops",
+    "class": "trapper",
+    "level": "1",
+    "id": "caltrops",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-caltrops.png"
+  },
+  {
+    "name": "dangerous cargo",
+    "class": "trapper",
+    "level": "9",
+    "id": "dangerouscargo",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-dangerous-cargo.png"
+  },
+  {
+    "name": "dangerous ground",
+    "class": "trapper",
+    "level": "4",
+    "id": "dangerousground",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-dangerous-ground.png"
+  },
+  {
+    "name": "dismantle",
+    "class": "trapper",
+    "level": "x",
+    "id": "dismantle",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-dismantle.png"
+  },
+  {
+    "name": "electrified net",
+    "class": "trapper",
+    "level": "1",
+    "id": "electrifiednet",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-electrified-net.png"
+  },
+  {
+    "name": "enticing bait",
+    "class": "trapper",
+    "level": "1",
+    "id": "enticingbait",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-enticing-bait.png"
+  },
+  {
+    "name": "exploding decoy",
+    "class": "trapper",
+    "level": "1",
+    "id": "explodingdecoy",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-exploding-decoy.png"
+  },
+  {
+    "name": "extra teeth",
+    "class": "trapper",
+    "level": "3",
+    "id": "extrateeth",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-extra-teeth.png"
+  },
+  {
+    "name": "flurry of nails",
+    "class": "trapper",
+    "level": "1",
+    "id": "flurryofnails",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-flurry-of-nails.png"
+  },
+  {
+    "name": "foxhole",
+    "class": "trapper",
+    "level": "7",
+    "id": "foxhole",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-foxhole.png"
+  },
+  {
+    "name": "defense grid",
+    "class": "trapper",
+    "level": "7",
+    "id": "defensegrid",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-foxhole.png"
+  },
+  {
+    "name": "furry facade",
+    "class": "trapper",
+    "level": "1",
+    "id": "furryfacade",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-furry-facade.png"
+  },
+  {
+    "name": "shaggy lure",
+    "class": "trapper",
+    "level": "1",
+    "id": "shaggylure",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-furry-facade.png"
+  },
+  {
+    "name": "grasping hazards",
+    "class": "trapper",
+    "level": "7",
+    "id": "graspinghazards",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-grasping-hazards.png"
+  },
+  {
+    "name": "honeypot",
+    "class": "trapper",
+    "level": "1",
+    "id": "honeypot",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-honeypot.png"
+  },
+  {
+    "name": "improvised improvement",
+    "class": "trapper",
+    "level": "x",
+    "id": "improvisedimprovement",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-improvised-improvement.png"
+  },
+  {
+    "name": "lure of the snare",
+    "class": "trapper",
+    "level": "5",
+    "id": "lureofthesnare",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-lure-of-the-snare.png"
+  },
+  {
+    "name": "magnetic shards",
+    "class": "trapper",
+    "level": "8",
+    "id": "magneticshards",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-magnetic-shards.png"
+  },
+  {
+    "name": "mother of all traps",
+    "class": "trapper",
+    "level": "9",
+    "id": "motherofalltraps",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-mother-of-all-traps.png"
+  },
+  {
+    "name": "path of pain",
+    "class": "trapper",
+    "level": "2",
+    "id": "pathofpain",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-path-of-pain.png"
+  },
+  {
+    "name": "persistent pitfalls",
+    "class": "trapper",
+    "level": "6",
+    "id": "persistentpitfalls",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-persistent-pitfalls.png"
+  },
+  {
+    "name": "proficient hunter",
+    "class": "trapper",
+    "level": "5",
+    "id": "proficienthunter",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-proficient-hunter.png"
+  },
+  {
+    "name": "pyrotechnics",
+    "class": "trapper",
+    "level": "3",
+    "id": "pyrotechnics",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-pyrotechnics.png"
+  },
+  {
+    "name": "spike pit",
+    "class": "trapper",
+    "level": "1",
+    "id": "spikepit",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-spike-pit.png"
+  },
+  {
+    "name": "spike strip",
+    "class": "trapper",
+    "level": "8",
+    "id": "spikestrip",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-spike-strip.png"
+  },
+  {
+    "name": "spring loaded",
+    "class": "trapper",
+    "level": "x",
+    "id": "springloaded",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-spring-loaded.png"
+  },
+  {
+    "name": "stalker's spoils",
+    "class": "trapper",
+    "level": "4",
+    "id": "stalkersspoils",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-stalkers-spoils.png"
+  },
+  {
+    "name": "unavoidable outcome",
+    "class": "trapper",
+    "level": "2",
+    "id": "unavoidableoutcome",
+    "imageUrl": "https://raw.githubusercontent.com/any2cards/worldhaven/master/images/character-ability-cards/frosthaven/ta/fh-unavoidable-outcome.png"
+  }
+]
