@@ -33,9 +33,12 @@ const FH_RAW = `https://raw.githubusercontent.com/any2cards/worldhaven/${WORLDHA
 
 const IMAGE_BASE = `${FH_RAW}/images`;
 
-// Base URL for self-hosted item card images (e.g. a GitHub raw URL pointing to /images/items/frosthaven/).
+// Base URL for self-hosted item card images.
 // Item imageUrl values in items.json are bare filenames; this is prepended at display time.
-const ITEM_IMAGE_BASE = (process.env.ITEM_IMAGE_BASE || "").replace(/\/$/, "");
+const ITEM_IMAGE_BASE = (
+  process.env.ITEM_IMAGE_BASE ||
+  "https://raw.githubusercontent.com/dmchale/frosthaven-discord-bot/main/images/items/frosthaven"
+).replace(/\/$/, "");
 
 // Default visibility for all command replies.
 //   Unset or empty: replies are ephemeral by default (only visible to the invoking user)
@@ -366,6 +369,16 @@ async function handleCardLookup(interaction, type) {
     );
   }
 
+  // For /item, if the query is a plain integer look up by item number directly.
+  if (type === "item" && /^\d+$/.test(query.trim())) {
+    const itemNumber = parseInt(query.trim(), 10);
+    const match = itemIndex.find(i => i.itemNumber === itemNumber);
+    if (!match) {
+      return interaction.editReply(`No item found with item number **${itemNumber}**.`);
+    }
+    return resolveCardByName(interaction, type, match.name, [{ item: match }], { suppressAlts: true });
+  }
+
   const results = fuse.search(query, { limit: 5 });
 
   if (!results.length) {
@@ -379,7 +392,8 @@ async function handleCardLookup(interaction, type) {
 
 // Builds and sends (or edits) a card embed. Used by both the slash command and button handler.
 // `results` is the full Fuse result set; if omitted, an exact-name lookup is performed.
-async function resolveCardByName(interaction, type, cardName, results = null) {
+// `opts.suppressAlts` skips the "Did you mean…?" select menu (e.g. for exact item-number lookups).
+async function resolveCardByName(interaction, type, cardName, results = null, opts = {}) {
   const index = type === "ability" ? abilityIndex : itemIndex;
   const fuse  = type === "ability" ? abilityFuse  : itemFuse;
 
@@ -419,7 +433,7 @@ async function resolveCardByName(interaction, type, cardName, results = null) {
 
   // Offer remaining alternates as a select menu (excluding the one now displayed)
   const components = [];
-  const alts = results.filter(r => r.item !== best).slice(0, 25);
+  const alts = opts.suppressAlts ? [] : results.filter(r => r.item !== best).slice(0, 25);
   if (alts.length) {
     const options = alts.map((r) => {
       const card = r.item;
