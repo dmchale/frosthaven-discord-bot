@@ -186,6 +186,8 @@ async function buildCardIndex() {
   console.log(
     `Index ready: ${abilityIndex.length} ability cards, ${itemIndex.length} items, ${eventIndex.length} events.`
   );
+  if (!abilityIndex.length) console.warn("WARNING: 0 ability cards loaded — run `npm run fetch-data` to populate data/ability-cards.json");
+  if (!itemIndex.length)    console.warn("WARNING: 0 items loaded — run `npm run fetch-data` to populate data/items.json");
 }
 
 // ─── Channel restriction ──────────────────────────────────────────────────────
